@@ -551,7 +551,6 @@ fetch('data.json')
       if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
       const links = [];
       if (d.web_url) links.push(`<a href="${d.web_url}" target="_blank" rel="noopener">DZ-Webseite ↗</a>`);
-      if (d.pdf_url) links.push(`<a href="${d.pdf_url}" target="_blank" rel="noopener">PDF ↗</a>`);
       const summary = d.summary ? `<div class="summary">${d.summary}</div>` : '';
       const linksHtml = links.length ? `<div class="links">${links.join('')}</div>` : '';
       tooltip
