@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<title>Publikationsgraph · DZ Wiki</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+:root {
+  --paper: #fafafa;
+  --paper-edge: #e8e8e8;
+  --ink: #1a1a2e;
+  --ink-soft: #5c5c6d;
+  --ink-faint: #9090a0;
+  --serif: 'Source Serif 4', Georgia, serif;
+  --sans: 'Inter', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-feature-settings: "onum" 1, "kern" 1;
+  min-height: 100vh;
+}
+
+/* Header im wk-Stil */
+.topbar {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  padding: 26px 48px 18px;
+  border-bottom: 1px solid var(--paper-edge);
+}
+.topbar .logo {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.topbar .sub {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-weight: 500;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem 0;
+  text-align: center;
+}
+.section-title {
+  font-family: var(--serif);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
+}
+.section-sub {
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  color: var(--ink-faint);
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+/* Stage: Graph + Legende */
+.pubgraph-stage {
+  display: flex;
+  gap: 2rem;
+  padding: 0 3rem 4rem;
+  margin-top: -2.5rem;
+  position: relative;
+}
+.pubgraph-wrap {
+  flex: 1;
+  min-width: 0;          /* erlaubt flex shrink korrekt */
+}
+.pubgraph-wrap svg {
+  width: 100%;
+  height: auto;          /* skaliert mit viewBox-Aspect, nutzt volle Breite */
+  display: block;
+}
+
+.pubgraph-legend {
+  width: 240px;
+  flex-shrink: 0;
+  padding: 1.5rem;
+  background: var(--paper);
+  border: 1px solid var(--paper-edge);
+  border-radius: 8px;
+  align-self: flex-start;
+  position: sticky;
+  top: 2rem;
+  margin-top: 4rem;
+}
+.pubgraph-legend h3 {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  margin: 0 0 1rem;
+}
+
+/* Cluster-Toggle */
+.cluster-toggle {
+  display: flex;
+  border: 1px solid var(--paper-edge);
+  border-radius: 6px;
+  padding: 2px;
+  margin: 0 0 1rem;
+  background: #fff;
+}
+.cluster-toggle button {
+  flex: 1;
+  background: transparent;
+  border: 0;
+  padding: 0.4rem 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s, color 0.15s;
+}
+.cluster-toggle button.active {
+  background: var(--ink);
+  color: #fff;
+}
+.cluster-toggle button:not(.active):hover {
+  background: var(--paper-edge);
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.45rem;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.pubgraph-stats {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--paper-edge);
+}
+.pubgraph-stats p {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 0.25rem 0;
+}
+
+/* Nodes & Links */
+.node { cursor: pointer; }
+.node circle { stroke: var(--paper); stroke-width: 2px; }
+.node text {
+  font-family: var(--sans);
+  font-size: 11px;
+  fill: var(--ink);
+  pointer-events: none;
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+.node:hover circle { stroke: var(--ink); stroke-width: 3px; }
+.link { stroke: #c8c4bc; stroke-opacity: 0.4; fill: none; }
+.link.conf-hoch    { stroke-opacity: 0.55; }
+.link.conf-mittel  { stroke-opacity: 0.35; stroke-dasharray: 5 3; }
+.link.conf-niedrig { stroke-opacity: 0.25; stroke-dasharray: 1 4; }
+.link:hover { stroke-opacity: 0.95; stroke-width: 2px; stroke: var(--ink-soft); }
+.legend-line {
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  background: var(--ink-soft);
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+.legend-line.dashed {
+  background: none;
+  border-top: 2px dashed var(--ink-soft);
+  height: 0;
+}
+.legend-line.dotted {
+  background: none;
+  border-top: 2px dotted var(--ink-soft);
+  height: 0;
+}
+
+.pub-tooltip {
+  position: fixed;
+  background: var(--ink);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  max-width: 320px;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: opacity 0.15s ease;
+}
+.pub-tooltip.visible { opacity: 1; pointer-events: auto; }
+.pub-tooltip .title { font-family: var(--serif); font-weight: 600; margin-bottom: 0.25rem; font-size: 0.95rem; }
+.pub-tooltip .meta { color: #b0b0c0; font-size: 0.78rem; }
+.pub-tooltip .summary { margin-top: 0.5rem; color: #dcdce4; font-size: 0.8rem; line-height: 1.4; }
+.pub-tooltip .links { margin-top: 0.6rem; display: flex; gap: 0.7rem; }
+.pub-tooltip .links a { color: #8ecae6; text-decoration: none; font-size: 0.78rem; }
+.pub-tooltip .links a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">DZ Wiki</div>
+  <div class="sub">Publikationsgraph</div>
+</header>
+
+<section class="section-header">
+  <h1 class="section-title">Unsere intellektuelle Reise</h1>
+  <p class="section-sub">DZ-Texte nach Thema und Jahr - Entwurf</p>
+</section>
+
+<main class="pubgraph-stage">
+  <div class="pubgraph-wrap">
+    <svg id="graph"></svg>
+  </div>
+  <aside class="pubgraph-legend">
+    <h3>Ansicht</h3>
+    <div class="cluster-toggle" id="cluster-toggle">
+      <button type="button" data-dim="A" class="active">Themen</button>
+      <button type="button" data-dim="B">Finanzierungstyp</button>
+    </div>
+    <div id="legend"></div>
+    <div class="pubgraph-stats">
+      <p id="stat-nodes"></p>
+      <p id="stat-edges"></p>
+    </div>
+  </aside>
+</main>
+
+<div class="pub-tooltip" id="tooltip"></div>
+
+<script>
+fetch('data.json')
+  .then(r => r.json())
+  .then(data => {
+    console.log('Loaded data:', data.nodes.length, 'nodes,', data.edges.length, 'edges');
+    // viewBox-Aspect = Container-Aspect → kein Whitespace links/rechts.
+    // height/width-Verhaeltnis bestimmt, wie "breit" die Zeitachse erscheint.
+    const wrap = document.querySelector('.pubgraph-wrap');
+    const cw = Math.max(1200, Math.floor(wrap.getBoundingClientRect().width));
+    const width = cw;
+    const height = Math.round(cw * 0.58);  // flacher Aspect — weniger Whitespace
+
+    const svg = d3.select('#graph')
+      .attr('viewBox', [0, 0, width, height])
+      .attr('preserveAspectRatio', 'xMidYMid meet');
+
+    // Toggle-State: 'A' = Themen (clusterA), 'B' = Policy (clusterB)
+    let activeDim = 'A';
+    const clusterField = () => activeDim === 'A' ? 'clusterA' : 'clusterB';
+    const clusterItems = () => data.clusters[activeDim].items;
+
+    // Color scale (rebuild on toggle)
+    let color = makeColor();
+    function makeColor() {
+      const items = clusterItems();
+      return d3.scaleOrdinal()
+        .domain(Object.keys(items))
+        .range(Object.values(items).map(c => c.color))
+        .unknown('#c8c4bc');
+    }
+
+    // Legend (rebuild on toggle)
+    const legend = d3.select('#legend');
+    function renderLegend() {
+      legend.html('');
+      const items = clusterItems();
+      const field = clusterField();
+      const entries = Object.entries(items)
+        .map(([id, c]) => [id, c, data.nodes.filter(n => n[field] === id).length])
+        .sort((a, b) => b[2] - a[2]);
+      entries.forEach(([id, c, count]) => {
+        legend.append('div')
+          .attr('class', 'legend-item')
+          .html(`<span class="legend-dot" style="background:${c.color}"></span>${c.label} (${count})`);
+      });
+    }
+    renderLegend();
+
+    // Stats
+    d3.select('#stat-nodes').text(`${data.nodes.length} Publikationen`);
+    d3.select('#stat-edges').text(`${data.edges.length} Verbindungen`);
+
+    // Create node map for edge lookup
+    const nodeMap = new Map(data.nodes.map(n => [n.id, n]));
+
+    // Filter edges to only existing nodes
+    const validEdges = data.edges.filter(e => nodeMap.has(e.from) && nodeMap.has(e.to));
+
+    // Create links with node references — confidence default to 'mittel'
+    const links = validEdges.map(e => ({
+      source: e.from,
+      target: e.to,
+      label: e.label,
+      confidence: e.confidence || 'mittel'
+    }));
+
+    // Adjazenz-Zaehler fuer Node-Groesse (mehr Edges = groesserer Kreis)
+    const linkCount = new Map();
+    validEdges.forEach(e => {
+      linkCount.set(e.from, (linkCount.get(e.from) || 0) + 1);
+      linkCount.set(e.to, (linkCount.get(e.to) || 0) + 1);
+    });
+    const getRadius = d => 6 + (linkCount.get(d.id) || 0) * 1.5;
+
+    // Datums-basierte X-Position (links = alt, rechts = neu)
+    // Margin gross genug, dass Nodes am Rand nicht mit ihrem Radius ueberstehen
+    // und Labels nach rechts vom linkesten Node noch ins Canvas passen.
+    const margin = 130;
+    const dates = data.nodes.map(n => new Date(n.date).getTime());
+    const minDate = Math.min(...dates);
+    const maxDate = Math.max(...dates);
+    const dateToX = d => {
+      const t = new Date(d.date).getTime();
+      return margin + ((t - minDate) / (maxDate - minDate)) * (width - 2 * margin);
+    };
+
+    // Cluster-basierte Y-Bänder. Beginn nahe oben (kleiner yMin), Ende vor
+    // der Zeitachse → minimiert Whitespace zwischen Header und Netz.
+    const yMin = Math.round(height * 0.06);
+    const yMax = Math.round(height * 0.88);
+    let clusterY = new Map();
+    let clusterSpacing = 0;
+    function buildClusterY() {
+      const list = Object.keys(clusterItems());
+      const field = clusterField();
+      // Min-Gewicht 2 damit auch 1-Paper-Cluster sichtbar Raum bekommen
+      const counts = list.map(c =>
+        Math.max(2, data.nodes.filter(n => n[field] === c).length));
+      const total = counts.reduce((a, b) => a + b, 0);
+      const range = yMax - yMin;
+      clusterY = new Map();
+      let acc = 0;
+      list.forEach((c, i) => {
+        const w = counts[i] / total;
+        const center = yMin + (acc + w / 2) * range;
+        clusterY.set(c, center);
+        acc += w;
+      });
+      // mittlerer Spacing-Wert fuer initialen Y-Jitter
+      clusterSpacing = range / list.length;
+    }
+    buildClusterY();
+
+    // Initialposition: X aus Datum, Y aus aktivem Cluster mit wenig Streuung
+    data.nodes.forEach(n => {
+      n.x = dateToX(n);
+      const baseY = clusterY.get(n[clusterField()]) || height / 2;
+      n.y = baseY + (Math.random() - 0.5) * clusterSpacing * 0.3;
+    });
+
+    // Gruendungspapiere links fixieren (X fest, Y frei)
+    const rootPapers = ['eine-neue-deutsche-finanzpolitik', 'was-kosten-unsere-schulden'];
+    data.nodes.forEach(n => { if (rootPapers.includes(n.id)) n.fx = margin + 20; });
+
+    const xMin = margin, xMax = width - margin;
+
+    // Live-Simulation: Layout fließt visuell von links nach rechts in Position.
+    // X-Anker stark (1.0), damit das Datum die Hauptachse bleibt.
+    // clusterY mittelstark, sodass Cluster-Bänder sichtbar werden ohne den
+    // X-Fluss zu zerstören.
+    const simulation = d3.forceSimulation(data.nodes)
+      .force('link', d3.forceLink(links).id(d => d.id).distance(40).strength(0.4))
+      .force('charge', d3.forceManyBody().strength(-25).distanceMax(120))
+      .force('collision', d3.forceCollide().radius(d => getRadius(d) + 0.5))
+      .force('x', d3.forceX(d => dateToX(d)).strength(1.0))
+      .force('clusterY', d3.forceY(d => clusterY.get(d[clusterField()]) || height/2).strength(1.0))
+      .alpha(1).alphaDecay(0.02);  // langsamer Decay → sichtbarer Fluss
+
+    // X- und Y-Bounds nach jedem Tick (verhindert Ausreisser oben/links)
+    simulation.on('tick.bounds', () => {
+      data.nodes.forEach(d => {
+        const r = getRadius(d);
+        if (d.fx == null) d.x = Math.max(xMin + r, Math.min(xMax - r, d.x));
+        if (d.fy == null) d.y = Math.max(yMin + r, Math.min(yMax - r, d.y));
+      });
+    });
+
+    // Zeitachse unten: Jahresmarken
+    const yearScale = d3.scaleLinear()
+      .domain([new Date('2021-01-01').getTime(), new Date('2026-12-31').getTime()])
+      .range([margin, width - margin]);
+    const timeline = svg.append('g').attr('class', 'timeline').style('display', 'none');
+    timeline.append('line')
+      .attr('x1', margin).attr('x2', width - margin)
+      .attr('y1', height - 30).attr('y2', height - 30)
+      .attr('stroke', '#ddd').attr('stroke-width', 1);
+    [2021, 2022, 2023, 2024, 2025, 2026].forEach(year => {
+      const x = yearScale(new Date(year + '-07-01').getTime());
+      timeline.append('text')
+        .attr('x', x).attr('y', height - 12)
+        .attr('text-anchor', 'middle')
+        .attr('fill', '#999')
+        .attr('font-size', '11px')
+        .attr('font-family', 'Inter, system-ui, sans-serif')
+        .text(year);
+    });
+
+    // Draw links — class differentiates by confidence (CSS controls dash pattern)
+    const link = svg.append('g')
+      .selectAll('line')
+      .data(links)
+      .join('line')
+      .attr('class', d => `link conf-${d.confidence}`)
+      .attr('stroke-width', 0.6)
+      .attr('marker-end', 'url(#arrowhead)');
+
+    // Arrow marker — kleiner und dezenter
+    svg.append('defs').append('marker')
+      .attr('id', 'arrowhead')
+      .attr('viewBox', '-0 -5 10 10')
+      .attr('refX', 14)
+      .attr('refY', 0)
+      .attr('orient', 'auto')
+      .attr('markerWidth', 4)
+      .attr('markerHeight', 4)
+      .append('path')
+      .attr('d', 'M 0,-5 L 10,0 L 0,5')
+      .attr('fill', '#c8c4bc');
+
+    // Draw nodes
+    const node = svg.append('g')
+      .selectAll('g')
+      .data(data.nodes)
+      .join('g')
+      .attr('class', 'node')
+      .call(d3.drag()
+        .on('start', dragstarted)
+        .on('drag', dragged)
+        .on('end', dragended));
+
+    const circles = node.append('circle')
+      .attr('r', getRadius)
+      .attr('fill', d => color(d[clusterField()]));
+
+    // Toggle-Handler: schaltet activeDim um und aktualisiert Legend, Farben +
+    // Y-Cluster-Bänder. Simulation wird sanft neu erhitzt.
+    d3.selectAll('#cluster-toggle button').on('click', function () {
+      const dim = this.getAttribute('data-dim');
+      if (dim === activeDim) return;
+      activeDim = dim;
+      d3.selectAll('#cluster-toggle button').classed('active', false);
+      d3.select(this).classed('active', true);
+      color = makeColor();
+      renderLegend();
+      buildClusterY();
+      simulation.force('clusterY',
+        d3.forceY(d => clusterY.get(d[clusterField()]) || height/2).strength(1.0));
+      simulation.alpha(0.6).restart();
+      circles.transition().duration(400).attr('fill', d => color(d[clusterField()]));
+    });
+
+    // Permanenter Titel nur fuer Top-Nodes (>= TITLE_MIN_EDGES Edges).
+    // Wortgenauer Wrap, bis zu MAX_LINES Zeilen, Ellipsis nur wenn dann
+    // immer noch was uebrig ist.
+    const TITLE_MIN_EDGES = 5;
+    const LINE_MAX = 24;       // max Zeichen pro Zeile (weicher Wert, Wort darf
+                                // ueberhaengen wenn allein bereits laenger)
+    const MAX_LINES = 4;
+
+    function wrapTitle(title) {
+      const words = title.split(/\s+/);
+      const lines = [];
+      let current = '';
+      for (const w of words) {
+        if (!current) { current = w; continue; }
+        const next = current + ' ' + w;
+        if (next.length <= LINE_MAX) {
+          current = next;
+        } else {
+          lines.push(current);
+          current = w;
+          if (lines.length === MAX_LINES) break;
+        }
+      }
+      if (current && lines.length < MAX_LINES) lines.push(current);
+
+      // Falls Worte uebrig waren: in letzte Zeile packen, dann Ellipsis
+      const used = lines.join(' ').split(/\s+/).length;
+      const rest = words.slice(used);
+      if (rest.length && lines.length === MAX_LINES) {
+        let last = lines[MAX_LINES - 1];
+        for (const w of rest) {
+          if ((last + ' ' + w).length <= LINE_MAX) last += ' ' + w;
+          else { last = last.replace(/[.,;:]?$/, '') + '…'; break; }
+        }
+        lines[MAX_LINES - 1] = last;
+      }
+      return lines;
+    }
+
+    node.filter(d => (linkCount.get(d.id) || 0) >= TITLE_MIN_EDGES)
+      .each(function(d) {
+        const lines = wrapTitle(d.title);
+        // Vertikal mittig zur Node-Mitte versetzen
+        const lineH = 1.15;  // em
+        const baselineDy = lines.length === 1
+          ? 4
+          : -((lines.length - 1) * lineH * 11 / 2) + 4;
+        const txt = d3.select(this).append('text')
+          .attr('dx', getRadius(d) + 4)
+          .attr('dy', baselineDy)
+          .attr('font-weight', '600')
+          .attr('font-size', '11px');
+        lines.forEach((line, i) => {
+          txt.append('tspan')
+            .attr('x', getRadius(d) + 4)
+            .attr('dy', i === 0 ? 0 : `${lineH}em`)
+            .text(line);
+        });
+      });
+
+    // Tooltip
+    const tooltip = d3.select('#tooltip');
+
+    let hideTimer = null;
+    function showTooltip(event, d) {
+      if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
+      const links = [];
+      if (d.web_url) links.push(`<a href="${d.web_url}" target="_blank" rel="noopener">DZ-Webseite ↗</a>`);
+      if (d.pdf_url) links.push(`<a href="${d.pdf_url}" target="_blank" rel="noopener">PDF ↗</a>`);
+      const summary = d.summary ? `<div class="summary">${d.summary}</div>` : '';
+      const linksHtml = links.length ? `<div class="links">${links.join('')}</div>` : '';
+      tooltip
+        .classed('visible', true)
+        .style('left', (event.pageX + 10) + 'px')
+        .style('top', (event.pageY - 10) + 'px')
+        .html(`
+          <div class="title">${d.title}</div>
+          <div class="meta">${d.date} · ${(d.authors || []).join(', ')}</div>
+          ${summary}
+          ${linksHtml}
+        `);
+    }
+    function scheduleHide() {
+      hideTimer = setTimeout(() => tooltip.classed('visible', false), 250);
+    }
+    node.on('mouseover', showTooltip).on('mouseout', scheduleHide);
+    tooltip.on('mouseover', () => { if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; } })
+           .on('mouseout', scheduleHide);
+
+    // Live-Tick: Pfeile zeigen visuell von alt nach neu (source/target getauscht
+    // im Zeichnen, marker-end landet beim neueren Paper).
+    simulation.on('tick.draw', () => {
+      link
+        .attr('x1', d => d.target.x).attr('y1', d => d.target.y)
+        .attr('x2', d => d.source.x).attr('y2', d => d.source.y);
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+
+    function dragstarted(event) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      event.subject.fx = event.subject.x;
+      event.subject.fy = event.subject.y;
+    }
+    function dragged(event) {
+      event.subject.fx = event.x;
+      event.subject.fy = event.y;
+    }
+    function dragended(event) {
+      if (!event.active) simulation.alphaTarget(0);
+      // fx/fy beibehalten → Paper bleibt an gedraggter Position
+    }
+    console.log('Publikationsgraph: live simulation gestartet (' + data.nodes.length + ' nodes, ' + links.length + ' links)');
+  })
+  .catch(err => {
+    console.error('Error:', err);
+    document.body.innerHTML = '<h1 style="color:red;padding:2rem">Error: ' + err.message + '</h1>';
+  });
+</script>
+
+</body>
+</html>
