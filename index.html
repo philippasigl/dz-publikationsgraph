@@ -172,14 +172,14 @@ html, body {
 /* Nodes & Links */
 .node { cursor: pointer; }
 .node circle { stroke: var(--paper); stroke-width: 2px; }
-.node text {
+.node text, .node-label {
   font-family: var(--sans);
   font-size: 11px;
   fill: var(--ink);
   pointer-events: none;
   paint-order: stroke;
   stroke: var(--paper);
-  stroke-width: 3px;
+  stroke-width: 4px;
   stroke-linejoin: round;
 }
 .node:hover circle { stroke: var(--ink); stroke-width: 3px; }
@@ -719,22 +719,31 @@ fetch('data.json')
       return lines;
     }
 
-    node.filter(d => (linkCount.get(d.id) || 0) >= TITLE_MIN_EDGES)
+    // Labels in eigener Layer ÜBER allen Nodes – sonst überdecken andere
+    // Kreise (die später gezeichnet werden) das Label benachbarter Nodes.
+    const labelLayer = svg.append('g').attr('class', 'label-layer');
+    const labeledNodes = data.nodes.filter(d => (linkCount.get(d.id) || 0) >= TITLE_MIN_EDGES);
+    const labels = labelLayer.selectAll('text')
+      .data(labeledNodes)
+      .join('text')
+      .attr('class', 'node-label')
+      .attr('font-weight', '600')
+      .attr('font-size', '11px')
+      .attr('pointer-events', 'none')
+      .style('paint-order', 'stroke')
+      .style('stroke', 'var(--paper)')
+      .style('stroke-width', '4px')
+      .style('stroke-linejoin', 'round')
+      .style('fill', 'var(--ink)')
       .each(function(d) {
         const lines = wrapTitle(d.title);
-        // Vertikal mittig zur Node-Mitte versetzen
-        const lineH = 1.15;  // em
-        const baselineDy = lines.length === 1
-          ? 4
-          : -((lines.length - 1) * lineH * 11 / 2) + 4;
-        const txt = d3.select(this).append('text')
-          .attr('dx', getRadius(d) + 4)
-          .attr('dy', baselineDy)
-          .attr('font-weight', '600')
-          .attr('font-size', '11px');
+        d._labelLines = lines;
+        const lineH = 1.15;
+        const sel = d3.select(this);
+        sel.selectAll('tspan').remove();
         lines.forEach((line, i) => {
-          txt.append('tspan')
-            .attr('x', getRadius(d) + 4)
+          sel.append('tspan')
+            .attr('x', 0)
             .attr('dy', i === 0 ? 0 : `${lineH}em`)
             .text(line);
         });
@@ -768,6 +777,22 @@ fetch('data.json')
     tooltip.on('mouseover', () => { if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; } })
            .on('mouseout', scheduleHide);
 
+    // Touch / Mobile: Tap auf Node öffnet Tooltip, Tap daneben schließt.
+    function hideTooltipNow() {
+      if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
+      tooltip.classed('visible', false);
+    }
+    node.on('click', function(event, d) {
+      event.stopPropagation();
+      showTooltip(event, d);
+    });
+    // Tap außerhalb eines Nodes/Tooltips → schließen.
+    document.addEventListener('click', (e) => {
+      if (e.target.closest('.node')) return;
+      if (e.target.closest('.pub-tooltip')) return;
+      hideTooltipNow();
+    });
+
     // Live-Tick: Pfeile zeigen visuell von alt nach neu (source/target getauscht
     // im Zeichnen, marker-end landet beim neueren Paper).
     simulation.on('tick.draw', () => {
@@ -775,6 +800,15 @@ fetch('data.json')
         .attr('x1', d => d.target.x).attr('y1', d => d.target.y)
         .attr('x2', d => d.source.x).attr('y2', d => d.source.y);
       node.attr('transform', d => `translate(${d.x},${d.y})`);
+      labels
+        .attr('x', d => d.x + getRadius(d) + 4)
+        .attr('y', d => {
+          const n = (d._labelLines || [d.title]).length;
+          return d.y - ((n - 1) * 1.15 * 11) / 2 + 4;
+        })
+        .selectAll('tspan').attr('x', function() {
+          return d3.select(this.parentNode).attr('x');
+        });
     });
 
     function dragstarted(event) {
