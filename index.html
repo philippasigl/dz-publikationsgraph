@@ -464,10 +464,13 @@ fetch('data.json')
     // height/width-Verhaeltnis bestimmt, wie "breit" die Zeitachse erscheint.
     const wrap = document.querySelector('.pubgraph-wrap');
     const isMobile = window.matchMedia('(max-width: 720px)').matches;
-    const cw = Math.max(isMobile ? 720 : 1200, Math.floor(wrap.getBoundingClientRect().width));
+    // Auf Mobile: viewBox = tatsächliche Container-Breite, damit Label-Schrift
+    // in natürlicher Größe rendert (statt mit 720er-viewBox runterzuskalieren).
+    const cw = isMobile
+      ? Math.max(320, Math.floor(wrap.getBoundingClientRect().width))
+      : Math.max(1200, Math.floor(wrap.getBoundingClientRect().width));
     const width = cw;
-    // Auf Mobile portraitiger Aspekt, damit der Graph mehr Vertikalraum bekommt.
-    const aspect = isMobile ? 1.1 : 0.58;
+    const aspect = isMobile ? 1.3 : 0.58;
     const height = Math.round(cw * aspect);
 
     const svg = d3.select('#graph')
@@ -535,7 +538,8 @@ fetch('data.json')
     // Datums-basierte X-Position (links = alt, rechts = neu)
     // Margin gross genug, dass Nodes am Rand nicht mit ihrem Radius ueberstehen
     // und Labels nach rechts vom linkesten Node noch ins Canvas passen.
-    const margin = 130;
+    // Auf Mobile deutlich schmaler, damit das Netz die Bildschirmbreite nutzt.
+    const margin = isMobile ? Math.round(width * 0.06) : 130;
     const dates = data.nodes.map(n => new Date(n.date).getTime());
     const minDate = Math.min(...dates);
     const maxDate = Math.max(...dates);
@@ -546,8 +550,8 @@ fetch('data.json')
 
     // Cluster-basierte Y-Bänder. Beginn nahe oben (kleiner yMin), Ende vor
     // der Zeitachse → minimiert Whitespace zwischen Header und Netz.
-    const yMin = Math.round(height * 0.06);
-    const yMax = Math.round(height * 0.88);
+    const yMin = Math.round(height * (isMobile ? 0.03 : 0.06));
+    const yMax = Math.round(height * (isMobile ? 0.96 : 0.88));
     let clusterY = new Map();
     let clusterSpacing = 0;
     function buildClusterY() {
