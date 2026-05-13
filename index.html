@@ -397,6 +397,16 @@ html, body {
     margin-top: 1.5rem;
     position: static;          /* sticky bringt auf mobile nichts */
   }
+  /* Tooltip als Bottom-Sheet: full-width minus Margin, unten gepinnt */
+  .pub-tooltip {
+    left: 12px !important;
+    right: 12px !important;
+    top: auto !important;
+    bottom: 12px;
+    max-width: none;
+    max-height: 55vh;
+    overflow-y: auto;
+  }
 }
 </style>
 </head>
@@ -772,14 +782,30 @@ fetch('data.json')
       const linksHtml = links.length ? `<div class="links">${links.join('')}</div>` : '';
       tooltip
         .classed('visible', true)
-        .style('left', (event.pageX + 10) + 'px')
-        .style('top', (event.pageY - 10) + 'px')
         .html(`
           <div class="title">${d.title}</div>
           <div class="meta">${d.date} · ${(d.authors || []).join(', ')}</div>
           ${summary}
           ${linksHtml}
         `);
+      // Auf Mobile uebernimmt CSS (Bottom-Sheet, full-width); sonst Cursor-naehe mit Viewport-Clamp
+      const isMobile = window.matchMedia('(max-width: 720px)').matches;
+      if (isMobile) {
+        tooltip.style('left', null).style('top', null);
+        return;
+      }
+      const node = tooltip.node();
+      const tw = node.offsetWidth || 320;
+      const th = node.offsetHeight || 100;
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      // clientX/Y, weil position: fixed (Viewport-bezogen)
+      let x = event.clientX + 12;
+      let y = event.clientY - 8;
+      if (x + tw + 8 > vw) x = Math.max(8, event.clientX - tw - 12);
+      if (y + th + 8 > vh) y = Math.max(8, vh - th - 8);
+      if (y < 8) y = 8;
+      tooltip.style('left', x + 'px').style('top', y + 'px');
     }
     function scheduleHide() {
       hideTimer = setTimeout(() => tooltip.classed('visible', false), 250);
