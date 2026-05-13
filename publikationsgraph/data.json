@@ -1103,7 +1103,7 @@
     {
       "id": "investitionen-in-eine-zukunftsfaehige-daseinsvorsorge",
       "title": "Investitionen in eine zukunftsfähige Daseinsvorsorge: Von kleinen Stadtwerken bis zum Konzern",
-      "date": "2025-01-01",
+      "date": "2025-12-11",
       "clusterA": "Energie",
       "clusterB": "infra",
       "authors": [
@@ -1718,6 +1718,45 @@
       "pdf_url": "/publikationen/Wie China Markt für Markt erobert - Dezernat Zukunft.pdf",
       "web_url": "https://dezernatzukunft.org/wie-china-markt-fuer-markt-erobert/",
       "summary": "China verdrängt deutsche Exporteure Markt für Markt. Der Geldbrief analysiert Chinas staatlich gestützte Skalierungsstrategie und die Folgen für die deutsche Exportwirtschaft."
+    },
+    {
+      "id": "growth-and-budget-lab",
+      "title": "Growth and Budget Lab",
+      "date": "2025-06-06",
+      "clusterA": "Finanzpolitik",
+      "clusterB": "fiskalpolitik",
+      "authors": [
+        "Florian Schuster-Johnson",
+        "Saskia Gottschalk",
+        "Sven von Wangenheim",
+        "Hanna Merki"
+      ],
+      "tags": [
+        "bund",
+        "haushalt",
+        "wachstum",
+        "deutschland"
+      ],
+      "web_url": "https://dezernatzukunft.org/growth-and-budget-lab/",
+      "summary": "Laufend aktualisiertes Daten-Tool zu Bundeshaushalt und Wirtschaftswachstum: Haushaltstracker (Ausgaben, Einnahmen, Nettokreditaufnahme, Fiscal-Space-Indikator) und Growth Dashboard (BIP, Inflation, Beschäftigung, Löhne, Produktivität)."
+    },
+    {
+      "id": "supply-side-monitor",
+      "title": "Supply Side Monitor",
+      "date": "2025-02-27",
+      "clusterA": "Wirtschaft",
+      "clusterB": "wirtschaftspolitik",
+      "authors": [
+        "Aurora Li"
+      ],
+      "tags": [
+        "makro",
+        "inflation",
+        "industriepolitik",
+        "deutschland"
+      ],
+      "web_url": "https://dezernatzukunft.org/supply-side-monitor-2/",
+      "summary": "Monatlich aktualisiertes Monitoring-Tool zur Angebotsseite der Inflation: sektorale Produzentenoutputs und -preise (Destatis), Produktionsbeschränkungen (ifo-Geschäftsumfrage) und PPI-Gewichte."
     }
   ],
   "edges": [
@@ -1752,8 +1791,8 @@
       "confidence": "hoch"
     },
     {
-      "from": "was-kosten-unsere-schulden",
-      "to": "eine-neue-deutsche-finanzpolitik",
+      "from": "eine-neue-deutsche-finanzpolitik",
+      "to": "was-kosten-unsere-schulden",
       "label": "Eine neue deutsche Finanzpolitik",
       "confidence": "hoch"
     },
@@ -1818,8 +1857,8 @@
       "confidence": "hoch"
     },
     {
-      "from": "klimaausgaben-in-schuldenregel",
-      "to": "the-baseline-is-wrong",
+      "from": "the-baseline-is-wrong",
+      "to": "klimaausgaben-in-schuldenregel",
       "label": "weiterentwicklung-europaeische-fiskalregeln",
       "confidence": "hoch"
     },
@@ -1842,8 +1881,8 @@
       "confidence": "hoch"
     },
     {
-      "from": "finanzpolitische-vorschlaege-fuer-die-21-legislaturperiode",
-      "to": "potenzialwachstum-im-koalitionsvertrag",
+      "from": "potenzialwachstum-im-koalitionsvertrag",
+      "to": "finanzpolitische-vorschlaege-fuer-die-21-legislaturperiode",
       "label": "finanzpolitische-vorschlaege-fuer-die-21-legislaturperiode",
       "confidence": "hoch"
     },
@@ -1920,8 +1959,8 @@
       "confidence": "hoch"
     },
     {
-      "from": "ein-kommunales-investitionsprogramm-fuer-das-naechste-jahrzehnt",
-      "to": "eine-neue-deutsche-finanzpolitik",
+      "from": "eine-neue-deutsche-finanzpolitik",
+      "to": "ein-kommunales-investitionsprogramm-fuer-das-naechste-jahrzehnt",
       "label": "",
       "confidence": "hoch"
     },
@@ -1932,8 +1971,8 @@
       "confidence": "hoch"
     },
     {
-      "from": "modernisierung-deutschlands-finanzieren",
-      "to": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
+      "from": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
+      "to": "modernisierung-deutschlands-finanzieren",
       "label": "bahn-strassen-finanzieren-ohne-schuldenbremse",
       "confidence": "hoch"
     },
@@ -2142,8 +2181,8 @@
       "confidence": "hoch"
     },
     {
-      "from": "wirtschaftliche-mehrkosten-durch-energiepreisanstiege",
-      "to": "zinsen-statt-geldmenge",
+      "from": "zinsen-statt-geldmenge",
+      "to": "wirtschaftliche-mehrkosten-durch-energiepreisanstiege",
       "label": "",
       "confidence": "hoch"
     },
@@ -2268,8 +2307,8 @@
       "confidence": "hoch"
     },
     {
-      "from": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
-      "to": "hawkish-winds-wie-zinsen-die-energiewende-treffen",
+      "from": "hawkish-winds-wie-zinsen-die-energiewende-treffen",
+      "to": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
       "label": "",
       "confidence": "hoch"
     },
@@ -2286,20 +2325,20 @@
       "confidence": "hoch"
     },
     {
-      "from": "warum-die-konjunkturkomponente-ihren-zweck-nicht-mehr-erfuellt",
-      "to": "die-konjunkturkomponente-wurde-angepasst",
+      "from": "die-konjunkturkomponente-wurde-angepasst",
+      "to": "warum-die-konjunkturkomponente-ihren-zweck-nicht-mehr-erfuellt",
       "label": "Konjunkturkomponente angepasst (Folge der Analyse)",
       "confidence": "hoch"
     },
     {
-      "from": "weiterentwicklung-europaeische-fiskalregeln",
-      "to": "introductory-statement-at-the-econ-committee",
+      "from": "introductory-statement-at-the-econ-committee",
+      "to": "weiterentwicklung-europaeische-fiskalregeln",
       "label": "ECON Committee Statement zu EU-Fiskalregeln",
       "confidence": "hoch"
     },
     {
-      "from": "introductory-statement-at-the-econ-committee",
-      "to": "statement-european-parliamentary-week-2023",
+      "from": "statement-european-parliamentary-week-2023",
+      "to": "introductory-statement-at-the-econ-committee",
       "label": "European Parliamentary Week Statement",
       "confidence": "hoch"
     },
@@ -2307,6 +2346,24 @@
       "from": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
       "to": "eine-neue-deutsche-finanzpolitik",
       "label": "",
+      "confidence": "hoch"
+    },
+    {
+      "from": "growth-and-budget-lab",
+      "to": "potenzialwachstum-im-koalitionsvertrag",
+      "label": "Vorgänger-Analyse (Potenzialwachstum & Haushalt)",
+      "confidence": "hoch"
+    },
+    {
+      "from": "bundeshaushaltsmonitor-2026",
+      "to": "growth-and-budget-lab",
+      "label": "Datengrundlage",
+      "confidence": "hoch"
+    },
+    {
+      "from": "supply-side-monitor",
+      "to": "wirtschaftliche-mehrkosten-durch-energiepreisanstiege",
+      "label": "Energiepreisschock-Grundlagen",
       "confidence": "hoch"
     }
   ],
