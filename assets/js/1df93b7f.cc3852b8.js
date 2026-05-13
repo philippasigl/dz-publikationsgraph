@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([["9452"],{5146(e,s,t){t.r(s),t.d(s,{default:()=>a});var u=t(6540);function a(){return(0,u.useEffect)(()=>{window.location.replace("/wirtschaftskreislauf/")},[]),null}}}]);
