@@ -317,6 +317,8 @@ html, body {
   scrollbar-width: thin;
   scrollbar-color: #c8c4bc transparent;
 }
+.wi-cluster { min-width: 0; }
+.wi-cluster a, .wi-list a { overflow-wrap: anywhere; word-break: break-word; }
 .wi-all-grid::-webkit-scrollbar { width: 8px; }
 .wi-all-grid::-webkit-scrollbar-thumb { background: #c8c4bc; border-radius: 4px; }
 .wi-all-grid::-webkit-scrollbar-track { background: transparent; }
@@ -357,8 +359,13 @@ html, body {
 }
 
 @media (max-width: 800px) {
-  .wiki-index { padding: 2rem 1.5rem 3rem; }
+  .wiki-index { padding: 2rem 1rem 3rem; }
   .wiki-index-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .wi-all-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 0.5rem 0 1rem 0;
+  }
 }
 
 /* Mobile: viel Luft zum Header, hoher SVG-Bereich, Sidebar unter Graph */
