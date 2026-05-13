@@ -1718,6 +1718,45 @@
       "pdf_url": "/publikationen/Wie China Markt für Markt erobert - Dezernat Zukunft.pdf",
       "web_url": "https://dezernatzukunft.org/wie-china-markt-fuer-markt-erobert/",
       "summary": "China verdrängt deutsche Exporteure Markt für Markt. Der Geldbrief analysiert Chinas staatlich gestützte Skalierungsstrategie und die Folgen für die deutsche Exportwirtschaft."
+    },
+    {
+      "id": "growth-and-budget-lab",
+      "title": "Growth and Budget Lab",
+      "date": "2025-06-06",
+      "clusterA": "Finanzpolitik",
+      "clusterB": "haushalt",
+      "authors": [
+        "Florian Schuster-Johnson",
+        "Saskia Gottschalk",
+        "Sven von Wangenheim",
+        "Hanna Merki"
+      ],
+      "tags": [
+        "bund",
+        "haushalt",
+        "wachstum",
+        "deutschland"
+      ],
+      "web_url": "https://dezernatzukunft.org/growth-and-budget-lab/",
+      "summary": "Laufend aktualisiertes Daten-Tool zu Bundeshaushalt und Wirtschaftswachstum: Haushaltstracker (Ausgaben, Einnahmen, Nettokreditaufnahme, Fiscal-Space-Indikator) und Growth Dashboard (BIP, Inflation, Beschäftigung, Löhne, Produktivität)."
+    },
+    {
+      "id": "supply-side-monitor",
+      "title": "Supply Side Monitor",
+      "date": "2025-02-27",
+      "clusterA": "Inflation",
+      "clusterB": "makro",
+      "authors": [
+        "Aurora Li"
+      ],
+      "tags": [
+        "makro",
+        "inflation",
+        "industriepolitik",
+        "deutschland"
+      ],
+      "web_url": "https://dezernatzukunft.org/supply-side-monitor-2/",
+      "summary": "Monatlich aktualisiertes Monitoring-Tool zur Angebotsseite der Inflation: sektorale Produzentenoutputs und -preise (Destatis), Produktionsbeschränkungen (ifo-Geschäftsumfrage) und PPI-Gewichte."
     }
   ],
   "edges": [
