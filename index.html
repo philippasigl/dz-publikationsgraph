@@ -367,9 +367,7 @@ html, body {
   .topbar .logo { font-size: 16px; }
   .topbar .sub { font-size: 9px; }
   .section-header {
-    padding: 2rem 1rem 1.5rem;
-    min-height: 35vh;          /* Header bekommt erstes Drittel der Viewport-Höhe */
-    justify-content: center;
+    padding: 1.5rem 1rem 1rem;
   }
   .section-title { font-size: 1.6rem; line-height: 1.15; }
   .section-sub { font-size: 0.82rem; }
@@ -377,7 +375,7 @@ html, body {
     flex-direction: column;
     gap: 1rem;
     padding: 0 0.5rem 2rem;
-    margin-top: 8rem;          /* Graph kommt erst nach deutlich Luft */
+    margin-top: 1.5rem;
   }
   .pubgraph-wrap {
     width: 100%;
@@ -682,9 +680,10 @@ fetch('data.json')
     });
 
     // Permanenter Titel nur fuer Top-Nodes (>= TITLE_MIN_EDGES Edges).
+    // Auf Mobile striktere Schwelle, damit sich Labels nicht ueberlappen.
     // Wortgenauer Wrap, bis zu MAX_LINES Zeilen, Ellipsis nur wenn dann
     // immer noch was uebrig ist.
-    const TITLE_MIN_EDGES = 5;
+    const TITLE_MIN_EDGES = isMobile ? 8 : 5;
     const LINE_MAX = 24;       // max Zeichen pro Zeile (weicher Wert, Wort darf
                                 // ueberhaengen wenn allein bereits laenger)
     const MAX_LINES = 4;
