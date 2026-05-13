@@ -228,6 +228,29 @@ html, body {
 .pub-tooltip .links { margin-top: 0.6rem; display: flex; gap: 0.7rem; }
 .pub-tooltip .links a { color: #8ecae6; text-decoration: none; font-size: 0.78rem; }
 .pub-tooltip .links a:hover { text-decoration: underline; }
+
+/* Mobile: kein Negativ-Margin, Sidebar unter Graph, mehr Luft zur Headline */
+@media (max-width: 720px) {
+  .topbar { padding: 16px 20px 12px; }
+  .topbar .logo { font-size: 16px; }
+  .topbar .sub { font-size: 9px; }
+  .section-header { padding: 1.5rem 1rem 0; }
+  .section-title { font-size: 1.6rem; }
+  .section-sub { font-size: 0.82rem; }
+  .pubgraph-stage {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem 2rem;
+    margin-top: 1.5rem;       /* statt -2.5rem → echter Abstand zum Header */
+  }
+  .pubgraph-wrap { min-height: 0; }
+  .pubgraph-wrap svg { height: auto; }
+  .pubgraph-legend {
+    width: 100%;
+    margin-top: 1rem;
+    position: static;          /* sticky bringt auf mobile nichts */
+  }
+}
 </style>
 </head>
 <body>
@@ -550,7 +573,7 @@ fetch('data.json')
     function showTooltip(event, d) {
       if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
       const links = [];
-      if (d.web_url) links.push(`<a href="${d.web_url}" target="_blank" rel="noopener">DZ-Webseite ↗</a>`);
+      if (d.web_url) links.push(`<a href="${d.web_url}" target="_blank" rel="noopener">DZ-Website ↗</a>`);
       const summary = d.summary ? `<div class="summary">${d.summary}</div>` : '';
       const linksHtml = links.length ? `<div class="links">${links.join('')}</div>` : '';
       tooltip
