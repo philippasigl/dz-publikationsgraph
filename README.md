@@ -1,20 +1,29 @@
-# Publikationsgraph — Dezernat Zukunft
+# DZ Wiki
 
-Interaktive Visualisierung der DZ-Fachtexte und ihrer Verbindungen.
+Öffentliche Wissensbase aller Publikationen des [Dezernat Zukunft](https://dezernatzukunft.org).
 
-**Live:** https://philippasigl.github.io/dz-publikationsgraph/
+**Live:** [philippasigl.github.io/dz-wiki](https://philippasigl.github.io/dz-wiki/)
 
-## Dateien
+## Was hier liegt
 
-- `index.html` — Visualisierung (D3.js)
-- `data.json` — Nodes + Edges + Cluster-Definitionen
-- `nodes.csv` — Publikationsmetadaten (id, clusterA, clusterB, datum, titel)
-- `edges.csv` — Verbindungen mit Konfidenz und Label
+- **`/`** — interaktiver Publikationsgraph (D3.js): Cluster-Karte aller DZ-Fachtexte mit ihren Verbindungen
+- **`/wiki/`** — Wiki mit Publikations-Stubs, Themen-Hubs und Konzept-Seiten (Docusaurus)
+- **`/publikationen/`** — Original-PDFs
+
+## Datenstand
+
+- `data.json` — Nodes + Edges + Cluster-Definitionen für die Visualisierung
+- `nodes.csv` / `edges.csv` — Tabellen-Export desselben Stands
+- `wiki-meta.json` — Wiki-Index für den Graphen
 - `geschichte.md` — Chronik der Bearbeitung
 
-## Ansicht
+## Graph-Ansicht
 
-- **X-Achse:** Datum der Publikation (lose Zeitachse)
+- **X-Achse:** Datum der Publikation
 - **Y-Achse:** Cluster (Themen oder Finanzierungstyp via Toggle)
 - **Node-Größe:** Anzahl Verbindungen
-- **Pfeile:** zeigen auf das jüngere Paper (Lesefluss links → rechts)
+- **Pfeile:** zeigen auf das jüngere Paper
+
+## Lizenz
+
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.de) — Inhalte: Dezernat Zukunft e.V. Site-Code: Philippa Sigl-Glöckner. Beta-Deployment.
