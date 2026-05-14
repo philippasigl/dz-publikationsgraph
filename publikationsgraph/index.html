@@ -903,11 +903,11 @@ fetch('data.json?ts=' + Date.now(), { cache: 'no-cache' })
       .catch(e => console.warn('Wiki-Index: meta nicht geladen', e));
 
     function docsHref(area, slug) {
-      // Auf github.io liegt das Wiki unter /dz-publikationsgraph/wiki/.
+      // Auf github.io liegt das Wiki unter /dz-wiki/wiki/.
       // Lokal (Docusaurus dev/build mit baseUrl /) unter /wiki/.
       const onGhPages = window.location.hostname.endsWith('github.io')
-        || window.location.pathname.startsWith('/dz-publikationsgraph/');
-      const prefix = onGhPages ? '/dz-publikationsgraph' : '';
+        || window.location.pathname.startsWith('/dz-wiki/');
+      const prefix = onGhPages ? '/dz-wiki' : '';
       return `${prefix}/wiki/${area}/${slug}`;
     }
 

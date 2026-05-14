@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([["9452"],{5146(e,t,u){u.r(t),u.d(t,{default:()=>n});var i=u(96540);function n(){return(0,i.useEffect)(()=>{window.location.replace("/dz-wiki/")},[]),null}}}]);
