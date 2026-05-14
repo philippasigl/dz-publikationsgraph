@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ruff_cache/
+
+# Node / Docusaurus build artefacts
+site/node_modules/
+site/build/
+site/.docusaurus/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+.vscode/
+.idea/
+
+# Temp / scratch
+temp/
+*.tmp
+*.bak
+*.bak-*
+
+# Claude Code per-user
+.claude/settings.local.json
+tasks/
+tool-results/
+
+# Internal-only / nicht-public
+wiki/_fact-check/
+wiki/_concept-review.html
+wiki/log.md
+wiki/*.bak/
+.mcp.json
+comms/
+publikationsgraph/wiki-audit.json
+publikationsgraph/geschichte.md
+publikationsgraph/*backup*.csv
+publikationsgraph/*Kopie*.csv
+publikationsgraph/edges.csv
+publikationsgraph/nodes.csv
+
+# Secrets
+.env
+.env.local

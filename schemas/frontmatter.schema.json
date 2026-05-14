@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://dezernatzukunft.org/schemas/frontmatter.schema.json",
+  "title": "DZ-Wiki Frontmatter",
+  "description": "YAML-Frontmatter Schema für DZ-Publikationen in wiki/publikationen/",
+  "type": "object",
+  "required": [
+    "title",
+    "date",
+    "authors",
+    "cluster"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Haupttitel der Publikation"
+    },
+    "subtitle": {
+      "type": "string",
+      "description": "Untertitel"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Veröffentlichungsdatum (YYYY-MM-DD)"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "DZ-Autor:innen"
+    },
+    "coauthors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Externe Ko-Autor:innen / Partnerorganisationen"
+    },
+    "cluster": {
+      "type": "string",
+      "enum": [
+        "fiskalpolitik",
+        "haushalt",
+        "geldpolitik und anleihemärkte",
+        "infra",
+        "wirtschaftspolitik",
+        "makro",
+        "ausland"
+      ],
+      "description": "Themencluster (genau einer)"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "policy-paper",
+        "studie",
+        "geldbrief",
+        "blogpost",
+        "kommentar",
+        "stellungnahme",
+        "pressemitteilung",
+        "datenset"
+      ],
+      "description": "Publikationstyp"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Inhaltliche Schlagworte"
+    },
+    "pdf_url": {
+      "type": "string",
+      "description": "Relativer Pfad zur PDF in site/static/"
+    },
+    "web_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL auf dezernatzukunft.org"
+    },
+    "dataset_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL des begleitenden Datensatzes (Excel/CSV/Landing Page)"
+    },
+    "summary": {
+      "type": "string",
+      "description": "1–2 Sätze Kernaussage"
+    },
+    "ignore": {
+      "type": "string",
+      "enum": [
+        "yes"
+      ],
+      "description": "Wenn gesetzt: Publikation wird vom Graph-Tooling übersprungen"
+    },
+    "edge_notes": {
+      "type": "string",
+      "description": "Hinweise an network-maker für manuelle Edges"
+    }
+  }
+}

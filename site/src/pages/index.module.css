@@ -1,0 +1,289 @@
+.main {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Hero Section - Minimal, elegant */
+.hero {
+  text-align: center;
+  padding: 4rem 0 2rem;
+}
+
+.title {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+[data-theme='dark'] .title {
+  color: #e8e8e8;
+}
+
+.tagline {
+  font-size: 1.15rem;
+  color: #5c5c6d;
+  margin: 0;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+[data-theme='dark'] .tagline {
+  color: #9090a0;
+}
+
+/* Diagram Section - Clean frame */
+.diagramSection {
+  width: 100%;
+  margin: 2rem 0 3rem;
+}
+
+.diagram {
+  width: 100%;
+  height: 80vh;
+  min-height: 600px;
+  max-height: 1000px;
+  border: none;
+  border-radius: 4px;
+  background: #fafafa;
+  box-shadow: none;
+}
+
+[data-theme='dark'] .diagram {
+  filter: invert(0.9) hue-rotate(180deg);
+  background: #1a1a2e;
+}
+
+/* Nodes Section - Editorial grid */
+.nodesSection {
+  padding: 3rem 0;
+  border-top: 1px solid #e8e8e8;
+}
+
+[data-theme='dark'] .nodesSection {
+  border-top-color: #2a2a3e;
+}
+
+.sectionTitle {
+  font-family: 'Source Serif 4', Georgia, serif;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  color: #1a1a2e;
+  letter-spacing: -0.01em;
+}
+
+[data-theme='dark'] .sectionTitle {
+  color: #e8e8e8;
+}
+
+.nodesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Node Card - Subtle, elegant */
+.nodeCard {
+  display: flex;
+  align-items: stretch;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-theme='dark'] .nodeCard {
+  background: #1e1e30;
+  border-color: #2a2a3e;
+}
+
+.nodeCard:hover {
+  border-color: #c0c0c0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+}
+
+[data-theme='dark'] .nodeCard:hover {
+  border-color: #3a3a4e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nodeIndicator {
+  width: 4px;
+  flex-shrink: 0;
+}
+
+.nodeContent {
+  padding: 1.25rem 1.5rem;
+}
+
+.nodeLabel {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+  color: #1a1a2e;
+  letter-spacing: -0.01em;
+}
+
+[data-theme='dark'] .nodeLabel {
+  color: #e8e8e8;
+}
+
+.nodeDescription {
+  font-size: 0.9rem;
+  color: #6a6a7a;
+  margin: 0;
+  line-height: 1.5;
+}
+
+[data-theme='dark'] .nodeDescription {
+  color: #8a8a9a;
+}
+
+/* CTA Section - Understated */
+.ctaSection {
+  text-align: center;
+  padding: 2.5rem 0 4rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 0.85rem 2.25rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #ffffff;
+  background: #1a365d;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  letter-spacing: 0.01em;
+}
+
+.ctaButton:hover {
+  background: #152c4d;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+[data-theme='dark'] .ctaButton {
+  background: #3d6a8a;
+}
+
+[data-theme='dark'] .ctaButton:hover {
+  background: #4a7a9a;
+}
+
+/* Links Section */
+.linksSection {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem 0 4rem;
+  flex-wrap: wrap;
+}
+
+.vizCard {
+  display: block;
+  padding: 2.5rem 3rem;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  min-width: 280px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.vizCard:hover {
+  border-color: #1a365d;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.vizCard h2 {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 0.5rem;
+}
+
+.vizCard p {
+  font-size: 0.95rem;
+  color: #6a6a7a;
+  margin: 0;
+}
+
+[data-theme='dark'] .vizCard {
+  background: #1e1e30;
+  border-color: #2a2a3e;
+}
+
+[data-theme='dark'] .vizCard:hover {
+  border-color: #4a7a9a;
+}
+
+[data-theme='dark'] .vizCard h2 {
+  color: #e8e8e8;
+}
+
+[data-theme='dark'] .vizCard p {
+  color: #8a8a9a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main {
+    padding: 0 1.25rem;
+  }
+
+  .hero {
+    padding: 2.5rem 0 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .diagram {
+    height: 60vh;
+    min-height: 450px;
+  }
+
+  .nodesSection {
+    padding: 2rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .nodesGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .ctaSection {
+    padding: 2rem 0 3rem;
+  }
+}

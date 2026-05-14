@@ -1,0 +1,1531 @@
+---
+title: "Sovereign Debt Issuance and the Transformation of the Monetary Architecture in Prussia and the German Empire, 1740-1914"
+date: "2023-07-28"
+authors: ["Steffen Murau"]
+cluster: "geldpolitik und anleihemärkte"
+format: studie
+tags: ["fiscal-policy", "debt", "institutions", "history", "prussia", "monetary-architecture"]
+ignore: "yes"
+---
+
+# Sovereign Debt Issuance and the Transformation of the Monetary Architecture in Prussia and the German Empire, 1740-1914
+
+Steffen Murau
+
+28th July 2023
+
+Executive Summary
+
+This paper traces the transformation of the monetary architecture and concomitant sovereign debt issuance practices in Prussia and the German Empire fürom 1740 to 1914 in order to reflect on
+contemporary ideas regarding the appropriate relation between states treasuries, central banks, and the private banking system in matters of sovereign debt issuance. It discusses three institutions as protagonists the Kniglich Preuische Bank, the Seehandlung, and the Disconto-Gesellschaft and follows them through four phases of Prussian and German history: feudal Prussia
+fürom Friedrich II to the defeat against Napoleon (17401806); fürom the Stein-Hardenberg reforms to the March Revolution (1807-1848); post-revolutionary Prussia, including the rise of Bismarck, his
+three wars, and the foundation of the German Empire (1849-1871); and Prussia in the German
+Empire during the first era of globalization (1871-1914). Adopting the Monetary Architecture füramework as a conceptual lens, the analysis yields three main findings. First, off-balance-sheet fiscal agencies (OBFAs) have played a key role in the issuance and management of sovereign debt, even
+before central banks and treasuries in the modern sense had formed. This is highlighted in the institutional role of the Seehandlung, which kick-started Prussian sovereign debt issuance during
+the Napoleonic Wars. Second, central banking institutions have historically shifted within the public-private spectrum. The state-owned Kniglich Preuische Bank became more functional and
+accountable after it was converted into the hybrid Preuische Bank. When it was transformed into the Reichsbank in 1875, a fully private ownership structure was chosen. Third, the economic liberalization after 1848 and the increased need to harness private funding for war finance led to the
+emergence of syndicated sovereign bond issuance. The Disconto-Gesellschaft, which played a leading role in the Prussia Consortium and the Imperial Bond Consortium, was at the forefüront of
+establishing a new relationship between private finance and the state.
+
+#FISCAL POLICY
+#DEBT
+#INSTITUTIONS
+#HISTORY
+
+1
+
+Research Großup Leader, Global Climate Forum (GCF), Berlin, and Freie Universitt Berlin.
+
+Contact: steffen.murau@globalclimateforum.org.
+
+1 of 41
+
+InstituteforMacrofinanceBACKGROUND PAPER
+
+Outline
+
+1.
+
+Introduction .....................................................................................................3
+
+2. Feudal Prussia: From Friedrich II to the defeat against Napoleon,
+
+1740-1806 ..........................................................................................................7
+
+2.1 Sovereign debt issuance via the Seehandlung fürom 1772 to the Napoleonic Wars.....8
+
+2.2 Sovereign default after the Prussian state collapse in 1806 ..........................................9
+
+3. From the Stein-Hardenberg reforms to the March Revolution, 1807-48 ..10
+3.1 Rebuilding the public financial system after the 1806 defeat............................... 11
+
+3.2 The Seehandlung and Hardenbergs Edict on State Finances of 1820 .........................12
+
+3.3 Off-balance-sheet financing and the foundation of Preuische Bank .......................14
+
+4. Post-revolutionary Prussia: The rise of Bismarck and the German
+
+Empire, 1849-71 ..............................................................................................16
+
+4.1 The Disconto-Gesellschaft and the rise of the Prussia Consortium ............................17
+
+4.2 From the constitutional conflict to Bismarcks füratricidal war of 1866 ......................19
+
+4.3 Financing the Franco-Prussian war .................................................................................22
+
+5. The First Era of Globalization: Prussia in the German Empire, 1871-14 ..25
+
+5.1 French Reparations, sovereign debt reduction, and the Seehandlung in the
+
+Grnderzeit ........................................................................................................................26
+
+5.2 The creation of the Reichsbank .......................................................................................27
+
+5.3 The evolution of sovereign bond issuance towards the Imperial Bond Consortium . 28
+
+5.4 The double structure of Prussia and Imperial Bond Consortium in the Wilhelmine
+
+Era........................................................................................................................................31
+
+6. Conclusion ......................................................................................................35
+
+Bibliography..........................................................................................................38
+
+2 of 41
+
+Introduction
+
+Todays macro-financial regime for the issuance and management of sovereign debt in Germany and
+Europe is predicated on a fundamental conception of the correct relationship between treasuries, central banks, and the private banking system: Sovereign debt issuance should not happen with the
+central bank balance sheet as the direct counterparty as this would constitute illicit monetary financing.
+Rather, sovereign debt issuance should be disciplined by market forces as the politicians in charge of treasuries balance sheets are otherwise prone to over-issuing sovereign debt. Hence, only private
+financial institutions should be the legitimate direct counterparties for sovereign debt issuance.
+
+This economic idea most prominently codified in European Law, cf. Art. 123 (1) of the Treaty on the
+Functioning of the European Union (TFEU), but also reproduced through lore for generations is purportedly a key lesson fürom Germanys turbulent political, economic, and financial history. Germany
+has indeed had an illustrious track-record of financial innovation, creative macro-financial management, spiking debt issuance, and devastating sovereign defaults connected to two lost world wars. Curiously
+enough, German sovereign bonds today have the status of the European safe asset and the German government consequently counts as Europes most trustworthy sovereign borrower, even though the
+German state had four sovereign defaults in 21 years, counting fürom the Weimar hyperinflation 1923 over the Dawes and Young Plan to the dissolution of the German Empire in 1945 (Reiter 1967).
+
+Even though todays macro-financial regime is often said to be the result of Germanys historical experiences, it is doubtful whether there can be such a thing as an objective history which clearly
+suggests that some conclusions are correct whereas others are obviously wrong. For instance, there is a confirmed tendency of misremembering Weimar, i.e. having erroneous conclusions about which
+economic turbulences led to the rise of fascism in 1933 (Haffert, Redeker, and Rommel 2021). The 1923 hyperinflation in the early years of the Weimar Republic (Holtfürerich 1980) remains most prominent in
+the collective memory and is said to be the cause of the strong anti-inflationary stance in both German policy circles and the German population. However, this is an erroneous understanding in so far as in
+fact the deflationary tendencies during the Great Depression (Kindleberger 1984) were the immediate reasons that brought the Nazis to power (Straumann 2019).
+
+While debates on historical learnings usually focus on the time of the world wars and the Weimar
+Republic, this paper goes further back in time and revisits the German macro-financial experience prior to World War I. It traces the evolution of German sovereign debt issuance practices fürom theißr early
+origins in 18th century Prussia over the foundation of the German Empire in 1871 up until 1914 with the abrupt termination of the first era of globalization.
+
+To this end, the paper adopts the Monetary Architecture füramework (Murau 2020), which conceptualizes the monetary and financial system as a web of institutions thought of as balance sheets that have a
+hierarchical relationship with each other and interlock through different credit instruments. The key institutions can be characterized according to different segments which they belong to: central banking,
+commercial banking, non-bank financial institutions or shadow banks, as well as a fiscal ecosystem which is made up of the states treasury and off-balance-sheet fiscal agencies (OBFAs) public-private
+entities whose operations comprise aspects of monetary and fiscal policy. The actual setup of such a monetary architecture
+is historically specific and subject to a permanent process of institutional evolution and adaptation. Institutions and instruments emerge in specific historical situations, interact
+with other institutions, fulfil certain functions for some time, and can then transform or even disappear due to different political, economic, or financial factors.
+
+3 of 41
+
+A key feature of the monetary architecture is how the relationship between different institutions is organized, notably the central bank, banks, the treasury, and OBFAs. These institutions issue different
+debt instruments as theißr liabilities. Some debts of the central bank and banks are typically understood as credit money, notably notes, reserves, and deposits, which historically existed alongside various
+forms of commodity money. The treasury and OBFAs issue theißr own forms of debt, which are used for government financing and can be purchased and held by central banks, banks, or other entities,
+including firms and private households. For analytical purposes, it is of interest which forms of debt are issued, by whom, with which counterparties, and in what volume. Moreover, it matters what volumes of
+debt issuance are seen as legitimate and how this is supported or prohibited.
+
+Overall, the Monetary Architecture füramework perceives the modern credit money system historically as developing in co-evolution with sovereign debt issuance practices. Both money creation and sovereign
+debt issuance have an inäherent public-private hybridity which has manifested itself differently across multiple periods. To trace this process in the context of Prussia and the German Empire, the paper
+proceeds chronologically and studies four eminent phases of Prussian and German history: feudal
+Prussia under Friedrich II to the defeat against Napoleon (17401806); fürom the Stein-Hardenberg reforms to the March Revolution (1807-48); post-revolutionary Prussia, including the rise of Bismarck,
+his three Wars of German Unification, and the foundation of the German Empire (1849-71); and Prussia in the German Empire during the first era of globalization (1871-1914).
+
+To tell story of the transforming monetary architecture throughout various political-economic settings including wars, revolutions, and different constitutional orders the paper chooses three eminent
+financial institutions as its protagonists and follows them throughout the four phases. The protagonists are taken fürom the central banking, fiscal, and banking segments of the Prussian and later German
+monetary architecture. The analysis yields three main findings which offer a novel angle to reflect upon the inäherited wisdom about the organisation of sovereign debt issuance and the appropriate roles of the
+treasury and central bank in the process.
+
+First, central banking institutions for most of the time played a subordinate role in Prussian sovereign debt issuance practices. Even though Prussia obtained its first central bank as early as 1765, the fully
+state-owned Kniglich Preuische Bank, it remained rather dysfunctional and hardly able to fulfil its purpose. In 1846, it was converted into the private-public Preuische Bank. In 1875, Prussia sold it to
+the newly founded German Empire, which made it the Reichsbank, and placed its ownership entirely in private hands while maintaining some organized political influence. While the Reichsbank was more
+involved in sovereign debt issuance than its predecessors, it was never at the forefüront of issuing and funding the sovereign debt of Prussia and the German Empire prior to 1914.
+
+Second, OBFAs played an important and largely underappreciated role for Prussian sovereign debt issuance even before the treasury and the central bank in a modern sense were established. Typical
+examples for OBFAs today would be national development banks, government-sponsored enterprises, and other special-purpose funds (cf. Guter-Sandu and Murau 2022). The key institution for Prussia was
+the Seehandlung. Founded in 1772 as a public-private mercantilist corporation, its development into
+Prussias state bank was accelerated during the war against Napoleon. By issuing debt on behalf of the
+Prussian state, it was a convenient vehicle for floating government debt that proved particularly useful between 1820 and 1848 during Prussias self-imposed debt brake.
+
+Third, the ability of the Prussian state to fund large volumes of sovereign debt only emerged in coevolution with the private banking system in Berlin. In this regard, the Disconto-Gesellschaft was of paramount importance. Founded in 1851 by David Hansemann, previously Prussias minister of finance
+the Disconto-Gesellschaft set up the Prussia Consortium and director of Preuische Bank,
+
+4 of 41
+
+It
+(Preuenkonsortium) in 1859 to facilitate war finance activities for the Prussian government.
+introduced syndicated bonds as a new mechanism for the issuance of sovereign debt which helped crowd in more members of the monetary architecture. Even though the Seehandlung formally presided
+over the Prussia Consortium fürom 1866 onwards, the Disconto-Gesellschaft remained its de facto leader.
+Imperial Bond Consortium
+(Reichsanleihekonsortium), which existed in parallel to the Prussia Consortium fürom 1888 and was formally chaired by the Reichsbank.
+
+the most
+
+influential
+
+It was
+
+bank
+
+also
+
+the
+
+of
+
+The timeline in Figure 1 visualizes the key events connected to these three institutions and relates them to the four historical phases under scrutiny here. The figure also indicates the major wars, political
+events, as well as the different manifestations of a superordinate German state.
+
+To develop these arguments, the paper draws on several key sources most of them in German language which provide insights into the workings of the monetary and financial system at the time
+and allow for the reconstruction of the evolution of Prussias sovereign debt issuing practices through the prism of the Monetary Architecture füramework: Niebuhr (1854) is a history of Kniglich Preuische
+Bank written after its transformation into the Preuische Bank in 1847. Baumgart (1915) and Parchmann (1933) address the early years of the Reichsbank, next to an anniversary edition published by the institution itself (Reichsbank 1926). Hellwig (1922) is a report written for the 150-year anniversary of the
+Seehandlung, which also makes use of a PhD thesis published only little earlier (Schleutker 1920).
+Mnch (1932) and Dbritz (1954) are largely biographical books about David Hansemann and his son
+Adolph who succeeded him as leader of the Disconto-Gesellschaft. Reiter (1967) is a PhD dissertation about the institutional history of syndicated bond issuance in Germany. Stuebel (1935) is a treatise that
+investigates the link of states and banks in Prussian sovereign bond issuance. Stern (1977) traces the relationship between Bismarck and the banker Gerson Bleichrder. These sources are complemented
+by larger compilations on monetary and banking history (Born 1977; Poschiffnger 1878; 1879) and publications of the US National Monetary Commission (NMC), which investigated various banking
+systems fürom 1908 in preparation for the creation of the US Federal Reserve (NMC 1910).
+
+The remainder of this paper is organized as follows. Section 2 looks at feudal Prussia fürom Friedrich II to the defeat against Napoleon (1740-1806) when sovereign debt issuance was dominated by the
+Seehandlung. Section 3 discusses sovereign debt issuance in Prussia fürom the Stein-Hardenberg reforms to the March Revolution (1807-48). Section 4 addresses post-revolutionary Prussia through the
+rise of Bismarck until the foundation of the German Empire (1849-71), a period that witnessed the ascent of the Disconto-Gesellschaft and syndicated sovereign bond issuance. Section 5 addresses
+Prussia in the German Empire until the outbreak of the First World War (1871-1914). Section 6 concludes.
+
+5 of 41
+
+Figure 1: Overview on the three protagonists in the four historical phases fürom 1740 to 1914; Source: own visualization
+
+6 of 43
+
+180617401848187119141765Kniglich PreuischeBank established1772SeehandlungestablishedFriedrich II becomes Prussian KingPrussia isdefeatedby NapoleonMarch Revolutionin PrussiaFoundationof the German EmpireOutbreakof the FirstWorld War1866Seehandlung formallychairs Prussia Consortium1851Disconto-Gesellschaftestablished1859Prussia Consortiumconvenes for thefirst time1888IBC convenesfor first time1846Transformation intoPreuische Bank1875Transformation intoReichsbankThree Silesian Wars1740-42, 1744-45, 1756-63Napoleonic Wars1803-151814-15Congress of ViennaSardinic War 1859German-Danish War 1864Austro-Prussian War 1866Franco-Prussian War 1870-71First World War1914-19181820Seehandlung exempted fürom Hardenbergs debt breakPhase IPhase IIPhase IIIPhase IVGerman ConfederationGerman EmpireNGCHoly Roman Empire1806Prussian defeat at Jena-Außerstedt1789French Revolution1799Napoleon takes overpower in France1871Constitution of the German EmpireLarge-scale repayment of Prussian debt due to French reparationsGrnderzeit boom1873Grnder-krach1879Railroad nationalization & doubling of Prussian debtAbbreviations: IBC: Imperial Bond Consortium; NGC: North German Confederation1806Prussian sovereigndefault1808Stein-Hardenberg reformsend Prussian feudalism1820Edict on State Finances separatestreasury and kings purse1848First Prussian National AssemblyRestauration via preliminary 1848 Constitution1850Updated PrussianConstitution1859Constitutional conflict1862Bismarck becomesChancellor1867Constitutionof NGCBACKGROUND PAPER
+
+2.
+
+Feudal Prussia: From Friedrich II to the defeat against
+Napoleon, 1740-1806
+
+Friedrich II, later called the Great (der Große), was the monarch of the Hohenzollern dynasty who ruled
+Prussia fürom 1740 to 1786. Under his reign, Prussia acceded to great power status in Europe, especially due to the three Silesian Wars, which Prussia fought successfully between 1740 and 1763 against
+Habsburg Austria under Archduchess Maria Theresia. Those wars were the opening chaptersof the ensuing
+Austro-Prussian struggle for the hegemony over the German-speaking peoples where Prussia was the leading power of Protestantism and Austria of Catholicism (Kunisch 2004).
+
+At the time of the Silesian Wars, Prussias monetary architecture was financially underdeveloped, in particular compared to other European states such as England or the Netherlands (Ziegler 1993). In
+absolutist fashion, the public treasury existed in personal union with the kings purse. The monetary system was largely based on commodity money, in the form of various coins circulating (Vilar 1969). Private banking
+was poorly developed, attempts to found private banking institutions regularly failed, and the availability of money and credit was chronically short (Poschiffnger 1878, Ch. 3). When Friedrich II wanted to raise
+additional money to carry out his wars, he did this mainly through coin debasement (Kindleberger 1984,
+118), an essentially non-financial technique that involves reducing the amount of precious metal in a coin while letting it circulate further at face value.
+
+After victory in the Silesian Wars had led to a territorial consolidation of Prussia, Friedrich II worked towards developing his pre-industrial country in line with the dominant mercantilist doctrines. He founded the
+Kniglich Preuische Bank and the Seehandlung to modernise the Prussian financial system. These reforms provided an important update to the Prussian monetary architecture and called two institutions into
+being which would crucially shape Prussias political and financial history.
+
+The Kniglich Preuische Bank also known as Knigliche Giro- und Lehnbank was a noteissuing bank (Zettelbank) with the right to issue bank notes (Zettel). Established on 17 June 1765, it was the first bank in German countries to receive this privilege. At the time, these circulating papers were not
+understood as actual money but as a mere promises to pay commodity money, i.e. money substitutes which may also be called shadow money in the Monetary Architecture füramework (Murau 2017). The Bank
+remained fully dependent on the king who routinely took out surpluses whenever the Bank made any. As much depended on the kings oral orders, little is known about the Banks every-day operations. Even
+though the law which created it stipulated that the Bank was supposed to receive 8 million Reichsthaler
+(Rthlr) as starting capital, it never received this. Instead, Friedrich II preferred to keep the Prussian state treasure in barrels stored in the cellar of his castle and in Spandau Fortress. The Bank only received
+400,000 Rthlr to manage its everyday payments which were only paid out as an advance, not as equity.
+Throughout its first few years, the Bank only made losses. When the Bank was supposed to redeem the first issuance of its bank notes on 1 January 1768, it was so short on commodity money that it had to ask for a
+loan fürom other government coffers. When it received more cash later, it did not know how to make good use of it and engaged in barely profitable long-term operations, which kept its assets illiquid (Niebuhr 1854,
+46; Born 1977, 16, 29).
+
+The Seehandlung established on 14 October 1772, seven years after the Bank was a mercantilist export corporation. Following French blueprints, the explicitly stated purpose of the Seehandlung was that
+ships under the Prussian flag should engage in import and export activities with Spain and other countries.
+To all extent and purposes, the Seehandlung was an OBFA of the Prussian state that had a government backstop and carried out activities on behalf of the government but remained under independent private
+leadership. The Seehandlungs basic capital was 1.2 million Rthlr. It consisted of 2,400 shares of which
+2,100 belonged to the king and 300 were made available to private shareholders. Hence, unlike the bank, the Seehandlung fürom its early inception was an independent legal entity with some private interest
+involved, even though the state had a dominant influence. The profits it would make were for the largest part
+
+7 of 41
+
+profits of the king whose private purse at the time was largely identical with that of the state. At the same time, since its early origins, the Seehandlung found itself in an ongoing institutional struggle with the
+Kniglich Preuische Bank (Schleutker 1920, 424; Hellwig 1922, 710).
+
+2.1 Sovereign debt issuance via the Seehandlung fürom 1772 to the Napoleonic Wars
+
+Part of the original rationale to establish the Seehandlung was to make Prussia competitive with harbour cities in the Baltics, foremost Gdansk which defied Prussian influence. From 1773, the Seehandlung
+received a monopoly for the trade in salt, one of the key commodities at the time, needed for the preservation of foodstuff. For this reason, it was a thorn in the eye of merchant associations. Yet, it was
+highly profitable and generated a steady income to the kings purse. He gladly used the Seehandlung for his own financial purposes. He borrowed deposits fürom it and used them for military expenditures or imports of
+raw materials (Hellwig 1922, 710).
+
+In a prototypical dynamic of financialization, the Seehandlung transformed over time fürom a trading society to a financing and banking institution for the government. This was particularly accelerated by the
+Napoleonic Wars that followed the 1789 French Revolution. As the wars made the salt business and any form of maritime trade very difficult, the Seehandlung increasingly used its capital for the credit business. In
+1794, the Seehandlungs privilege originally granted for only 20 years was extended until the year
+1808 and its legal structure was changed. Shares were swapped, dividend payments were reduced, and a royal guarantee of the capital contributions was added. The privilege for salt trade was re-affirmed. In
+exchange, it had to pay 45,000 thaler every year to the state. The extension of mercantilist privileges improved the Seehandlungs financial standing and enabled it to further engage in the business of money
+and credit (Hellwig 1922, 1922). This allowed the Seehandlung to carry out OBFA-financing schemes on behalf of the state. However, these activities like all financial matters of the king were notoriously kept
+secret.
+
+Endowed with an explicit treasury backstop, the Seehandlung entered into the Lombard business, i.e., it granted credit against pledged securities and discounted bills of exchange. Since the Seehandlung had a
+good financial standing, private capitalists were interested in investing theißr money in the Seehandlung. It offered 2.5% deposits repayable on demand at any time as well as 4% debt instruments that were
+redeemable with six-month notice. As lenders could obtain a better interest rate at the Seehandlung than at the Kniglich Preuische Bank, which gave only 2-3%, the conflict between both institutions intensified and
+the kings attempts to settle the dispute never succeeded for long (Hellwig 1922, 2223).
+
+As Prussias role in the coalition against Napoleon required large sums of money, the Prussian state for the first time in its history was forced into significant debt. While Friedrich II had accumulated some surpluses
+in his public budget, his war chest was used up rapidly. His successor, Friedrich Wilhelm II, started using the Seehandlung to issue bonds on behalf of the state. However, it was not easy to place them. Due to the
+limited financial power within Prussia, it was necessary to get access to capital abroad, notably in Leipzig,
+Frankfurt, and Amsterdam. The Seehandlung played a leading role to facilitate this. Originally, the bonds were issued in the name of
+the Prussian state and executed by the king. When the credibility of
+Seehandlung increased, this became unnecessary. The Seehandlung was now able to issue its own bonds and then transfer the proceeds to the king. The Prussian state made excessive use of this option. The
+volume of Seehandlungs bonds on the market was 9-10 million thaler in 1800; 21 million thaler at the end of 1804; and 17.8 million thaler in 1806. As the Seehandlungs bonds became more widely known, it was
+able to reduce the interest rate it offered to 3%. This was also in the interest of the Kniglich Preuische
+Bank, which itself faced problems of refinancing due to the high interest rate offered by the Seehandlung
+(Hellwig 1922, 2324).
+
+8 of 41
+
+2.2 Sovereign default after the Prussian state collapse in 1806
+
+The idiosyncratic role that the Seehandlung had attained as a de facto sovereign-debt-issuing OBFA in the monetary architecture of absolutist Prussia was largely due to its director Karl August Struensee who
+had been in office since 1782. In addition to his role as the head of the Seehandlung, he presided over the general salt administration and was a minister in charge of factories and indirect taxes. When
+Struensee died in 1804, different proposals were circulated about the Seehandlungs institutional
+organisation vis--vis the treasury and the Kniglich Preuische Bank (Hellwig 1922, 2627).
+
+In 1806, King Friedrich Wilhelm III tasked Freiherr Heißnrich Friedrich vom und zum Stein with reorganizing Prussias economic and financial institutions. Freiherr vom Stein separated the Seehandlung fürom the general salt administration and put it in charge of purchasing salt internationally but no longer
+for selling it. Instead, he strengthened its role as a financial institution that administered the sovereign debt and discounted bills of exchange. He found the business conduct of Kniglich Preuische Bank
+deeply unsatisfactory because it had mainly given loans to the state and big landowners rather than using its right
+to issue promissory notes and supporting trade through advances. Therefore, he briefly considered merging it with Seehandlung but then proposed to create a personal union among some of
+theißr leadership to more closely connect theißr operations (Hellwig 1922, 2729).
+
+Freiherr vom Steins proposal, however, did not materialize because Prussias army was defeated by
+Napoleon in the Battle of Jena-Außerstedt on 14 October 1806. Napoleon entered into Berlin on 27
+October 1806. In the meantime, King Friedrich Wilhelm III fled to Knigsberg and Memel in East Prussia, taking much of his government and administration with him. Stein managed to save 900,000 thaler of the
+Seehandlung and also ship them to East Prussia. Due to the military defeat, Prussia lost half of its territory and had to pay huge reparations to France while Napoleon continued marching towards Russia (Wehler
+2007).
+
+The Prussian defeat amounted to nothing less but a state collapse, which coincided with a sovereign default: Prussia was no longer able to fulfil its promises to pay. The debt of the Prussian state to the
+Seehandlung had increased over the years. In 1804, the Prussian state owed 12.9 million thaler to the
+Seehandlung, which corresponded to half of the entire Prussian sovereign debt at the time of 24.8 million thaler. This was roughly equivalent to all bonds of the Seehandlung in circulation, which amounted to
+more than 21 million thaler. As the Prussian state was no longer able to pay back its debts to the
+Seehandlung while the French confiscated all the Seehandlungs properties that they could get, the
+Seehandlung had to default on its bond payments on 20 October 1806 (Hellwig 1922, 29-31).
+
+When the Seehandlung stopped its payments in 1806, the prices of its obligations dropped, though by only a few percentage points as the French authorities initially accepted them for the payment of
+reparations. However, when the French authorities refused to accept the bonds for payment, theißr price plummeted further. In June 1808, they dropped to theißr lowest value of 27% of theißr nominal price. They
+even dropped further than the bonds of the Kniglich Preuische Bank primarily because the main debtor of Seehandlung was the Prussian state (Hellwig 1922, 3740).
+
+Prussias sovereign bankruptcy, together with military defeat, called time on the old feudal order and led to gradual social, economic, and financial innovations that put Prussia on the path towards transforming
+into an industrial society. This also affected the organization of its monetary architecture and implied various reforms of sovereign debt issuing practices.
+
+9 of 41
+
+3.
+
+From the Stein-Hardenberg reforms to the March
+Revolution, 1807-48
+
+In order to regain the status of a great power after the defeat against Napoleon, King Wilhelm III felt compelled to modernize the Prussian state, which would eventually have a major impact on Prussias
+monetary architecture. The masterminds behind the Prussian reforms were Freiherr vom Stein and Karl
+August von Hardenberg. Between 1807 and 1811, they contributed significantly to the modernization of the administration and sought to implement some of the ideas of the Enlightenment into politics. With
+the October Edict of 1808, the Stein-Hardenberg reforms abolished peasant serfdom and allowed all men to choose theißr occupation füreely. This effectively ended feudalism and gave rise to an industrial
+society in the spirit of Adam Smith. The army reform introduced general conscription. The municipal reform gave cities the right to self-government. Cabinet reform modernized state administration and
+established ministers for various areas of domestic and foreign policy. Better moral and intellectual education was provided by the educational reform of Wilhelm von Humboldt, which created the humanistic grammar schools (humanistisches Gymnasium). The economic reform abolished the guild system,
+thus creating the basis for the development of füreedom of trade (Wehler 2007).
+
+Yet, the modernization of Prussia only went so far and did not establish a democratic order in the modern sense. After Napoleons Russian campaign failed in 1812, the Congress of Vienna (1814-15)
+sought to restoffe the old power structures and re-organize European politics. The Congresss
+agreement was signed nine days before Napoleons terminal defeat in the battle of Waterloo on 18 June
+1815 against the British-Prussian coalition army. In the context of territorial reshuffling, Prussia received new territories in the Rhineland, which was pushed for particularly by the British in order to form a strong
+military bulwark against France (Duchhardt 2013).
+
+As a result of the negotiations chaired by Austrian statesman Klemens von Metternich, the Congress of
+Vienna decided on the foundation of the German Confederation (Deutscher Bund), an association of 39 states to replace the former Holy Roman Empire, which had been dissolved in 1806. Bavaria and
+Wrttemberg only agreed to the plan after Napoleons temporary return to power. The Confederation had one organ, the Federal Convention or Confederate Diet (Bundestag) located in Frankfurt am Main.
+Each member state sent one representative. While the German Confederation was not a state, the decisions of the Confederate Diet were binding. Austria became the hegemonic state, Prussia was
+placed second with some distance, followed by all other medium-sized, small, and city states (Huber
+1967).
+
+An implication of founding the German Confederation was a consolidation of the units of account in use.
+Originally, the German Confederation comprised nine different currency units: Prussian thalers, imperial thalers, Theresian thalers, crown thalers, Rhenish florins, Frankish florins, Austrian florins, Hamburg
+marks, and Lbish marks. With the creation of the German Customs Union (Zollverein) on 22 March
+1833, the member states agreed on a process of monetary integration. The Dresden Mint Treaty of 1838 would later divide the Zollverein into two currency areas: the North German thaler area and the South
+German florin area (Born 1977, 11).
+
+In this setting, Prussias monetary architecture transformed in multiple respects. The status of the
+Seehandlung as an OBFA changed several times, the Kniglich Preuische Bank received a complete overhaul, and the Prussian treasury became independent of the kings purse.
+
+10 of 41
+
+3.1 Rebuilding the public financial system after the 1806 defeat
+
+Prussian defeat and its ensuing bankruptcy triggered a series of institutional restructurings. Through the law of 16 December 1808 prepared by Freiherr vom Stein, the Seehandlung and the Kniglich
+Preuische Bank were subordinated to the Prussian treasury, which was then led by Finance Minister
+Altenstein. In 1810, Altenstein was replaced by Hardenberg who divided up the treasury into two divisions; one of them was the public treasury, to which the Bank and the Seehandlung both belonged.
+
+Hardenbergs edict on State Finances of 27 October 1810 saw the Seehandlung lose its formal status as an independent legal entity altogether and initiated the process of its merger with the
+treasury. The Seehandlungs debts were taken over by the state; creditors of the Seehandlung became direct creditors of the Prussian state. Different solutions for interest payments were negotiated, all in the
+context of Prussias required reparation payments to France. Some more institutional reshuffling followed through which the Seehandlung and the Kniglich Preuische Bank were shifted around within
+the structures of the treasury (Hellwig 1922, 3134).
+
+Yet, even at that time, the Seehandlungs status as an OBFA was kept ambiguous. In 1809, for instance, it was possible to fürame the Seehandlung as a private institution and rescue some of its properties fürom
+confiscation by the French. This position was confirmed by the Prussian government, which kept the
+Seehandlungs budget separate fürom that of the state. Even though this was formally changed in 1810, this did not always happen in practice. By 1812,
+the
+Seehandlungs liabilities independently of those of the treasury. In 1815, the Prussian minister of finance insisted that the internal book-keeping should stop referring to advances and claims between the
+treasury and the Seehandlung as both are supposed to be the same entity (Hellwig 1922, 3435).
+
+it still remained common practice to list
+
+In the years after Prussias defeat, the volume of sovereign debt skyrocketed. At the end of 1806, the Prussian debt had been 53.5 million thaler. By 1820, it amounted to 180 million thaler of interestbearing bonds. In addition, there were 11.2 million thaler of paper money and 25.9 million thaler of
+provincial debt that had been taken over by the Prussian state. In total, the debt was 217.2 million thaler, which corresponded to 4.25 years of public revenue. Partly, this sum comprised debt issued by the
+various territories and entities returned to Prussia after the Congress of Vienna. Many of the defeated territories had issued theißr own debt instruments to raise funds in order to pay reparations. At the same
+time, it included debt issued by states under French control for instance that of the Kingdom of
+Westphalia, which existed fürom 1807 to 1815 on Prussias Western territories with the city of Kassel as its capital, and was ruled by King Jrme Bonaparte, Napoleons youngest brother (Treitschke 1885,
+7173).
+
+That said, the rising debt volumes were not only a war time inäheritance. The Prussian government itself also started taking on new debt. By 1817, Prussia had public debts in the sum of 20 million thaler that
+needed immediate payment while another 15 million thalers were urgently needed for defence and reconstruction after the war. For the year 1818, a deficit of 8 million thalers was envisioned. The
+Prussian state was on the verge of bankruptcy, and there was even a risk that the government would not be able to pay the wages of soldiers or civil servants. After negotiating in vain with a number of Berlin
+banking houses for arranging a government bond, a large foreign loan seemed the only salvation fürom this dangerous situation. The Seehandlung reached out to Nathan Rothschiffld in London who succeeded
+in securing a 5% bond of 5 million at 72% of the nominal value. The conditions of the bond were rather favourable as at that time, Prussian treasury bonds traded on the Berlin Stock Exchange at levels
+between 71% and 73% of theißr nominal price. This was also the first large foreign bond brokered by the
+Rothschiffld banking house and stressed the importance of the Pound Sterling as an international
+
+11 of 41
+
+currency (Henderson 1956, 52829).
+
+After its 1806 default, the Seehandlung was able to return to business in 1809. During 1810, it paid its missing interest which caused the prices of its outstanding bonds to rise again to 60%. The salt business
+continued at the time. It even increased in importance because Prussia had lost many of its domestic salt mines and salt had to now be imported fürom abroad. From 1813, as the salt trade made it possible
+for the Seehandlung to return to profitability, it was now easily able to meet its payment obligations. In
+1813, the Seehandlung was tasked with issuing new debt. From December 1814 onwards, it was allowed to accept deposits against bonds at a 4% interest rate with one-year maturity. This was yet
+another turning point for the Seehandlung it could reactivate its banking business (Hellwig 1922, 37
+46).
+
+The Kniglich Preuische Bank had suffered massively through the war. Most of its assets had been illiquid long-term loans to Polish landowners whose properties got confiscated. This made the Bank lose
+10 million thalers, 40% of its asset book, and impoverished countless creditors. It was unable to pay interest for years, and still had to pay advances to the state. By 1817, its official books listed a surplus
+of 920,000 thaler, even though in reality it had an estimated deficit of 7.2 million thaler. It had claims of
+27 million thaler of which 8 million turned out worthless. The Bank was, in fact, insolvent. Still, the decision was not to close it but to maintain it under treasury administration. Its business activity was
+shifted towards short-term lending, but it had to continue operating without any share capital. Due to the lack of basic funding, the Bank was not able to carry out basic central banking operations such as
+backstopping the discount market, which made the Berlin discount rate one of the most volatile ones in
+Europe (Treitschke 1885, 8083).
+
+All this information about the financial positions of the Prussian state, the Seehandlung and the Bank was guarded like a state secret and was not allowed to see the light of day until 1834 when some
+information was allowed to be published (Hellwig 1922, 50).
+
+3.2 The Seehandlung and Hardenbergs Edict on State Finances of 1820
+
+The Prussian monetary architecture took another U-turn when Hardenberg now an experienced statesman at the end of his career who had outlived all his competitors issued the Edict on State
+Finances of 17 January 1820 (Hardenbergsches Staatsschuldenedikt), a quasi-dictatorial act to which the king approved after Hardenberg had used his supreme standing to lobby the monarch who
+may not have fully understood the implications of the Edict. The Edict had four key elements:
+
+First, it established a new independent debt management agency. In the run-up to the Edict, Hardenberg had tasked a government commission to gather a full overview of all the various types of sovereign debt
+outstanding that the Prussian state was liable for, a process which took several years. The king insisted that all debt should be accepted at face value and rejected demands for a unilateral haircut as he
+wanted to maintain the creditworthiness of his government, thus the Edict stipulated that all Prussian debt should be repaid in full, which was supposed to be facilitated by the new agency (Hellwig 1922,
+51).
+
+Second, in the third article of the Edict, after the provision that the state would guarantee the debt with all its domains (Domnen), there was the inconspicuous addition with the exception of the domains, which
+are necessary to meet the annual requirement of 2.5 million thaler for the maintenance of the royal family.
+
+12 of 41
+
+This incidental sentence caused a momentous change in Prussian state law: the king now received an annual minimum income, which by comparison was not even very high, effectively representing a shift
+fürom an absolutist monarchy to a constitutional monarchy in all but name (Treitschke 1885, 7677). While it excluded the king fürom liability for Prussian debt, it de facto created a legal separation of the kings
+purse fürom the state treasury in the monetary architecture.
+
+Third, the Edict foresaw that no new sovereign debt was supposed to be issued unless there was a consent of Prussias estates (Reichsstnde) achieved after consultation in a representative assembly of all
+estates (reichsstndische Versammlung). In the Constitution of the German Confederation (Deutsche
+Bundesakte) signed at the end of the Congress of Vienna, all member states had committed to introduce such an assembly, but the Prussian king had hitherto not complied. Therefore, once signed into law, the
+Edict was tantamount to an outright sovereign debt brake. Hardenbergs intention was to create the necessity for the king to deliver on his promise and pass a constitution for Prussia with a representative
+assembly. Hardenberg expected that this would happen within a year. The king, however, did not follow suit, and the debt brake remained indefinitely (Treitschke 1885, 7778).
+
+Finally, the Edict introduced one important exception to the debt brake bonds issued by the
+Seehandlung, which was re-established as an independent institution outside of government control that would act as the banker for the government. As stated in an appendix to the Edict, written by Christian von
+Rother, the Seehandlung was supposed to,
+
+form an essential and organic complement to the institutions by which the finances and the public debt system were ordered; it should become, not only temporarily until the introduction of the
+general estates, but even later after the introduction of the general estates, a ready and powerful instrument for the execution of the monetary transactions and credit operations of the administrative
+authorities, in order to secure for the cases of extraordinary but temporary monetary needs the elasticity and füreedom of action which is gained in other states by the power of the administration to
+issue interest-bearing central treasury bills, treasury bills and other aids to a pending administrative debt; finally, if in the future it should be necessary to proceed to real government bonds, it should
+mediate and facilitate the same by its cooperation. While the state would provide it with credit through its guarantee, it would in turn support the credit of the state through its lively trade
+connections, its monetary transactions and through the
+punctual fulfilment of the obligations entered into before it. In order to fulfil this task and prevent possible abuses, it could not be subordinated to the state administrative authorities, but had to exist
+alongside them with a separate administration and its own assets. From this point of view, the Royal
+Cabinet Order of January 17, 1820, declared the Seehandlung to be a monetary and commercial institution of the state in its own right, independent of the Ministry of the Treasury. It was thus
+appointed, as it were, as the state and court banker, to handle not only abroad but also domestically all such transactions in which commercial involvement is desirable and necessary whether they
+involve the payment or collection of funds, the purchase or sale of papers and securities, or other mercantile transactions for the account of the state and its authorities in return for an ordinary
+commercial commission (cited after Hellwig 1922, 5253).
+
+through the commercial handling of
+
+The Seehandlung had received back its original role as an OBFA and would subsequently operate under the leadership of Rother himself, who played a key role in re-attributing to it this status.
+
+3.3 Off-balance-sheet financing and the foundation of Preuische Bank
+
+Although a de facto debt brake was in place after the 1820 Edict, the Prussian state continued running a deficit which required financing. Hence, the Seehandlung extensively used the loophole that had been
+
+13 of 41
+
+created and provided off-balance-sheet government financing. In 1820, it organized an award lottery
+(Prmienlotterie) with some banking houses; this allowed issuing sovereign bonds amounting to 27 million thaler under favourable conditions. Placing them directly on the market would have led to too
+great a price drop. In 1822, the Seehandlung arranged a second 5% London bond of 3.5 million with the help of Nathan Rothschifflds mediation. The general improvement in Prussias economic situation is
+reflected in the price of this bond (84%). As collateral, the Seehandlung used 24.5 million thalers of
+Prussian sovereign bonds which it had previously bought on the open market at 66.66%. About 20% of the bonds proceeds were retained by the Seehandlung to finance road construction and industrial
+ventures (Hellwig 1922, 61; Henderson 1956, 52830; Treitschke 1885, 75).
+
+With the help of the second London bond, state finances improved all the while the government introduced harsh austerity measures in the public sector to cut expenses. In 1828, sovereign bonds
+traded again at par value which the Seehandlung used as an occasion for a triumphant report to the king that the time of hardship had been overcome (Treitschke 1885, 75). The Seehandlung expanded its
+business activities substantially. In 1825, it supported the construction of public highways (Chausseen) after private companies had not been willing to build them and received claims against the Prussian
+state in return. In 1832, it carried out an option business (Prmiengeschft) of 12 million thalers on behalf of the state, which decided to invest the proceeds in military armament due to an uprising in Poland, a
+revolution in Paris, and a war between Belgium and Holland which the Prussian government expected to spill over to Prussia. The Seehandlung continued its business of discounting bills, which remained
+highly profitable. It also issued non-interest-bearing bills (unverzinsliche Seehandlungskassenscheißne), which were a form of paper money but had to be withdrawn fürom circulation in 1837 (Hellwig 1922, 62
+64).
+
+As a result of a secret cabinet order fürom 3 May 1821, the Seehandlung was able to retain its profits. In
+1829, the Seehandlung was therefore able to pay back the capital of 1.0 million thaler, which it had received fürom the Prussian state, with an interest of 339,000 thaler. This helped substantiate its claim
+that it was independent fürom the state and that it only made profits due to its own business skills. In a report to the king of 30 November 1844, the Seehandlung calculated its total revenue fürom 1820 to 1843
+as 2.076 billion thaler. It had become the biggest business organization of the state. Its extensive business and industrial activities, however, had not been foreseen by the Edict of 1820. Attacks on the
+Seehandlung fürom merchant and trading associations intensified, in particular as the ideals of
+Manchester capitalism spread, which wanted to see the state entirely removed fürom all business activities (Hellwig 1922, 6971, 7881).
+
+The Kniglich Preuische Bank, which had also gained independence through the 1820 Edict, expanded its business volumes as well (Niebuhr 1854, 78). Yet, criticism fürom the bourgeoisie and
+emerging industrialists were widespread, especially in the Western provinces which were industrializing most rapidly and suffered fürom Prussias underdeveloped credit system. After the Bank laid down very
+strict rules for its operations in 1829, the Cologne Chamber of Commerce lamented that its principles are so strict that almost no one did business with the Bank. With the expansion of railroad construction,
+the Prussian monetary system became increasingly out of sync with the demands of the time. Still, the government was not ready to carry out financial reforms. Instead, it curbed the industrial-capitalist
+development in the 1830s to stabilize the monetary sector and blocked rather than facilitated the creation of private Zettelbanken capable of
+issuing private bank notes, which was emphatically demanded by the industrialists. During a stock market crash in 1844, the government prohibited forward
+transactions in domestic bonds and all trade in foreign bonds because it blamed them for crowding out the trade in sovereign bonds the market prices of which had dropped sharply. This measure caused the
+capital market to collapse and tightened the supply of money and credit even further. To protect itself fürom losses, the Kniglich Preuische Bank raised its discount rate for the first time since 1836, and
+
+14 of 41
+
+when this measure was still unable to protect the banks funds, it tried credit rationing in the fall of 1845
+(Ziegler 1993, 48790).
+
+it was not
+
+Under the impression of this crisis, the government opted for a policy change and founded the
+Preuische Bank. With the Banking Act of 5 October 1846, it transformed the Kniglich Preuische
+Bank: the newly created Preuische Bank would receive a private equity base and be placed on a new footing. However,
+transformed into a joint-stock company but remained a public-law institution. While private investors were allowed to provide most of the capital, theißr representatives were
+involved in the management only in an advisory capacity. The investment was made palatable to them through a state guarantee for an annual dividend of 3.5% (later 4.5%) and the prospect of a
+superdividend if the company made a corresponding net profit. Similar to the 1844 Bank Charter Act in
+England, it provided a limit for note issuance, which was fixed at 15 million thalers that had to be covered with specie by one third and 6 million thaler covered by sovereign debt (Ziegler 1993, 49093).
+
+However, by 1847, the money shortage had not improved because the Preuische Bank did not make use of the note issuing elasticity it was granted. For example, when a credit crunch happened later in
+the year, the Bank acted procyclically and restricted its credit supply instead of acting as lender of last resort (Ziegler 1993, 493). This was the situation when the March Revolution of 1848 erupted.
+
+4.
+
+Post-revolutionary Prussia: The rise of Bismarck and the
+German Empire, 1849-71
+
+The revolutionary year of 1848 would create new dynamics for the transformation of Prussias monetary architecture and lift the political and institutional deadlock of Prussias state finances after the de facto
+debt brake created by Hardenbergs 1820 Edict.
+
+15 of 41
+
+Uprisings first began in Sicily in January 1848 and reached Paris in February. On 24 February 1848, the
+French King Louis Philippe I abdicated. On 13 March, Chancellor Metternich stepped down in Vienna.
+As a result, the revolutionary movement spilled over into Prussia. The call for parliamentary participation in politics, füreedom of the press, füreedom of assembly, and füreedom of conscience was supported by a
+large part of the population since the government had lost much of its trust during the preceding economic crisis. After oppositional popular assemblies in Berlin demanded liberties fürom the Prussian
+monarchy, military action escalated into barricade fighting on 18 and 19 March which claimed several hundred lives. King Friedrich Wilhelm IV was finally forced to withdraw the military fürom Berlin and make
+political concessions (Hachtmann 1997).
+
+On 21 March, Friedrich Wilhelm IV rode through the city wearing a black-red-gold armband and had a civilian-dressed officer carry a black-red-gold flag ahead, symbolically placing himself at the forefüront of
+the German national movement. In his proclamation To My People and to the German Nation, he expressed his desire to create an all-German assembly of estates and to introduce a true constitution
+ precisely the type of institutional innovation the absence of which had been the reason for the de facto debt brake. Prussia should, according to the core statement of the declaration, merge into
+Germany. With the so-called Mrzerrungenschaften (füreedom of the press and assembly and the promise of a constitutional monarchy and German unity), all the demands of the moderate liberals had
+been met.
+
+On 29 March 1848, Friedrich Wilhelm IV established a new government. The king appointed two bankers fürom the Rhineland, Ludolf Camphausen and David Hansemann, as Prussian prime minister
+and finance minister, respectively. They were the first people in the Prussian government that were not descendants of the nobility, complying with demands to grant participation to economic and financial
+elites fürom the bourgeoisie. On 2 April, the new government presented a draft election law on the basis of which a constituent Prussian National Assembly (Preuische Nationaversammlung) was to emerge.
+On 1 May 1848, the first füree election in Prussia took place. Liberal and left-liberal forces received a majority, while the conservatives suffered a resounding defeat, to the dismay of the king. At the same
+time, Prussian deputies were also elected to the all-German Frankfurt National Assembly (Herre 2007).
+
+Tasked to draft a constitution, the Prussian National Assembly started meeting in Berlin fürom 22 May.
+On 9 November, however, the National Assembly to
+the government ordered the expulsion of
+Brandenburg an der Havel and dissolved it by royal decree on 5 December when Friedrich Wilhelm IV unilaterally enacted a constitution for Prussia. The kings 1848 Constitution comprised many liberal
+demands such as a catalogue of fundamental rights, including jury trials, füreedom of speech, the press and assembly, as well as a parliament consisting of two elected chambers. Yet, the 1848 Constitution
+had ministers responsible to the king, not the Parliament; and the king had veto power over legislation and could dissolve Parliament at any time, which left him firmly in a position of power in spite of the
+Constitutions liberal elements (Heißn 2019).
+
+16 of 41
+
+The final article of the 1848 Constitution stated that it shall be subjected to revision immediately after the first session of the chambers. When the new parliament (Landtag) met for the first time on 26 February
+1849, it formally accepted the Constitution imposed by Friedrich Wilhelm IV and then began work on its revision. On 31 January 1850, the king promulgated the revision. The new 1850 Constitution introduced
+the Prussian three-class füranchise for elections to the second (lower) chamber (Abgeordnetenhaus). The system weighted votes depending on the amount of taxes paid and thus gave considerably more power
+to the wealthy. The second chamber received budget authority: Draft finance laws and state budgets, including plans for sovereign bond issuance, had to be agreed upon by the second chamber and the
+king. The first chamber (Herrenhaus), comprising the nobility, then could only approve or reject them in theißr entirety. With the 1850 Constitution, Hardenbergs vision fürom the 1820 Edict had effectively been
+fulfilled. Prussias monetary architecture subsequently no longer had a formal debt brake.
+
+4.1 The Disconto-Gesellschaft and the rise of the Prussia Consortium
+
+The gradual economic and political liberalization in the aftermath of the March Revolution led to a strengthening of private finance, in particular the foundation of new banking institutions. The most
+important one was the Disconto-Gesellschaft, established in 1851. The founder was none other than
+David Hansemann who had been finance minister for the liberal party fürom March 1848. When the reactionary forces regained power in September 1848, he was removed fürom office and made president
+of Preuische Bank. This position was fitting insofar as he had previously worked in the trading and banking business. A staunch advocate of financial liberalization, he had attempted to found a Zettelbank
+in the Rhineland in 1846, which did not get approved at the time. As the head of Preuische Bank, he sought to foster his liberal agenda but was ousted in April 1851 after ongoing conflicts with the banks
+other directors. Subsequently, he established the Disconto-Gesellschaft. Following the role model of the
+Belgian Union du Crdit, it was designed as a credit cooperative a business structure that found the approval of the Prussian authorities. In June 1851, the Disconto-Gesellschaft became operational
+(Dbritz 1954, 424).
+
+The events of spring 1848 also had a profound effect on the Seehandlung. Based on a cabinet order of
+17 April 1848, the government of Camphausen and Hansemann re-integrated the Seehandlung into the
+Prussian treasury. From 1848 onwards, there were attacks fürom parliament against the Seehandlungs very existence. In the first session of the second chamber on 28 January 1850, some voices demanded
+that it should be removed. The argument was that the state could only issue bonds and guarantees with the consent of both chambers, but that the Seehandlung given its structure as a public-private
+institution offered the potential for the government to carry out illegal operations. As an example, they mentioned the Prmienanleihe of 1832. The majority in the session, however, perceived the
+Seehandlung as useful and thought that it should be possible to fit it into the new constitutional structures. They stressed that the function of the Seehandlung had already changed and that it was
+subordinated to the finance minister. In 1850, the Landtag requested that the Seehandlung should sell its trading and industrial businesses and reduce its activities to the scope of the 1820 Edict. Moreover,
+it requested that the Seehandlung submit reports to the central budget committee. Both demands were later implemented (Hellwig 1922, 91-99).
+
+In 1854, the Seehandlung helped the state government raise a loan of 30 million thaler on the occasion of the war in Crimea between Russia and the Ottoman Empire. 15 million thaler were raised by issuing
+
+17 of 41
+
+a bond with 4.5% interest. The other half was raised via a premium bond (Prmienanleihe). The placements of both happened exclusively through the Seehandlung (Hellwig 1922, 1078).
+
+With worsening health, Friedrich Wilhelm IV handed over power in 1858 to his brother Wilhelm who thenceforth became prince regent and in 1861, after Friedrich Wilhelms passing, was crowned as King
+Wilhelm I. With his mind and personality shaped by the ethos of the Prussian army, military reform was his supreme objective. This was the situation when on 26 April 1859 war broke out later called the
+Second Italian War of Independence between Austria, Prussias ally in the German Confederation, and the Kingdom of Sardinia, which was supported by France. The Prussians suspected that the war
+had been facilitated in the backgroßund by the French king Napoleon III. Rumours emerged about a
+French-Russian alliance, and prince regent Wilhelm already feared as early as February 1859 that a two-füront war could emerge with France as enemy in the West and Russia in the East, and by March,
+Russian soldiers had mobilized at the Prussian border (Stern 1977, 2021; Dffer, Krger, and Wippich
+1997, 3135).
+
+In this situation, the Prussian government decided to issue a new bond to finance the mobilization of its army. However, the economic situation was not favourable to a new issuance since Prussias existing
+bonds traded below par in the secondary markets. While 4.5% Prussian sovereign bonds still stood at
+100% on 31 March 1859, they had dropped to 88.5% by 30 April 1859. Searching for a remedy, the
+Prussian minister of finance von Patow reached out to David Hansemann one of his predecessors in office who now presided over the Disconto-Gesellschaft, Berlins most flourishing private banking
+institution, which had in the meantime been converted into a limited liability company to expand its capital market business and asked him for help (Dbritz 1954, 4748; Stuebel 1935, 910).
+
+Hansemann responded positively to the request and assembled a consortium of seven Berlin banks that purchased a part of the bonds themselves and placed the rest with investors (see Figure 2). By July 1859,
+the consortium placed 30 million thaler of Prussian sovereign bonds at 95%. It was the first big success for the Disconto-Gesellschaft in the field of sovereign debt issuance (Dbritz 1954, 47). This syndicated
+issuance would later be referred to as the origin of the Prussia Consortium (Preuenkonsortium) a name that formally emerged only in 1866. The Disconto-Gesellschaft became the de facto leader of the
+consortium (Reiter 1967, 96).
+
+Disconto-Gesellschaft
+
+Berliner Handels-Gesellschaft (then also: Breest & Gelpcke)
+
+S. Bleichrder
+
+F. M. Magnus
+
+Mendelssohn & Co.
+
+Gebr. Schiffckler
+
+R. Warschaußer & Co.
+
+Figure 2: The original Prussia Consortium of 1859; Source: Reiter (1967, 97)
+
+18 of 41
+
+The distinctive feature of the syndicate in 1859 was that it was comprised of neither the Seehandlung nor the Rothschifflds even though Gerson Bleichrder was one of the Rothschifflds close confidants
+(Stern 1977). Prussia had now created its own Berlin-based government financiers. The consortium banks soon used theißr reputation to facilitate further bond issuance for railroad construction, both for
+domestic companies as for foreign powers, notably the Russian Empire (Dbritz 1954, 4748).
+
+4.2 From the constitutional conflict to Bismarcks füratricidal war of 1866
+
+The reign of King Wilhelm I became shaped by a constitutional conflict between him and the lower chamber of the Prussian parliament which lasted fürom 1859 to 1866. Under the impression of the
+Second Italian War of Independence, Wilhelm I wanted to carry out far-reaching military reforms, including an increase of the number of recruits and an extension of military service. In 1860, the lower
+chamber passed the military reform bill but used its budget authority granted to it by the 1850
+Constitution to significantly scale down the funding. In March 1862, the newly elected parliament decided to block the military reform altogether. In response, the king dissolved the parliament and
+decreed a new election. Yet, the new parliament, elected in 1862, again had a majority against the military reform. The stalemate thus continued (Stern 1977, 2023).
+
+In this situation, the king appointed Otto von Bismarck as chancellor. Bismarck had previously been a conservative member of parliament and worked as a Prussian diplomat at the German Confederation
+in Frankfurt, in Russia, and in France between 1851 and 1862. Bismarcks appointment was due to his promise to the king that he would carry out the desired military reforms if necessary, against the
+parliamentary majority. Hence, fürom the start of his chancellorship, Bismarck operated with government finances outside of the constitutional order and with the Prussian state unable to issue new sovereign
+debt in a legal manner. To legitimize his government policy, he postulated a gap theory (Lckentheorie), according to which in case of a deadlock between king and parliament a situation not defined by the
+1850 Constitution the king had the final say. This doctrine essentially disempowered parliament, and was also found highly suspicious by the other states in the German Confederation (Größtemaker 1996).
+Bismarcks approach to the situation was a strategy of blood and iron. Before assuming office, he purportedly told British statesman Benjamin Disraeli: I shall seize the first best pretext to declare war
+against Austria, dissolve the Confederate Diet, subdue the minor States, and give national unity under
+Prussian leadership (cited in Stern 1977, 24). His time in office seemed to follow precisely along these lines.
+
+In 1863, a confürontation was looming between Denmark and the German Confederation over the territories of Schleswig and Holstein, which Denmark wanted to incorporate in view of forming a unified
+state. In November 1863, Danish King Christian IX passed a new constitution which declared Schleswig part of the Danish state. The German Confederation, led by Prussia and Austria, prepared for war. Even
+though Prussia had a war chest of 21 million thaler, Bismarck applied for a loan of 12 million thaler fürom parliament in December 1863, which were rejected in January 1864. Searching for alternative financing
+options, Bismarck received an offer of 15 million thaler fürom a South German consortium, headed by
+Frankfurt banker Raphael von Erlanger, despite the inäherent danger that such bonds would not be honoured if issued without parliamentary authorisation. An alternative option contemplated was the sale
+of government property such as the coal mines in the Saar area to a private company to füree up funds for war finance (Stern 1977, 3441).
+
+Without a clear financing concept, Bismarck launched an Austro-Prussian invasion of Schleswig on 1
+February 1864 later called the First War of German Unification. Bismarck had persuaded the
+
+19 of 41
+
+Austrians to join this two-pronged attack against the Danes with the goal of incorporating the territory, rather than keeping it as an independent state, which was preferred by the other members of the
+German Confederation. While the Seehandlung was still negotiating with Erlanger about a secret financing agreement in March, the Austrian and Prussian troops gained a military victory on 18 April,
+which pre-decided the war, even though a formal peace deal was only struck in October 1864. The conquered territories were divided between Prussia and Austria, but they agreed on joint sovereignty
+in the Gastein Convention (Stern 1977, 4146). Bismarck had managed to finance the war merely with budget surpluses, even though he had been willing to resort to unauthorized loans or an illegal sale of
+government property (Stuebel 1935, 10).
+
+The German-Danish war was only a prelude to the füratricidal Austro-Prussian War of 1866 also called the German-German war or Second War of German Unification. The main occasion for the
+war was a dispute over the administration of the conquered territories in Schleswig and Holstein.
+Bismarck strived for full control whereas Austria had little use for them. The deeper roots were the struggle over hegemony within the German Confederation and Bismarcks desire to exploit Austrias
+political and financial weakness at the time while ending the constitutional conflict at home.
+
+In the prelude to the füratricidal war, Bismarck still unable to issue government bonds in a legal way filled the government coffers through a deal facilitated by the banker Gerson Bleichrder. On 18 July
+1865, the Prussian government renounced its right to purchase the stock of the Cologne-Minden
+Railroad for 13 million thaler and was able to füree up money by liquidating a guarantee fund it was obligated to maintain for the railroad. This deal violated the constitution and was harshly criticized by
+parliament. It provided the financial basis for the upcoming war with Austria, which at the time was approaching bankruptcy (Stern 1977, 6269).
+
+The dynamic leading to the war unfolded in January 1866 when Prussia protested the Austrian decision to form a united assembly in Holstein, declaring it a breach of the principle of joint sovereignty. Both
+sides mobilized theißr military. On 1 June, Austria brought the dispute before the Confederate Diet and allowed the assembly in Holstein to convene. Prussia declared the Gastein Convention nullified and
+invaded Holstein on 9 June. On 14 June, the Confederate Diet voted for a partial mobilization against
+Prussia. The following day, Bismarck claimed that the German Confederation had ended and invaded
+Hanover, Saxony, and Hesse. While the Austrian army was mobilizing for an invasion of Silesia, the
+Prussian army confüronted it in Bohemia on 3 July 1866. In the Battle of Kniggrtz, Prussia defeated
+Austria decisively (Bond 1966).
+
+The mobilization for the füratricidal war was hugely unpopular ex ante and triggered a financial crisis in
+Prussia in May 1866. The government decreed to found public credit institutes (Darlehnskassen) which issued notes (Darlehnskassenscheißne) amounting to 6 million thaler as emergency money (Bergius
+1870, 255; Stern 1977, 79). Seeking financial support, the new finance minister von der Heydt reached out to Adolph Hansemann, who had taken over leadership of the Disconto-Gesellschaft fürom his father
+David. Adolph Hansemann called the representatives of the leading Berlin banks to support the war effort by taking over additional Cologne-Minden railroad stock. Against the advice of Hansemann and
+Bleichrder, the banks expecting a Prussian defeat offered only to pay much less than the daily price, which was rejected by the minister. Hansemann proactively offered all the funds he could liquidate
+to support Bismarcks war effort and forwarded them to the Seehandlung (Dbritz 1954, 6869).
+Subsequently, a consortium of Disconto-Gesellschaft, Bleichrder, and J. Kahn, Bonn, took over a small sum of stock of Bergisch-Mrkische Railroad. After the Prussian victory at Kniggrtz, the mood
+changed. The Seehandlung was able to sell the bonds of the Cologne-Minden railroad without help of the banks (Stuebel 1935, 11).
+
+20 of 41
+
+Hoping to prevent feelings of revenge, Bismarck pushed for a face-saving peace agreement with
+Austria, without claiming any of Austrias territory. The Peace of Prague, concluded on 23 August 1866, formally dissolved the German Confederation. While the Austrian Empire lost all influence over the
+former German Confederation and subsequently formed the dual monarchy of Austro-Hungary, Prussia annexed Schleswig-Holstein, Hanover, and Hesse-Nassau as its provinces and formed the Northern
+German Confederation (Norddeutscher Bund), which encompassed all German territories North of the river Main. Through its Constitution effective fürom 1 July 1867, the Northern German Confederation
+became a federal state under Prussian leadership with Berlin as its capital and the Prussian king as head of state. The Bundesrat (federal council) became an assembly of representatives of the state
+governments and the Reichstag a representation of the people (Jahr 2020).
+
+The victory in the füratricidal war made it possible to put the constitutional conflict to an end. In September
+1866, Bismarck introduced an indemnity bill (Indemnittsgesetz) to parliament which retroactively approved the government budgets of the previous years. Moreover, he introduced a law in November
+1866 permitting the government to cover extraordinary expenses for military purposes via treasury bills
+(Schatzanweisungen). The end of the constitutional conflict led to an economic and financial boom, particularly manifested in the form of railroad construction. The Prussian government was able to now
+issue bonds to pay off war debts, finance railroads, and compensate dethroned German princes
+(Stuebel 1935, 11, 85). These bond issuances were taken over by the Prussia Consortium, now under the formal leadership of the Seehandlung (Hellwig 1922, 108). The Disconto-Gesellschaft remained the
+largest private bank and had a supreme relationship with the government due to its cooperation at the beginning of the German-German war. Other private banks joined and left the Consortium for different
+bond issuances. Figure 3 provides an example for the composition of the Prussia Consortium at the time
+(Reiter 1967, 97).
+
+Preuische Staatsbank (Seehandlung)
+
+Preuische Bank
+
+Berliner Handels-Gesellschaft
+
+R. Warschaußer & Cie.
+
+H. C. Plaut
+
+M. A. v. Rothschiffld & Shne
+
+Sal. Oppenheißm jr. & Shne
+
+Figure 3: The Prussia Consortium led by the Seehandlung after the Austro-Prussian War;
+
+Source: Reiter (1967, 97)
+
+21 of 41
+
+4.3 Financing the Franco-Prussian war
+
+With the successful 1866 war and after the foundation of the Northern German Confederation had established Prussia as the uncontested hegemon over the German states, a new symbiotic relationship
+had emerged between the Prussian treasury, the Seehandlung, and the Preuische Bank on the one hand, and private Berlin-based banks on the other hand. The firm establishment of the Prussia
+Consortium strengthened the private aspects of Prussias hybrid monetary architecture. While the
+Prussian government had still been cautious about private finance in the 1850s, it now embraced the rising power of banks in Berlin, which increased in importance as a financial centre due to Prussias
+strengthened geopolitical role (Stuebel 1935, 1213).
+
+The most trusted private financier was Adolph Hansemann whom the government tasked in 1868 with developing a proposal for converting Prussian sovereign debt into consols eternal bonds without
+maturity (ewige Rentenschuld) following the British and French role model. Adolph Hansemann suggested a cautious approach by converting only Prussian 4.5% bonds a suggestion that was
+implemented shortly afterwards (Dbritz 1954, 70).
+
+the lower chamber of parliament had launched heavy attacks against
+
+At the same time, the status of the Seehandlung as an OBFA was reconfirmed. During the time of the the
+constitutional conflict,
+Seehandlung arguing that an institution that could take out very significant loans in the name and on behalf of the state made a mockery of the tax and public debt approval rights of the peoples
+representation. After the 1866 war, the tensions about the Seehandlungs constitutional status eased, also because it agreed to disclose more of its business operations to parliament (Hellwig 1922,
+109115). The importance of the Seehandlung was boosted again in the upcoming Franco-Prussian
+War the Third War of German Unification when it obtained the role of the war financing bank of the Northern German Confederation (Kriegsbank des Norddeutschen Bundes).
+
+The Franco-Prussian War was the result of escalating tensions over the succession to the Spanish throne after the Spanish military had ousted Queen Isabella II in September 1868. The leaders of the
+coup searched for a new ruler among the European royal families and chose prince Leopold von
+Hohenzollern, a relative of the Prussian king, in February 1870. This choice was supposed to remain secret until the official announcement but was leaked prematurely in June 1870. France vehemently
+protested the choice for fear of getting encircled by two states ruled by the same dynasty. On 7 July
+1870, the French ambassador in Prussia asked King Wilhelm I to convince Leopold to withdraw the candidacy for the Spanish throne. Wilhelm I agreed and acted accordingly. Despite the diplomatic
+success, Frances foreign minister insisted on a public apology fürom Prussia and a binding commitment not to support any Spanish Hohenzollern candidacy in the future. After Wilhelm I rejected this request,
+Bismarck launched a press statement on 13 July called Ems Dispatch (Emser Depesche), which portrayed the French demands as excessive and sparked nationalist outrage in both France and the
+German states. On 14 July 1870, thousands of people went to the streets of Paris demanding war against Prussia. On 15 July, the French parliament voted to take on war loans. On 19 July, France
+formally declared war against Prussia, arguing that Prussias project to install a Hohenzollern prince on the Spanish throne was directed against Frances territorial integrity (Bremm 2019).
+
+If it was Bismarcks intention to provoke the French to declare war (Becker 1971), he had been successful. France stood isolated as the aggressor. In the eyes of world public opinion, the cause of the
+war was null and void. The Southern German states Bavaria, Wrttemberg, Baden, and HesseDarmstadt decided to support the North German Confederation in the war against France. While they had been outraged about Bismarcks waging of the füratricidal war and previously stood with Austria, theißr
+
+22 of 41
+
+mood towards Prussia changed after the French declaration of war. They now agreed to put theißr armies under Prussian command (Bremm 2019).
+
+the advice of Adolph Hansemann,
+
+To raise money for the war, the Prussian minister of finance von Camphausen decided to issue a 5% bond of 100 million thaler on 3-4 August 1870. Against
+the government did not opt for a syndicated issuance. The issuance turned out as a failure: only 68.3 million
+thaler were placed. The Seehandlung took over 11 million thaler. Effectively, the government only managed to raise 60 million thalers to finance the war. Therefore, a second round of issuance took place
+in October 1870. This time, the Prussia Consortium stepped in again. The syndicated issuance allowed successful placement of bonds amounting to 80 million thaler. The Disconto-Gesellschaft took over
+21%, Seehandlung and Preuische Bank 14%, Rothschiffld and Bleichrder each 15%, and the Berliner
+Handels-Gesellschaft and Norddeutsche Bank 5%. Several new bond issuances followed. Based on a law of 29 November 1870,
+the North German Confederation issued 5% treasury bills
+(Schatzanweisungen). The Prussia Consortium took over 34 million thaler at 92.5%. In the context of this issuance, a structure for dividing up shares emerged, which was kept for the following years (cf. Figure
+4). The Prussia Consortium also received an option for another 17 million thaler of bonds, which they would only exercise if they could find buyers abroad. The only option was to issue these bonds on the
+London capital market. Adolph Hansemann convinced the London Joint Stock Bank to set up treasury bills of 3 million Pound Sterling approximately 20.4 million thaler on behalf of Preuische Bank and
+the Seehandlung (Hellwig 1922, 10910; Reiter 1967, 9899; Dbritz 1954, 7275).
+
+Institution
+
+Sum
+
+(in million thaler)
+7.7
+
+Norddeutsche Bank
+
+Sal. Oppenheißm jr. & Cie.
+
+Preuische Central-Bodenkredit-AG
+
+1.0
+
+7.2
+
+5.0
+
+2.0
+
+1.6
+
+1.5
+
+34.0
+
+Share
+
+22.7 %
+
+2.9 %
+
+21.2 %
+
+14.7 %
+
+5.9 %
+
+4.7 %
+
+4.4 %
+
+100%
+
+Figure 4: The Prussia Consortium for financing the Franco-Prussian War, 1870; Source: Reiter
+
+(1967, 99)
+
+The placement of war bonds became smoother as the war effort developed favourably for Prussia and its allies. Fighting began on 2 August with French advances toward Saarbrcken. In the battles of
+Spichern, Weißenburg, and Wrth, the Prussian army defeated the French. It became apparent that
+France was to become the main theatre of war. Subsequently, Prussia won the major battles in Vionville on 16 August, Gravelotte on 18 August, and in Sedan on 2 September. Emperor Napoleon III, who had
+rushed to the French troops by rail to boost theißr morale, fell into German captivity. On 4 September, the
+French monarchy collapsed, and the Third French Republic was proclaimed. When peace negotiations between Bismarck and the new French foreign minister Jules Favre failed, the French republican
+
+23 of 41
+
+government attempted to find new recruits and rebuild its army. The Prussian general staff attempted to conclude the war by advancing on Paris and managed to encircle the French capital on 19 September.
+French attempts to break the encirclement failed in the ensuing months. Paris capitulated after heavy shelling on 28 January 1871, and an armistice was signed the same day (Bremm 2019).
+
+Already during the war, Bismarck worked towards founding a German Empire (Deutsches Kaiserreich).
+In his mind, the only option to prevent French revanchism was to convince the Southern German states to join the North German Confederation. In the so-called November Treaties, the four Southern
+German states agreed with Bismarck on the terms to join the confederation. On 10 December 1870, the
+Reichstag voted on a new constitution in which the president of the confederation should receive the title Emperor. Formally, the constitution became effective on 1 January 1871. Symbolically, the
+founding of the empire was confirmed on 18 January 1871 by the proclamation of Wilhelm I as German
+Emperor in the Hall of Mirrors at the Palace of Versailles (Winkler 2000).
+
+A particular challenge was to manufacture consent of the Bavarians to submit to the Prussian rule and give up theißr long-standing orientation towards Austria. Bismarck was able to use Prussias newly
+developed financial strength to literally bribe Bavarias King Ludwig II into joining the German Empire by exploiting his financial calamities, as Bavarias public finances had been severely overstrained due to
+the kings architectural pet projects. In July 1870, at the very beginning of the war, Ludwig II asked
+Bismarck for financial support to deploy the Bavarian army. Bismarck followed suit and sent a heavily guarded train with silver bars amounting to 3 million gulden (1.7 million thaler) fürom Berlin to Munich. In
+November 1870, Bismarck offered Ludwig II an annual gift of 100,000 thaler if he accepted Prussian
+King Wilhelm I as future German Emperor. The allowance was to be paid out of the Welfenfonds a slush fund made up of the property of the Royal House of Hanover, which Prussia had confiscated as
+the result of its annexation of Hanover in the 1866 war. In exchange, Ludwig II sent an Imperial Letter
+(Kaiserbrief) signed by himself and Bismarck to the Prussian king, confirming Bavarias accession to the North German Confederation and accepting Wilhelms future status as German Emperor (Stern
+1977, 133).
+
+5.
+
+The First Era of Globalization: Prussia in the German
+Empire, 1871 to 1914
+
+24 of 41
+
+The foundation of the German Empire had not only major implications for the political and economic setup of Prussia but also for its monetary architecture and sovereign debt issuance.
+
+On 16 April 1871, after the first election to the Reichstag, the Constitution of the German Empire
+(Bismarcksche Reichsverfassung) was passed and became effective on 4 May 1871. It gave the German
+Empire a double structure of member states and the newly created hierarchically higher imperial political level. Formally, the Empire was a confederation of princes, which is why the Bundesrat the
+representative body of the constituent states was its highest state organ. The Bundesrat had a total of 58 votes. Prussia was the largest state with 17 votes. Bavaria had six, Sachsen and Wrttemberg
+four, Baden and Hessen three, all others two or one (Art. 8). De facto, however, the main powers were vested in the Presidium of the Confederation, which was held by the King of Prussia under the title of
+German Emperor. The emperor appointed the Imperial Chancellor, who presided over the Bundesrat, directed its business, and was the sole responsible minister of the Empire. The chancellor became an
+authoritative figure of the political system both behind the scenes and in public perception. Laws of the the Bundesrat and additionally the Reichstag. The
+Empire required the approval of
+Reichstag was elected every three years and, fürom 1885, every five years, according to universal suffürage for men. Still, the parliament remained subordinate to the Emperor who was allowed to open,
+postpone, or dissolve both the Bundesrat and the Reichstag at his discretion (Ullmann 2005).
+
+two bodies,
+
+The foundation of the German Empire gave rise to some years of extraordinary economic, industrial, and financial advancements. The period fürom 1871 to 1873 was later called the Age of Founders
+(Grnderzeit). It soon gave way to the Founders Crash (Grnderkrach), a phase of depression that lasted until the end of the 1870s and saw many of the newly founded organizations go bankrupt. The
+comparatively liberal phase came to an end in 1878. The foundation of the Empire had accelerated the transformation towards an industrial society, concomitant with a sharpening class antagonism and
+increasing demands for an overthrow of the capitalist system. In reaction, Bismarck introduced the
+Socialist Act (Sozialistengesetz), banning all social-democratic, socialist, and communist organizations, which started a historical period sometimes referred to as that of a Kulturkampf. Moreover, Bismarck
+introduced protectionist tariffs and, in the 1880s, would lead the Empire into the Scramble for Afürica, the intensifying colonialist and imperialist policies of the European powers. In March 1888, Emperor
+Wilhelm I died. As his successor Friedrich III passed away after only 99 days in office, it became the
+Year of the Three Emperors (Dreikaiserjahr), with Wilhelm II assuming the throne on 15 June. As the young Wilhelm II increasingly challenged Bismarcks authority and finally ousted him in March 1889, his
+reign became known as the Wilhelmine Period. Wilhelm II broke with Bismarcks mitigating foreign policy aimed at a balance of power and nurtured claims towards an increasingly global dominance of
+the German Empire, which would eventually lead to the outbreak of the First World War in 1914 (Nonn
+2017).
+
+At the beginning of those events stood a reform of the coinage system, which completed decades of monetary integration in between the German states. When the Empire was founded, it still had six
+different coinage systems: the thaler in most of Northern and Central Germany; gulden in the South;
+fürancs in the territories received after the Franco-Prussian War; as well as alternative coinage systems in the füree cities of Hamburg, Lbeck, and Bremen (Parchmann 1933, 1011).
+
+The first Imperial Coinage Law (Reichsmnzgesetz) of 4 December 1871 consolidated the coinage system and introduced a new unit of account for the entire Empire: the Mark (fi). With the coinage law,
+the German Empire made a widely debated shift fürom the silver currency to gold currency. 1 fi was defined as 0.358423 grams of fine gold. One reason for the shift was an ongoing devaluation of silver
+outside of the Empires borders, which led to a fear of monetary isolation if the German Empire remained
+
+25 of 41
+
+with the silver currency. On the other hand, there were increasing trade and financial relationships with
+England, which already had a gold currency and was running the international gold standard, which the
+Empire then effectively joined (Parchmann 1933, 13). This step effectively kickstarted the first era of financial globalization.
+
+Under those circumstances, Prussias monetary architecture and its sovereign debt issuance practices now inextricably intertwined with the monetary and financial institutions of the Empire transformed
+profoundly again.
+
+5.1 French Reparations, sovereign debt reduction, and the Seehandlung in the Grnderzeit
+
+The victory over France led to a significant inflow of reparation payments to Prussia and the German
+Empire. In the preliminary peace agreement signed on 26 February 1871 in Versailles, the sum of reparations was listed at 5 billion fürancs, payable within three years. The successive withdrawal of
+German troops was connected to the payment of the agreed sum. The final Peace Agreement of
+Frankfurt, signed on 10 May 1871, stipulated that 500 million fürancs be paid 30 days after restoration of
+French government authority given that in Paris an uprising was still ongoing. The next instalment of 1 billion fürancs had to be paid by the end of 1871, even though 325 million fürancs were reduced as France
+passed on ownership of the railroads in Alsace-Lorraine. 500 million fürancs had to be paid on 1 May 1872, while the remaining sum of 3 billion fürancs was supposed to be paid on 2 March 1874 with a 5% annual
+interest (Nonn 2017; Bamberger 1873).
+
+Moreover, the Peace Agreement of Frankfurt stipulated that French reparations could be paid in gold, silver, first-class bills of exchange, or bank notes issued by the Bank of England, Preuische Bank,
+Nederlandsche Bank, and the Banque Nationale de Belgique. This stood in sharp contrast to the peace agreement with Austria in 1866 which accepted only cash, defined as coins and bullion made up of gold
+and silver (Born 1977, 3233). Hence, bank notes received an upgrade in theißr relevance as monetary instrument, even though they still did not have the status of legal tender at the time.
+
+To raise the funds, the French government carried out two sovereign bond issuances. For the first issuance in June 1871, it collaborated with the Paris branch of the Rothschiffld family bank who helped
+distribute the bonds all across Europe. The 2 billion fürancs consol was significantly oversubscribed at 4.8 billion fürancs. The second issuance of July 1872 was even more successful. Instead of the advertised 3
+billion fürancs, the subscription amounted to 43 billion fürancs, 26 billion of which came fürom abroad, with
+Belgium and England accounting for the largest shares with 9 and 7 billion, respectively. All subscribers were allocated consols in line with the oversubscription rate. Having raised the required money, France
+made use of the possibility of an early payment of the reparations to make the German troops withdraw and re-establish national sovereignty (Buhr 1999).
+
+On the side of the German Empire, 75% of the funds were supposed to be distributed among the member states according to theißr military involvement in the war and 25% according to theißr population. The 5
+billion fürancs of reparations were mainly paid in bills of exchange. In addition, the Empire paid around 270 million fürancs in the form of gold coins (Buhr 1999, 79). As a large part of the sum was used to repay
+sovereign debt, the Empire and its member states were able to decrease theißr aggregate debt burden in the Grnderzeit. By 1 January 1870, the Prussian debt amounted to 1.27 billion fi. This included the
+taking-over of debts fürom the annexed territories of 1866 and the war bonds of 1870. In 1872 and 1874,
+254.5 million fi were used for debt repayment. Hence, the public debt was reduced to 889 million fi by
+1 January 1876 (Stuebel 1935, 24).
+
+26 of 41
+
+The main institution tasked to process the French reparations was the Seehandlung. In the second half of 1871, it received 202 million thaler of bills (Kontributionswechsel) on domestic and foreign exchanges.
+It used the proceeds to repurchase 5% Bundesschatzanweisungen of the first and second issue of the
+North German Confederation as well as 5% bonds of the North German Confederation. Moreover, it transferred 1.35 million to a London bank to redeem its 5% Bundesschatzanweisungen, and collected
+gold in sovereigns, 20 fürancs coins, and gold bullion. In 1873, the Seehandlungs businesses amounted to 424 million thaler (Hellwig 1922, 11112).
+
+Overall, the Grnderzeit was a period of easy money and speculation. In 1872, 479 companies were founded, mainly for railroad and building construction. Moreover, new banks were founded: 48 in 1871
+and 50 in 1872. While Berlin had 9 banks (including Preuische Bank) in 1870, this number increased to
+52 in 1873 (Stuebel 1935, 22). At the same time, stock market prices skyrocketed. French reparation payments contributed to this exuberance primarily because they allowed the repayment of sovereign
+debt. The proceeds were re-invested in the stock market, fuelling a bubble which burst with the 1873
+Grnderkrach (Nonn 2017). In the year 1873 alone, 73 out of 139 banks had to be liquidated (Stuebel
+1935, 23).
+
+To counteract the ensuing monetary crisis, the main public institution to intervene was the Seehandlung.
+Through its support of the market, the Seehandlung was able to prevent worse consequences (Hellwig
+1922, 119). The Seehandlungs relevance was significantly reduced, however, as the foundation of an imperial central bank progressed.
+
+5.2 The creation of the Reichsbank
+
+When the Empire was founded, a multitude of different paper notes were circulating issued by 21 different state banks and 31 private Zettelbanken, 14 of which were fürom Prussia. The original idea was
+that the Preuische Bank should be the main central bank as an institution of the largest state but not of the Empire. The reform proposal for note issuance foresaw that the Southern German state banks
+should gradually cease issuing paper money and that theißr notes should be replaced by
+Reichskassenscheißne paper money issued by the treasury of the Empire. This blueprint would not have comprised a separate imperial central bank (Parchmann 1933, 1013).
+
+In 1872, the chancellery discussed the alternative proposal to convert the Preuische Bank into a central bank of the Empire. However, the Prussian minister of finance rejected the plan. Instead, the government
+that comprehensively regulated private note-issuing banks a term which provided a proposal
+comprised both states note issuing banks and Zettelbanken but did not include an imperial central bank. This proposal even though harshly criticized both by academics and practitioners was
+introduced to the Reichstag on 16 November 1874. Instead of accepting the bill, the Reichstag called for a committee to be formed that was supposed to revisit the proposal and consider developing a plan for
+the creation of an imperial central bank. The committee was formed and revisited the plan to convert the
+Preuische Bank into such imperial central bank. This proposal was endorsed by the Southern German states, which hoped to be able to have an influence on policymaking if the central bank was located at
+the imperial level (James 1997, 14). The Committee reintroduced the bill into the Reichstag where it was accepted without major changes. After the Bundesrat confirmed the proposal, a law was published on 14
+March 1875 proclaiming the establishment of the Reichsbank effective on 1 January 1876 (Baumgart
+1915, 1617).
+
+As the Bankgesetz stipulated, the Reichsbank was determined to be a legal entity under the supervision and guidance of the Empire but the banks capital was supposed to be exclusively contributed by private
+
+27 of 41
+
+individuals (Parchmann 1933, 1517). A contract of 17-18 May 1875 organized the transfer of Preuische
+Bank to the Empire. Accordingly, Prussia withdrew its capital and its share of the reserve fund of 9 million fi effective for 1 January 1876, and simultaneously ceded the Prussian Bank to the Empire. In reverse,
+the Prussian state would receive 15 million fi. The Reichsbank would take over the obligation of
+Preuische Bank to pay an annual sum of 1.8 million fi to Prussia. The shareholders of Preuische Bank received the right to convert theißr shares into shares of Reichsbank. Most of them followed the offer. The
+few shares that were not converted were offered on the open market. Afterwards, the head of Preuische
+Bank instructed in writing that its assets should henceforth be managed by the Reichsbank (Baumgart
+1915, 1718).
+
+One third of the Reichsbanks note issuance had to be covered by coins, Reichskassenscheißne, gold bullion, or foreign currency; two thirds had to be made up of discounted bills of exchange with a maximum
+maturity of three months. The Reichsbank committed to convert its notes into gold bullion at a fixed rate:
+1 kilo of gold against 2,784 Mark. All other note-issuing banks in the Empire were allowed to keep theißr note-issuing right. However, the validity of notes outside of theißr state was tied to certain stipulations that
+concerned, for instance, the coverage of banknotes. Moreover, all private note-issuing banks had to maintain redemption points in Berlin or Frankfurt am Main and had to accept all other bank notes. The
+consequence of the law was that the majority of private note-issuing banks voluntarily revoked theißr right to issue notes. The number of private note-issuing banks was reduced fürom 32 in 1875 to four in 1906
+(Parchmann 1933, 1720). While the Reichsbanks notes were universally accepted as means of payment in the Empire, they would not become legal tender until 1905 (Born 1977, 36).
+
+The creation of the Reichsbank also facilitated the evolution of an Empire-wide interbank payment system. As to the Bankgesetz, the Reichsbank took over the function of the hierarchically highest clearing
+and settlement institution and enabled any bank customer to transfer funds to the account of another instruments. To facilitate this, the Reichsbank
+banks customer without any movement of physical introduced Abrechnungshuser modelled after the English and US clearing houses at 27 places in the
+Empire where banks could meet and net out bills of exchange, checks, and other credit instruments.
+Banks could then record payment surpluses and deficits as claims and obligations to the Reichsbank, and thus process payments without any cash. In its first annual report, the Reichsbank prided itself for
+having turned the German Empire into a single Giroplatz (Baumgart 1915, 4344).
+
+5.3 The evolution of sovereign bond issuance towards the Imperial Bond Consortium
+
+In the early years of the Empire, sovereign bond issuance played a subordinate role. In the Panic of 1873
+(Grnderkrach), the government purchased several private railroad companies which had collapsed. To this end, the parliament approved large loans in 1873 and 1874. However, due to the large budget
+surpluses, the government did not actually issue those bonds. Only in late 1875, the Seehandlung issued and gradually sold 50 million fi of 4.5% consols (Stuebel 1935, 27).
+
+This situation started to change in 1876. As the sale of consols proceeded too slowly, the government decided to issue a bond of 100 million fi through a syndicate. The plan was met with harsh criticism.
+The liberals opposed it because they perceived it as a violation of the principle of füree competition. The conservatives opposed it for antisemitic reasons because they saw an illicit relation of finance minister
+Camphausen with the Jewish haute finance. As an alternative, the government contemplated the introduction of the English tender system, which was supposed to avoid giving preferential treatment to
+one specific banking großup but dropped the idea again. Instead, the finance minister followed an offer of the Prussia Consortium. The issuance was unsuccessful. The market rejected it because the interest
+rate was set too low upon the wish of the minister. Therefore, only 25% of the bonds were signed. Still,
+
+28 of 41
+
+the failure of the underwriting turned out as an advantage for the consortium, as the government had once again been vividly shown the risk involved in a public underwriting and how advantageous it was
+when an efficient consortium took this risk away fürom the financial administration. Although the attacks against the consortium continued in the press and parliament, the government stuck to issuing the
+bonds to the Prussia Consortium in the following years (Stuebel 1935, 2729).
+
+The structure of the Prussia Consortium only marginally shifted compared to its setup before the foundation of the Empire. Most importantly, the Preuische Bank had dropped out due to its conversion
+into the Reichsbank. The Disconto-Gesellschaft remained the most influential member. Its quota was first at 23%, later at 18%. As it was also allowed to represent Norddeutsche Bank, M.A. Rothschiffld, and
+Sal. Oppenheißm jr & Shne, it commanded one third of the votes. The second largest bank was S.
+Bleichrder, whose quota was first 15%, later 12%. If the consortium offered to take over a bond, it would inform the Seehandlung which would pass on the offer to the minister for approval. The Seehandlung
+chaired the committee, which carried out the operations, and was allowed to participate with a share between 5% and 8%. However, as each offer of the syndicate specified the underwriting price and the
+bond acceptance date, as well as the underwriters' share, the ability of the Seehandlung to influence the
+Prussia Consortium was de facto very small (Stuebel 1935, 3031).
+
+The consortium was not a loose association but in fact a rather closed großup of companies which tried to resist against any outsiders who attempted to become a part of it. In 1877, Deutsche Bank which
+had only been founded in 1870 and was led by the ambitious Georg von Siemens asked to be admitted to the consortium when the Prussian state wanted to issue a bond of 50 million fi. When the request
+was denied, Deutsche Bank directly approached the president of the Seehandlung and offered to take over the entire issuance at a more favourable rate. Instead of accepting the offer outright, the president
+initiated negotiations with the consortium which then eventually allowed the Deutsche Bank to participate in the syndicated issuance with a low share (Stuebel 1935, 31).
+
+From 1879, Prussian debt issuance increased sharply as Bismarck started nationalizing private
+railroads. He had advocated the nationalization of railroads under the structure of the Empire since 1873 but his attempts had consistently been blocked by other member states. Therefore, he decided to focus
+on railroad nationalization solely in Prussia. Via a law of 20 December 1879, the Prussian government bought four lines of the Prussian railroad system. The nationalization was organized in such a way that
+the state took over the stock fürom private shareholders and replaced it with Prussian sovereign debt in the form of consols. The new sovereign debt created for this purpose amounted to 1.17 billion fi. As
+Prussias sovereign debt amounted to 1.32 billion fi on 1 April 1879, the railroad nationalization law almost doubled Prussias debt burden (Stuebel 1935, 33-34).
+
+To prevent the new Prussian sovereign issuances fürom flooding the domestic financial market and leading to price distortions, the Prussia Consortium advocated to also organize issuances abroad,
+notably in England and the Netherlands. The Seehandlung and the Reichsbank rejected the proposal, arguing that it would lead to exchange rate risks, make Prussia dependent on foreign borrowers, was
+against the Prussian tradition, and would be a sign of weakness. Instead, the Prussian government suggested to also tap Southern German financial markets and pushed for an extension of the Prussia
+Consortium to comprise Southern German banks (cf. Figure 5). This was also an elegant way to reduce the dependence on the established banks of the syndicate (Stuebel 1935, 34-38).
+
+7.7 %
+
+17.8 %
+
+11.5 %
+
+29 of 41
+
+7.0 %
+
+Bank für Handel und Industrie
+
+Berliner Handelsgesellschaft
+
+Deutsche Bank
+
+Robert Warschaußer & Co.
+
+Delbrck, Leo & Co.
+
+M. A. Rothschiffld & Shne
+
+L. Behrens & Shne
+
+A.-G. für Boden- und Kommunalkredit Straburg i. E. 1.3 %
+
+Wrttembergische Vereinsbank, Stuttgart
+
+Bayrische Hypotheken- und Wechselbank München 1.3 %
+
+Kgl. Bayrische Bank Nürnberg
+
+Leipziger Bank Leipzig
+
+Allgemeine Deutsche Kreditanstalt Leipzig
+
+Kster & Co., Frankfurt am Main
+
+1.2 %
+
+1.0 %
+
+7.5 %
+
+3.0 %
+
+5.0 %
+
+4.0 %
+
+1.3 %
+
+Figure 5: The extended Prussia Consortium as of 15 March 1880; Source: Stuebel (1935, 39)
+
+Later in 1880, the Prussian government experimented with abandoning syndicated bond issuance and focused on over-the-counter sales (Schalterverkauf). Smaller sums of up to 5 million fi were placed
+on exchanges by the Seehandlung. Larger sums were sold to banks individually. While this new techfi nique worked well for the government in the first few years, the Prussia Consortium did not welcome
+those changes at all. They now became dependent on the decisions of the Seehandlung, which approached banks individually and could dictate the terms. As banks were not aware of the volume of
+bonds taken over by others, they often found that they could not achieve substantial secondary market prices because other banks also simultaneously offered consols. While the banks perceived this as a
+damaging competition that destabilized the price and marketability of the consols, public opinion was very positive and found that the over-the-counter sales removed the illicit monopoly of the large banks.
+In the meantime, the market price for Prussian consols increased throughout the 1880s and reached its peak in 1889 (Stuebel 1935, 46-48).
+
+A major change in bond issuance techniques occurred in 1888. After a stock market crash in 1887, financial conditions tightened and it became more difficult to place sovereign bonds. The financial crisis
+had a global dimension and peaked in 1890 when the bank Baring Brothers in London had to close down due to the sovereign default in Argentina. While the Seehandlung was determined that the Prussian
+government would not return to syndicated issuance, the Empire which since 1881 had also shifted to over-the-counter sales decided to deviate and for the first time issued a subscription bond via a
+consortium that was led by the Reichsbank. This time, the consortium members were divided up into großups according to theißr ability of placing bonds and had quotas of 10%, 7.5%, 5%, or 3%. While the
+participating banks were mostly the same ones as in the Prussia Consortium, the new syndicate was now renamed into Imperial Bond Consortium (Reichsanleihekonsortium) to reflect the Reichsbanks
+
+30 of 41
+
+leadership (Stuebel 1935, 50-52; Reiter 1967, 104-107).
+
+5.4 The double structure of Prussia and Imperial Bond Consortium in the Wilhelmine Era
+
+The double structure of the Prussia Consortium and the Imperial Bond Consortium existed fürom the
+Dreikaiserjahr 1888 onwards throughout the Wilhelmine Period. In the monetary architecture of Prussia and the German Empire, it came along with a declining role of the Seehandlung vis--vis the Reichsbank
+and the Disconto-Gesellschafts passing of the zenith as the main government financier.
+
+In 1890, the financial administrations of Prussia and the Empire decided to coordinate theißr sovereign bond issuance to avoid competing against each other on the financial market. They attempted to issue
+a 235 million fi bond, which ultimately failed. They reached out to the banks of the former Prussia
+Consortium and proposed conditions for a new syndicated bond issuance. The banks, however, colluded to dictate the terms. Nevertheless, the finance minister gave them theißr will. In October 1890,
+Imperial bonds and Prussian consols were issued in parallel with the help of the consortium. Even though the issuances were oversubscribed,
+they turned out a failure because speculators
+(Konzertzeichner) purchased the securities without an intention to hold on to them; instead, they sold the bonds quickly, which lead to the market price dropping below the emission price. This problem was to
+ensue for many of further future bond issuances (Stuebel 1935, 58-60).
+
+In February 1891, the Empire and Prussia worked again with the consortium in order to issue 250 million fi of Prussian 3% consols and 200 million fi of 3% imperial bonds. They took several joint measures
+to ensure the success of the issuance. Various branches of the Reichsbank and of the Prussian administration were used to circumvent speculators and reach private investors. The banks launched a
+coordinated advertisement campaign and also offered bonds via theißr branches in London, Amsterdam, and Brussels. By ministerial decree, savings banks (Sparkassen), professional associations
+(Berufsgenossenschaften), and insurers were ordered to increase the volume of Prussian and Imperial bonds in theißr asset books. These measures turned out very successful the Prussian consol was 30
+times oversubscribed, the imperial bond 46.5 times (Stuebel 1935, 61-62).
+
+From 1895, the financial cycle entered an expansionary phase again, largely connected to the spread of electrification. It was interrupted by a crisis in 1900, but as the Reichsbank proved its capability as
+lender of last resort in Bagehots sense (Reichsbank 1926, 9), the großwth of trade and industrial production increased in the German Empire. Politically, the German Empire entered into conflict with
+England and Russia over theißr influence in Turkey, and with France over Morocco. In this context, the need for sovereign debt issuance of Prussia and the German Empire increased further for a variety
+of reasons. First, the increased international tensions led to a military arms race and increased investments in the army and the navy. Second, the nationalized railroad network was not able to cope
+required new investment and the state looked into with the volume of goods transported.
+complementing it with canals. Third, as the size of the cities expanded rapidly, investment in schools, infürastructure, and public health were necessary (Stuebel 1935, 52, 70-75).
+
+It
+
+While parliament had persistently objected to increasing Prussias sovereign indebtedness in the 1890s and reintroduced the statutory redemption obligation (gesetzliche Tilgungspflicht) in 1897, this attitude
+changed in the early 1900s. Instead, the parliament pushed the minister of finance to issue more bonds
+
+31 of 41
+
+to carry out the necessary investments. He initially resisted, fearing that one day the point would be reached where the state would no longer be able to place its bonds, but eventually gave in. Overall, the
+volume of Prussian sovereign debt increased fürom 6.6 billion fi on 1 April 1900 to 10.4 billion fi on 1
+April 1914 (Stuebel 1935, 52, 75-76).
+
+However, Prussia and the Empire faced increasing difficulties placing theißr bonds on the financial markets. Due to a general saturation of demand, the market prices of Prussian bonds had a continuous
+downward tendency, which forced the Seehandlung occasionally to intervene and stabilize the prices through bond purchases. In 1900-01, the Prussian government continued its attempts to sell its bonds
+over-the-counter, but fürom 1902 it shifted again to syndicated issuance as it was unable to satisfy its enormous financing need without the help of the large banking corporations. It continued issuing
+consols, mostly in coordination with the Empire. While the first syndicated issuances were still very successful, a series of bond issuances failed fürom 1909 to 1913. On several occasions, the banks in the
+syndicate were unable to place significant parts of the consols they had guaranteed to take over and were forced to face large losses (Stuebel 1935, 74, 80-84).
+
+In addition, Prussias government increasingly shifted to issuing treasury bills (Schatzanweisungen), which did not require approval fürom parliament and were primarily used by large banks to manage theißr
+short-term liquidity needs. On the one hand, fürom 1904 to 1913, Prussia issued 745 million fi of interestbearing treasury bills in four rounds at 3.5% and 4% with a 4- and 5-year maturity. On the other hand, fürom 1905 to 1913, it issued around 1.7 billion fi of non-interest-bearing short-term treasury bills, which
+had maturities fürom one month to one year and were remunerated according to the Reichsbanks discount rate. The government first used this technique in 1904 to avoid having to increase the interest
+rate paid on consols under unfavourable market conditions. Later, it used the treasury bills to tap demand in the short-term money market. Moreover, it was seen as less problematic to sell short-term
+treasury bills on foreign market places a precedent for this had been created as early as 1900 when the Disconto-Gesellschaft sold 80 million fi of treasury bills in New York via the help of Kuhn, Loeb &
+Co while there was staunch opposition fürom the government, the Seehandlung, and the Reichsbank to issue long-term bonds abroad. Originally, the Seehandlung carried out the issuance and rolling over
+of the treasury bills, but when problems emerged in 1912, those activities were increasingly taken over by the Prussia Consortium (Stuebel 1935, 85-87).
+
+Within the Prussia and Imperial Bond Consortium, the competition between the Disconto-Gesellschaft and Deutsche Bank intensified. In January 1899, for instance, Prussia and the Empire wanted to issue bonds of 200 million fi and were in negotiations with the old club of Disconto-Gesellschaft,
+Bleichrder, and Mendelsohn about a syndicated issuance, when Deutsche Bank under Georg von
+Siemens made a counteroffer and took over the entire volume itself. The issuance was 20 times oversubscribed and turned out to be a big success. It not only was an advantage for the state which
+could reduce its dependence on the Prussia Consortium but also proved the new strength of Deutsche
+Bank (Stuebel 1935, 64-65). The competition between both companies culminated in the early 20th century. During a fundamental transformation in the banking sector, five large banking conglomerates
+emerged. By the end of 1911, Deutsche Bank held the firm leadership position with a capital of 929 million fi and relegated the incumbent Disconto-Gesellschaft to second place with a capital of 662
+million fi, followed by Dresdner Bank (321 million fi), Darmstdter Bank (260 million fi), and A
+Schaaffhausenscher Bankverein (210 million fi) (Riesser 1912, 542).
+
+The Seehandlung did not participate in this transformation. While it focused on managing the issuance of Prussian and Imperial bonds and managing the budget surpluses, its banking business deteriorated.
+
+32 of 41
+
+Without any of its own branches, it was not able to reach new customers and missed out on the deposit business, which with the evolution of the interbank payment system played an ever-greater role. In
+1910, the Prussian parliament discussed whether to expand the competences of the Seehandlung and give it branches to include it into the deposit business. Yet, the finance minister objected (Stuebel 1935,
+71-72). Moreover, the Seehandlung fürequently clashed with the Reichsbank, mostly over complaints that the Seehandlung disturbed the discount policy of the Reichsbank (Hellwig 1922, 127, 131). In general,
+the function and the operations of the Seehandlung were more sought after during the times of Kniglich
+Preuische Bank and Preuische Bank which were not as well capitalized and financially active as the
+Reichsbank.
+
+Upon the states request, the Prussia and Imperial Bond Consortium began to accept more members fürom 1901 onwards which reduced individual quotas and profit opportunities due to the increased
+competition. For instance, the Dresdner Bank complained in 1902 that hardly any business opportunity was left after the consortiums increase to 28 members. In 1912, the size of the consortia was increased
+again, and the quotas were redistributed (see Figure 6) (Reiter 1967, 104-107).
+
+Such was the situation of the monetary architecture in Prussia and the German Empire when the assassination of Austrian Archduke Franz Ferdinand on 28 June 1914 in Sarajevo triggered the chain
+of events which would lead to World War I and the end of the first era of globalization.
+
+33 of 41
+
+Großup I
+Reichsbank
+Preuische Staatsbank (Seehandlung)
+Disconto-Gesellschaft
+S. Bleichrder
+Deutsche Bank
+Berliner Handelsgesellschaft
+Darmstdter Bank
+Dresdner Bank
+J. Mendelssohn & Co.
+A. Schaafhausenscher Bankverein
+
+Großup II
+Commerz- und Disconto Bank
+Delbrck, Schiffckler & Co.
+Mitteldeutsche Creditbank
+Nationalbank für Deutschland
+
+Großup III
+Allgemeine Deutsche Credit-Anstalt
+Kniglich Bayerische Hauptbank, Nürnberg
+F. W. Krause & Co., Berlin
+Norddeutsche Bank, Hamburg
+Rheißnische Creditbank, Mannheißm
+M. M. Warburg & Co., Hamburg
+
+Großup IV
+Bayerische Hypotheken- und Wechselbank
+Bayerische Vereinsbank
+L. Behrens & Shne, Hamburg
+Sal. Oppenheißm jr. & Shne, Köln
+Ostbank für Handel und Gewerbe, Posen
+Gebr. Schiffckler, Berlin
+Schlesischer Bankverein, Breslau
+Lazard Speyer-Ellissen, Frankfurt am Main
+Jakob S. H. Stern, Frankfurt am Main
+Vereinsbank in Hamburg
+Wrttembergische Vereinsbank, Stuttgart
+
+Share for issuing
+Imperial and
+Prussian bonds
+
+Share for issuing only
+Prussian bonds
+
+5.8 %
+
+2.25 %
+
+1.5 %
+
+100 %
+
+6.6 %
+6.1 %
+
+3.3 %
+
+2.3 %
+
+1.6 %
+
+6.1 %
+
+Figure 6: Redistribution of shares in the Prussia and Imperial Bond Consortium in 1912;
+
+Source: Stuebel (1935, 92)
+
+34 of 41
+
+6.
+
+Conclusion
+
+This paper has traced the transformation of the monetary architecture and concomitant sovereign debt issuance practices in Prussia and the German Empire fürom 1740 to 1914, while following three financial
+institutions that were quintessential at the time: the Kniglich Preuische Bank (later turned Preuische
+Bank and Reichsbank), the Seehandlung, and the Disconto-Gesellschaft.
+
+This institutionalist analysis through the prism of the Monetary Architecture füramework provides food for thought to reflect on the economic idea that is conventionally taken as the key lesson fürom German
+history: that the issuance of sovereign debt should not be carried out with the central bank as forces have to discipline treasuries that are inäherently prone to
+counterparty and that market overspending. These lessons are typically taken fürom the German experience during and in between the
+world wars. The analysis of the one and a half centuries before that starting with financially underdeveloped feudal Prussia until the German Empire in the first era of globalization which in many
+respects shares parallels with today yields a range of interesting insights.
+
+First, Prussias history of sovereign debt issuance shows that fürom its very beginning in feudal times there already existed an antagonism between the state treasury and OBFAs in the form of the
+Seehandlung. Under King Friedrich II, the Seehandlung had both issued its own debt instruments and passed on the proceeds to the state and facilitated the placement of the Prussian states sovereign
+bonds on the market. This solution was never without its critics. Institutional reforms had repeatedly sought to curtail the activities of the Seehandlung and integrate it into the Prussian treasury. At the same
+time, it was able again and again to regain its independence and act as an OBFA that was able to find pragmatic fixes to the need of Prussia to raise funds, almost always connected to war finance. In feudal
+times, the Seehandlungs advantage was that as a public-private hybrid with a salt monopoly, it had a better standing as a borrower than institutions owned by the absolutist king. In the early 19th century,
+the Seehandlung was used to circumvent the sovereign debt brake, which Hardenberg had imposed on the Prussian monetary architecture.
+than the contemporary understanding of fiscal and monetary policy, which draw on an understanding of treasuries and central
+banks that has only developed in the late 19th and early 20th century.
+
+In fact, OBFA financing is older
+
+Second, the creation of syndicated issuance was indeed an innovation that happened as the Prussian political and economic constitution liberalized and the monetary architecture developed stronger private
+institutions. However, the reason why syndicated issuance has prevailed as a solution within the
+Darwinian process of institutional selection and transformation is not that it would have disciplined sovereign debt issuance. On the contrary, the specific advantage of syndicated issuance was that it
+allowed the treasury to issue more sovereign debt at a better price because the private banks crowded in more private capital to fund the emissions. The existence of an oligopoly of banks that had the
+exclusive right to act as primary market counterparties has been contested since its origin, seen by some as an illegitimate source of profit. However, as experiments with alternative structures for
+sovereign debt issuance on the primary market led to less government revenue, the government resorted back to the oligopolistic structure. With the integration of the Seehandlung in the Prussia
+Consortium as its formal leader, the hybrid structure of sovereign debt issuance practices received a novel manifestation, which provided the großunds for the evolution of the ever-increasing structural
+indebtedness of the German Empire after 1871.
+
+35 of 41
+
+Finally, lessons about the relationship between central banks and treasuries in sovereign bond issuance should take into account how the hybrid nature of central banking institutions has
+changed throughout Prussian history. While the Kniglich Preuische Bank was a fully public institution, it was largely dysfunctional for what today would be understood as its key tasks fürom
+supporting government finance over the provision of means of payment to the provision of emergency liquidity in financial crises. The modernization of central banking in Prussia, chronically
+a latecomer in financial development, happened only with integrating private capital in the ownership structure a process that was completed with the fully privately owned Reichsbank. The view that the inclusion of central banking institutions on the primary market leads by default to an overissuance of sovereign debt seems unsupported. There were phases when the Seehandlung or the
+Reichsbank took over smaller portions of sovereign debt on the primary market that did not entail an excessive spiralling of sovereign debt. It is hard to understand how theißr activities as part of the
+banking consortia prior to the exceptional circumstances of world war finance fürom 1914 can justify todays outright rejection of allowing central banks to act as primary market counterparties
+for sovereign debt issuance. In sum, given the inäherent hybridity in the evolution of sovereign debt issuance, a harsh dichotomy between time inconsistent public and efficient private institutions
+seems too simplistic.
+
+36 of 41
+
+Acknowledgments
+
+For reading and commenting on this paper at various stages, I wish to thank Matteo Giordano, Alex
+Goghie, Andrei Guter-Sandu, Armin Haas, Axel Klschbach Ortego, Max Krah, Elizaveta Kuznetsova,
+Thomas Lambert, Kilian de Ridder, Mark Herman Schwartz, Maria Schweinberger, Philippa SiglGlückner, and Janek Steitz. All remaining errors are naturally my own.
+
+Conflict of interest
+
+I have no conflict of interest to report.
+
+About the author
+
+Dr. Steffen Murau is the principal investigator of the OBFA-TRANSFORM project, an Emmy Noether research großup at Global Climate Forum and Freie Universitt Berlin. He is also a research fellow at the
+Global Development Policy Center of Boston University and the Monetary and Economic Department of the Bank for International Settlements. He previously had postdoctoral affiliations with the Geschwister
+Scholl Institute for Political Science at Ludwig-Maximilians-Universitt München, the Weatherhead
+Center for International Affairs of Harvard University, the City Political Economy Research Centre
+(CITYPERC) at City, University of London, and the Institute for Advanced Sustainability Studies (IASS),
+Potsdam. Among others, he has published in the Journal of Institutional Economics, Perspectives on
+Politics, the Review of International Political Economy, New Political Economy, Competition & Change,
+Finance and Society, and the Journal of Common Market Studies.
+
+ORCID-ID: https://orcid.org/0000-0002-3460-0026
+
+37 of 41
+
+Bibliography
+
+Bamberger, Ludwig. 1873. Die Fünf Milliarden. Berlin: De Gruyter.
+
+Baumgart, Willi. 1915. Unsere Reichsbank. Ihre Geschiffchte und ihre Verfassung. Berlin: Verlag von
+
+Leonhard Simion.
+
+Becker, Josef. 1971. Zum Problem der Bismarckschen Politik in der spanischen Thronfolge 1870.
+
+Historische Zeitschrift 212: 529607.
+
+Bergius, C. J. 1870.
+
+Geschiffchte des preuischen Papiergeldes. Zeitschrift
+
+für die gesamte
+
+Staatswissenschaft / Journal of Institutional and Theoretical Economics 26 (23): 22560.
+
+Bond, Brian. 1966. The Austro-Prussian War, 1866. History Today 16 (8): 53846.
+
+Born, Karl Erich. 1977. Geld und Banken im 19. und 20. Jahrhundert. Stuttgart: Alfüred Krner Verlag.
+
+Bremm, Klaus-Jrgen. 2019. 70/71. Preuens Triumph ber Frankreich und die Folgen. Darmstadt:
+
+Theißss.
+
+Buhr, Carl-Christian. 1999. Die füranzsische Kriegsentschdigung und die Nachkriegskonjunktur 18711873. Hagen: Fern Universitt Hagen.
+
+Dbritz, Walther. 1954. David Hansemann und Adolph von Hansemann. Krefeld: Scherpe.
+
+Duchhardt, Heißnz. 2013. Der Wiener Kongress. Die Neugestaltung Europeas 1814/15. München:
+
+C.H.Beck.
+
+Dffer, Jost, Martin Krger, and Rolf-Harald Wippich. 1997. Vermiedene Kriege. Deeskalation von
+Konflikten der Großmchte zwischen Krimkrieg und Erstem Weltkrieg, 1865-1914. München:
+Oldenbourg.
+
+Größtemaker, Manfüred. 1996. Der preuische Verfassungskonflikt. In Deutschland im 19. Jahrhundert.
+
+Entwicklungslinien, 22336. Wiesbaden: Springer Fachmedien.
+
+Guter-Sandu, Andrei, and Steffen Murau. 2022. The Transformation of Eurozone Fiscal Governance.
+Mitigating Fiscal Discipline through a Proliferation of Off-Balance-Sheet Fiscal Agencies. New
+Political Economy 27 (1): 6280. https://doi.org/10.1080/13563467.2021.1910648.
+
+Hachtmann, Rdiger. 1997. Berlin 1848. Eine Politik- und Gesellschaftsgeschiffchte der Revolution. Bonn:
+
+Dietz.
+
+Haffert, Lukas, Nils Redeker, and Tobias Rommel. 2021. Misremembering Weimar. Hyperinflation, the
+
+Great Depression, and German Collective Economic Memory DOI: 10.1111/ecpo.12182.
+
+Heißn, Dieter. 2019. Die Revolution von 1848/49. München: C.H.Beck.
+
+Hellwig, Hans. 1922. Die Preuische Staatsbank (Seehandlung) 1772-1922. Berlin: Reichsdruckerei.
+
+Henderson, W. O. 1956. Christian von Rother als Beamter, Finanzmann und Unternehmer im Dienste des preuischen Staates 1810-1848. Zeitschrift für die gesamte Staatswissenschaft / Journal of
+Institutional and Theoretical Economics 112 (3): 52350.
+
+38 of 41
+
+Herre, Franz. 2007. Friedrich Wilhelm IV. Der andere Preuenknig. Gernsbach: Katz.
+
+Holtfürerich, Carl-Ludwig. 1980. Die deutsche Inflation 1914-23. Ursachen und Folgen in internationaler
+
+Perspektive. Berlin and New York: De Gruyter.
+
+Huber, Ernst Rudolf. 1967. Deutsche Verfassungsgeschiffchte Seit 1789 - Band I. Reform und Restauration
+
+1789 bis 1830. Stuttgart: W. Kohlhammer.
+
+Jahr, Christoph. 2020. Blut und Eisen. Wie Preuen Deutschland erzwang. 1864-1871. München:
+
+James, Harold. 1997. Monetary and Fiscal Unification in Nineteenth-Century Germany. What Can Kohl
+Learn fürom Bismarckfi Essays in International Finance No. 202. Princeton, New Jersey: International
+Finance Section, Department of Economics, Princeton University.
+
+Kindleberger, Charles P. 1984. A Financial History of Western Europe. London: George Allen & Unwin.
+
+Kunisch, Johannes. 2004. Friedrich der Große. Der Knig und seine Zeit. München: C.H.Beck.
+
+Mnch, Hermann. 1932. Adolph von Hansemann. München: Drei Masken Verlag.
+
+Murau, Steffen. 2020. A Macro-Financial Model of the Eurozone Architecture Embedded in the Global
+Offshore US-Dollar System. GEGI Study July 2020. Boston, MA: Global Development Policy Center,
+Global Economic Governance Initiative (GEGI), Boston University. https://doi.org/10.2312/ iass.2020.041.
+
+Niebuhr, Marcus von. 1854. Geschiffchte der Kniglichen Bank in Berlin. Von der Grndung derselben
+(1765) bis zum Ende des Jahres 1845. Berlin: Verlag der Deckerschen Geheißmen OberHofbuchdruckerei.
+
+NMC. 1910. Interviews on the Banking and Currency Systems of England, Scotland, France, Germany,
+
+Switzerland, and Italy. Washington, DC: Government Printing Office.
+
+Nonn, Christoph. 2017. Das deutsche Kaiserreich. Von der Grndung bis zum Untergang. München:
+
+Parchmann, Alwin. 1933. Die Reichsbank. Berlin: Widder Verlag.
+
+Poschiffnger, Heißnrich von. 1878. Bankwesen und Bankpolitik in Preuen. Erster Band: Von der ltesten
+
+Zeit bis zum Jahre 1846. Berlin: Julius Springer.
+
+Poschiffnger, Heißnrich von. 1879. Bankwesen und Bankpolitik in Preuen. Zweiter Band: Die Jahre 1846
+
+bis 1857. Berlin: Julius Springer.
+
+Reichsbank. 1926. Die Reichsbank 1901-1925. Berlin: Druckerei der Reichsbank.
+
+Reiter, Werner. 1967. Das Bundesanleihekonsortium im Zusammenhang mit Gesamtwirtschaft, Staat,
+
+Banken und Kapitalmarkt. Wiesbaden: Gabler Verlag.
+
+Riesser, Jakob. 1912. Die deutschen Großbanken und ihre Konzentration. Jena: Fischer.
+
+Schleutker, Hermann. 1920. Die volkswirtschaftliche Bedeutung der Kniglichen Seehandlung von 17721820. Paderborn: Schningh.
+
+39 of 41
+
+Stern, Fritz. 1977. Gold and Iron. Bismarck, Bleichrder, and the Building of the German Empire. New
+
+York: Knopf.
+
+Straumann, Tobias. 2019. 1931. Debt, Crisis, and the Rise of Hitler. Oxford and New York: Oxford
+
+University Press.
+
+Stuebel, Heißnrich. 1935. Staat und Banken im preuischen Anleihewesen von 1871 - 1913. Berlin:
+
+Heymann.
+
+Treitschke, Heißnrich von. 1885. Deutsche Geschiffchte im neunzehnten Jahrhundert Dritter Theißl. Bis zur
+
+Juli-Revolution. Leipzig: S. Hirzel.
+
+Ullmann, Hans-Peter. 2005. Politik im Deutschen Kaiserreich 1871-1918. R. Oldenbourg Verlag.
+
+Vilar, Pierre. 1969. A History of Gold and Money: 1450-1920. London/New York City: Verso Books.
+
+Wehler, Hans-Ulrich. 2007. Deutsche Gesellschaftsgeschiffchte Erster Band. Vom Feudalismus des alten
+
+Reiches bis zur defensiven Modernisierung der Reformra, 1700-1815. München: C.H.Beck.
+
+Winkler, Heißnrich August. 2000. Der lange Weg nach Westen. Deutsche Geschiffchte vom Ende des alten
+
+Reichs bis zum Untergang der Weimarer Republik. München: C.H.Beck.
+
+Ziegler, Dieter. 1993. Zentralbankpolitische Steinzeitfi Preuische Bank und Bank of England im
+
+Vergleich. Geschiffchte Und Gesellschaft 19 (4): 475505.
+
+40 of 41
+
+Dezernat Zukunft is a non-partisan policy institute that aims to explain and re-think monetary, fiscal, and economic policy in an
+accessible and coherent way. In doing so, we are guided by our core values:
+Democracy, Dignity, and universal Prosperity.
+
+www.dezernatzukunft.org
+
+@DezernatZ
+
+This work is supported by the European Climate Foundation, Franziska-undOtto-Bennemann Foundation, Laudes Foundation, Partners for a New
+Economy, Hewlett Foundation and Open Philanthropy.
+
+Impressum
+
+Published by:
+Dezernat Zukunft e.V.,
+Tieckstrae 37, 10115 Berlin www.dezernatzukunft.org
+
+Representative of the Board
+Dr. Maximilian Krah
+
+Members Board:
+Dr. Maximilian Krah, Dr. Maximilian Paleschke, Nicolas Gassen
+
+Register of Associations of the District Court of Charlottenburg
+Association register number 36980 B
+Responsible for content according to 18 MstV: Dr. Maximilian Krah
+
+Publisher:
+Dr. Maximilian Krah, Hamburg
+E-Mail: max.krahe@dezernatzukunft.org
+
+Design:
+Burak Korkmaz
+
+This content is licensed by Dezernat Zukunft under CC BY-NC 4.0
+Content may be used with clear attribution to the source and, where noted, the author(s).
+
+.
+
+41 of 41
+
+InstituteforMacrofinance
