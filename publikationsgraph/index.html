@@ -207,6 +207,26 @@ html, body {
   height: 0;
 }
 
+.site-footer {
+  padding: 1.5rem 3rem 2rem;
+  border-top: 1px solid var(--paper-edge);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  text-align: center;
+  line-height: 1.6;
+}
+.site-footer a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+.site-footer a:hover {
+  border-bottom-color: var(--ink-soft);
+}
+
 .pub-tooltip {
   position: fixed;
   background: var(--ink);
@@ -469,6 +489,15 @@ html, body {
     <div class="wi-all-grid"></div>
   </div>
 </section>
+
+<footer class="site-footer">
+  Beta-Deployment &copy; <span id="footer-year"></span> Philippa Sigl-Glöckner ·
+  Inhalte: Dezernat Zukunft e.V., lizenziert unter
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.de" target="_blank" rel="noopener">CC BY-NC 4.0</a> ·
+  <a href="https://philippa-sigl-gloeckner.de/impressum" target="_blank" rel="noopener">Impressum</a> ·
+  <a href="https://philippa-sigl-gloeckner.de/datenschutz" target="_blank" rel="noopener">Datenschutz</a>
+</footer>
+<script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
 
 <div class="pub-tooltip" id="tooltip"></div>
 
