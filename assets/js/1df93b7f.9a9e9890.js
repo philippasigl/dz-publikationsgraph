@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([["9452"],{5146(e,t,u){u.r(t),u.d(t,{default:()=>s});var n=u(96540);function s(){return(0,n.useEffect)(()=>{window.location.replace("/dz-publikationsgraph/")},[]),null}}}]);
