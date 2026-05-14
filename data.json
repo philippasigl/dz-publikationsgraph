@@ -1763,25 +1763,25 @@
     {
       "from": "jenseits-von-maastricht-wie-europa-an-souveraenitaet-gewinnen-kann",
       "to": "weiterentwicklung-europaeische-fiskalregeln",
-      "label": "jenseits-von-maastricht-wie-europa-an-souveraenitaet-gewinnen-kann",
+      "label": "Maastricht-Schuldenquoten-Vorarbeit",
       "confidence": "hoch"
     },
     {
       "from": "europas-truempfe-gegen-trump",
       "to": "die-folgen-einer-euro-internationalisierung",
-      "label": "europas-truempfe-gegen-trump",
+      "label": "Euro-Reservewährungs-Hintergrund",
       "confidence": "hoch"
     },
     {
       "from": "europas-truempfe-gegen-trump",
       "to": "die-zukunft-energieintensiver-industrien",
-      "label": "die-zukunft-energieintensiver-industrien",
+      "label": "Industriepolitische Hebelpflege",
       "confidence": "hoch"
     },
     {
       "from": "europas-truempfe-gegen-trump",
       "to": "jenseits-von-maastricht-wie-europa-an-souveraenitaet-gewinnen-kann",
-      "label": "jenseits-von-maastricht-wie-europa-an-souveraenitaet-gewinnen-kann",
+      "label": "Europäische Souveränität-Vorarbeit",
       "confidence": "hoch"
     },
     {
@@ -1805,91 +1805,91 @@
     {
       "from": "rechtsgutachten-konjunkturkomponente",
       "to": "warum-die-konjunkturkomponente-ihren-zweck-nicht-mehr-erfuellt",
-      "label": "Warum die Konjunkturkomponente ihren Zweck nicht mehr erfüllt",
+      "label": "Verfassungsrechtliche Absicherung Reformvorschlag",
       "confidence": "hoch"
     },
     {
       "from": "weiterentwicklung-europaeische-fiskalregeln",
       "to": "eine-neue-deutsche-finanzpolitik",
-      "label": "",
+      "label": "EU-Fiskalregeln-Folgepapier",
       "confidence": "hoch"
     },
     {
       "from": "statement-european-parliamentary-week-2023",
       "to": "weiterentwicklung-europaeische-fiskalregeln",
-      "label": "weiterentwicklung-europaeische-fiskalregeln",
+      "label": "DSA-Kritik-Vertiefung",
       "confidence": "hoch"
     },
     {
       "from": "staatsverschuldung-monetaere-architektur-preussen-1740-1914",
       "to": "bundeswertpapiere-zollstock-taschenmesser-goldbarren",
-      "label": "bundeswertpapiere-zollstock-taschenmesser-goldbarren",
+      "label": "Historische Vertiefung Staatsanleihen",
       "confidence": "hoch"
     },
     {
       "from": "die-deutsche-schuldenquote-liegt-bei-47-prozent",
       "to": "weiterentwicklung-europaeische-fiskalregeln",
-      "label": "",
+      "label": "Schuldenquoten-Reform",
       "confidence": "hoch"
     },
     {
       "from": "eine-oekonomisch-sinnvolle-schuldenregel",
       "to": "modernisierung-deutschlands-finanzieren",
-      "label": "modernisierung-deutschlands-finanzieren",
+      "label": "Modernisierungsbedarf als Reformbegründung",
       "confidence": "hoch"
     },
     {
       "from": "eine-oekonomisch-sinnvolle-schuldenregel",
       "to": "warum-die-konjunkturkomponente-ihren-zweck-nicht-mehr-erfuellt",
-      "label": "warum-die-konjunkturkomponente-ihren-zweck-nicht-mehr-erfuellt",
+      "label": "Konjunkturkomponente-Weiterentwicklung",
       "confidence": "hoch"
     },
     {
       "from": "ausgaben-fuer-die-dekarbonisierung",
       "to": "eine-neue-deutsche-finanzpolitik",
-      "label": "",
+      "label": "Dekarbonisierungsbedarfe-Grundlage",
       "confidence": "hoch"
     },
     {
       "from": "klimaausgaben-in-schuldenregel",
       "to": "eine-oekonomisch-sinnvolle-schuldenregel",
-      "label": "eine-oekonomisch-sinnvolle-schuldenregel",
+      "label": "Klimaausgaben-Erweiterung der Schuldenregel",
       "confidence": "hoch"
     },
     {
       "from": "the-baseline-is-wrong",
       "to": "klimaausgaben-in-schuldenregel",
-      "label": "weiterentwicklung-europaeische-fiskalregeln",
+      "label": "Klimaausgaben-Schuldenregel",
       "confidence": "hoch"
     },
     {
       "from": "the-baseline-is-wrong",
       "to": "statement-european-parliamentary-week-2023",
-      "label": "ausgaben-fuer-die-dekarbonisierung",
+      "label": "DSA-Kritik um Klima erweitert",
       "confidence": "hoch"
     },
     {
       "from": "eine-agenda-fuer-die-expertenkommission-zur-schuldenbremse",
       "to": "eine-oekonomisch-sinnvolle-schuldenregel",
-      "label": "eine-oekonomisch-sinnvolle-schuldenregel",
+      "label": "Schuldenregel-Reformvorschlag",
       "confidence": "hoch"
     },
     {
       "from": "potenzialwachstum-im-koalitionsvertrag",
       "to": "eine-oekonomisch-sinnvolle-schuldenregel",
-      "label": "",
+      "label": "Schuldenregel-Wachstumsperspektive",
       "confidence": "hoch"
     },
     {
       "from": "potenzialwachstum-im-koalitionsvertrag",
       "to": "finanzpolitische-vorschlaege-fuer-die-21-legislaturperiode",
-      "label": "finanzpolitische-vorschlaege-fuer-die-21-legislaturperiode",
+      "label": "Wachstumseffekte Schuldenregel-Reform",
       "confidence": "hoch"
     },
     {
       "from": "normative-wertungen-potenzialschaetzung",
       "to": "rechtsgutachten-konjunkturkomponente",
-      "label": "rechtsgutachten-konjunkturkomponente",
+      "label": "Konjunkturkomponente-Rechtsgrundlage",
       "confidence": "hoch"
     },
     {
@@ -1901,427 +1901,427 @@
     {
       "from": "geldpolitische-implementierung-im-wandel",
       "to": "bundeswertpapiere-zollstock-taschenmesser-goldbarren",
-      "label": "",
+      "label": "Zinssteuerung statt Geldmengensteuerung",
       "confidence": "hoch"
     },
     {
       "from": "zinsen-statt-geldmenge",
       "to": "geldpolitische-implementierung-im-wandel",
-      "label": "zinsen-statt-geldmenge",
+      "label": "Geldmengensteuerung-Vorarbeit",
       "confidence": "hoch"
     },
     {
       "from": "gesunde-oeffentliche-finanzen-im-europarecht",
       "to": "zinsen-statt-geldmenge",
-      "label": "weiterentwicklung-europaeische-fiskalregeln",
+      "label": "Monetarismus-Rechtsdebatte",
       "confidence": "hoch"
     },
     {
       "from": "overcoming-myopia-ecb-2025-strategy-review",
       "to": "gesunde-oeffentliche-finanzen-im-europarecht",
-      "label": "",
+      "label": "EU-rechtlicher Rahmen Geldpolitik",
       "confidence": "hoch"
     },
     {
       "from": "spreads-auf-staatsanleihezinsen-ezb-eurozone",
       "to": "weiterentwicklung-europaeische-fiskalregeln",
-      "label": "weiterentwicklung-europaeische-fiskalregeln",
+      "label": "Spreads als Disziplinierungsmechanismus",
       "confidence": "hoch"
     },
     {
       "from": "applaus-statt-schlagstock-finanzmarktreaktion-fiskalpaket",
       "to": "spreads-auf-staatsanleihezinsen-ezb-eurozone",
-      "label": "eine-oekonomisch-sinnvolle-schuldenregel",
+      "label": "Spread-Mechanik bei Bundesanleihen",
       "confidence": "hoch"
     },
     {
       "from": "overcoming-myopia-ecb-2025-strategy-review",
       "to": "zinsen-statt-geldmenge",
-      "label": "geldpolitische-implementierung-im-wandel",
+      "label": "Zinssteuerungs-Grundlagen",
       "confidence": "hoch"
     },
     {
       "from": "die-folgen-einer-euro-internationalisierung",
       "to": "overcoming-myopia-ecb-2025-strategy-review",
-      "label": "jenseits-von-maastricht-wie-europa-an-souveraenitaet-gewinnen-kann",
+      "label": "EZB-Wechselkursrolle",
       "confidence": "hoch"
     },
     {
       "from": "zinserhoehungen-wirken-weniger-als-erwartet",
       "to": "overcoming-myopia-ecb-2025-strategy-review",
-      "label": "overcoming-myopia-ecb-2025-strategy-review",
+      "label": "Empirie zur Strategiekritik",
       "confidence": "hoch"
     },
     {
       "from": "kommunale-klimaschutzinvestitionen-und-deren-finanzierung",
       "to": "ausgaben-fuer-die-dekarbonisierung",
-      "label": "ausgaben-fuer-die-dekarbonisierung",
+      "label": "Kommunale Klimaausgaben-Grundlage",
       "confidence": "hoch"
     },
     {
       "from": "eine-neue-deutsche-finanzpolitik",
       "to": "ein-kommunales-investitionsprogramm-fuer-das-naechste-jahrzehnt",
-      "label": "",
+      "label": "Kommunales Investitionsprogramm aufgegriffen",
       "confidence": "hoch"
     },
     {
       "from": "bahn-strassen-finanzieren-ohne-schuldenbremse",
       "to": "eine-neue-deutsche-finanzpolitik",
-      "label": "die-deutsche-schuldenquote-liegt-bei-47-prozent",
+      "label": "Finanzpolitik-Rahmen",
       "confidence": "hoch"
     },
     {
       "from": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
       "to": "modernisierung-deutschlands-finanzieren",
-      "label": "bahn-strassen-finanzieren-ohne-schuldenbremse",
+      "label": "Bedarfsschätzungen-Finanzierungsstrategie",
       "confidence": "hoch"
     },
     {
       "from": "modernisierung-deutschlands-finanzieren",
       "to": "eine-neue-deutsche-finanzpolitik",
-      "label": "eine-neue-deutsche-finanzpolitik",
+      "label": "Konkretisierung der Modernisierungsfinanzierung",
       "confidence": "hoch"
     },
     {
       "from": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
       "to": "kommunale-klimaschutzinvestitionen-und-deren-finanzierung",
-      "label": "modernisierung-deutschlands-finanzieren",
+      "label": "Kommunale Klimainvestitionsbedarfe",
       "confidence": "hoch"
     },
     {
       "from": "finanzpolitische-vorschlaege-fuer-die-21-legislaturperiode",
       "to": "reform-der-einkommensteuer",
-      "label": "reform-der-einkommensteuer",
+      "label": "Einkommensteuer-Tarifreform übernommen",
       "confidence": "hoch"
     },
     {
       "from": "reform-der-einkommensteuer",
       "to": "warum-die-konjunkturkomponente-ihren-zweck-nicht-mehr-erfuellt",
-      "label": "",
+      "label": "Schuldenregel-Reformbezug",
       "confidence": "hoch"
     },
     {
       "from": "bedarf-von-700-milliarden-euro-verteidigung-bis-2040",
       "to": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
-      "label": "bedarf-von-700-milliarden-euro-verteidigung-bis-2040",
+      "label": "Verteidigungsbedarf-Vertiefung",
       "confidence": "hoch"
     },
     {
       "from": "entgleist",
       "to": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
-      "label": "bahn-strassen-finanzieren-ohne-schuldenbremse",
+      "label": "Verkehrsbedarfe-Vertiefung Schiene",
       "confidence": "hoch"
     },
     {
       "from": "nur-3-prozent-spielraum",
       "to": "eine-agenda-fuer-die-expertenkommission-zur-schuldenbremse",
-      "label": "eine-agenda-fuer-die-expertenkommission-zur-schuldenbremse",
+      "label": "Schuldenbremse-Reformagenda",
       "confidence": "hoch"
     },
     {
       "from": "zero-fiscal-space",
       "to": "nur-3-prozent-spielraum",
-      "label": "eine-agenda-fuer-die-expertenkommission-zur-schuldenbremse",
+      "label": "Deutsche Haushaltslage in englischer Fassung",
       "confidence": "hoch"
     },
     {
       "from": "eckpunkte-fuer-die-finanzierung-eines-zukunftsfaehigen-verkehrssystems",
       "to": "entgleist",
-      "label": "eckpunkte-fuer-die-finanzierung-eines-zukunftsfaehigen-verkehrssystems",
+      "label": "Schienenfinanzierungs-Vorarbeit",
       "confidence": "hoch"
     },
     {
       "from": "5-milliarden-spielraum-im-sozialstaat-gewinnen",
       "to": "finanzpolitische-vorschlaege-fuer-die-21-legislaturperiode",
-      "label": "5-milliarden-spielraum-im-sozialstaat-gewinnen",
+      "label": "Haushaltslücken-Anschluss",
       "confidence": "hoch"
     },
     {
       "from": "sozialstaatsreform-sparen-ohne-kuerzen",
       "to": "5-milliarden-spielraum-im-sozialstaat-gewinnen",
-      "label": "sozialstaatsreform-sparen-ohne-kuerzen",
+      "label": "Geldbrief zum Policy-Paper",
       "confidence": "hoch"
     },
     {
       "from": "wie-viel-bang-for-the-buck-steckt-in-subventionen",
       "to": "implikationen-langfristiger-energiekostenunterschiede-fuer-energieintensive-industrien-und-den-wirtsc",
-      "label": "wie-viel-bang-for-the-buck-steckt-in-subventionen",
+      "label": "Energiekosten-Industriesubventionen",
       "confidence": "hoch"
     },
     {
       "from": "stromsubvention-als-konjunkturpolitik",
       "to": "finanzpolitische-vorschlaege-fuer-die-21-legislaturperiode",
-      "label": "",
+      "label": "Haushaltsspielraum-Vorarbeit",
       "confidence": "hoch"
     },
     {
       "from": "der-sanierungskostendeckel",
       "to": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
-      "label": "ausgaben-fuer-die-dekarbonisierung",
+      "label": "Modernisierungsbedarf-Grundlage",
       "confidence": "hoch"
     },
     {
       "from": "das-bildungsfinanzgeflecht",
       "to": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
-      "label": "",
+      "label": "Bildungsbedarf-Detaillierung",
       "confidence": "hoch"
     },
     {
       "from": "bildungsfinanzchaos-wer-bestellt-bezahlt-meist-nicht",
       "to": "das-bildungsfinanzgeflecht",
-      "label": "das-bildungsfinanzgeflecht",
+      "label": "Geldbrief zum Bildungsfinanzgeflecht",
       "confidence": "hoch"
     },
     {
       "from": "bundeshaushaltsmonitor-2026",
       "to": "bedarf-von-700-milliarden-euro-verteidigung-bis-2040",
-      "label": "bundeshaushaltsmonitor-2026",
+      "label": "Verteidigungsbedarf-Haushaltslast",
       "confidence": "hoch"
     },
     {
       "from": "bundeshaushaltsmonitor-2026",
       "to": "der-sanierungskostendeckel",
-      "label": "der-sanierungskostendeckel",
+      "label": "Sanierungskostendeckel als Reformbaustein",
       "confidence": "hoch"
     },
     {
       "from": "bundeshaushaltsmonitor-2026",
       "to": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
-      "label": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
+      "label": "Stromnetz-Reformbaustein",
       "confidence": "hoch"
     },
     {
       "from": "bundeshaushaltsmonitor-2026",
       "to": "eine-oekonomisch-sinnvolle-schuldenregel",
-      "label": "eine-oekonomisch-sinnvolle-schuldenregel",
+      "label": "Schuldenbremsen-Reformbedarf",
       "confidence": "hoch"
     },
     {
       "from": "bundeshaushaltsmonitor-2026",
       "to": "reform-der-einkommensteuer",
-      "label": "reform-der-einkommensteuer",
+      "label": "Reformpaket Einkommensteuer",
       "confidence": "hoch"
     },
     {
       "from": "bundeshaushaltsmonitor-2026",
       "to": "sozialstaatsreform-sparen-ohne-kuerzen",
-      "label": "sozialstaatsreform-sparen-ohne-kuerzen",
+      "label": "Sozialstaat-Konsolidierungspfad",
       "confidence": "hoch"
     },
     {
       "from": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
       "to": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
-      "label": "",
+      "label": "Netzinvestitionsbedarf-Grundlagen",
       "confidence": "hoch"
     },
     {
       "from": "eine-kurze-fiskalgeschichte-der-deutschen-wohnungspolitik",
       "to": "was-kostet-eine-sichere-lebenswerte-und-nachhaltige-zukunft",
-      "label": "",
+      "label": "Wohnungsbau-Finanzbedarfe",
       "confidence": "hoch"
     },
     {
       "from": "wohnungspolitik-in-einer-teuren-sackgasse",
       "to": "eine-kurze-fiskalgeschichte-der-deutschen-wohnungspolitik",
-      "label": "eine-kurze-fiskalgeschichte-der-deutschen-wohnungspolitik",
+      "label": "Fiskalgeschichte-Wohnungsförderung",
       "confidence": "hoch"
     },
     {
       "from": "reformen-brauchen-kitas",
       "to": "wer-reformen-will-muss-kitas-bauen",
-      "label": "bundeshaushaltsmonitor-2026",
+      "label": "Geldbrief zum Kita-Paper",
       "confidence": "hoch"
     },
     {
       "from": "wer-reformen-will-muss-kitas-bauen",
       "to": "das-bildungsfinanzgeflecht",
-      "label": "wer-reformen-will-muss-kitas-bauen",
+      "label": "Bildungsfinanzierung-Grundlage",
       "confidence": "hoch"
     },
     {
       "from": "investitionen-in-eine-zukunftsfaehige-daseinsvorsorge",
       "to": "stromnetzausbau-kapital-mobilisieren-netzentgelte-reduzieren",
-      "label": "ein-kommunales-investitionsprogramm-fuer-das-naechste-jahrzehnt",
+      "label": "Eigenkapitalbedarf Energieversorger",
       "confidence": "hoch"
     },
     {
       "from": "stromnetzausbau-kapital-mobilisieren-netzentgelte-reduzieren",
       "to": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
-      "label": "stromnetzausbau-kapital-mobilisieren-netzentgelte-reduzieren",
+      "label": "Bundesbeteiligungs-Vorarbeit",
       "confidence": "hoch"
     },
     {
       "from": "was-taugt-der-deutschlandfonds",
       "to": "investitionen-in-eine-zukunftsfaehige-daseinsvorsorge",
-      "label": "was-taugt-der-deutschlandfonds",
+      "label": "Energieversorger-Eigenkapitalbedarf",
       "confidence": "hoch"
     },
     {
       "from": "eigenkapital-fuer-die-energiewende",
       "to": "investitionen-in-eine-zukunftsfaehige-daseinsvorsorge",
-      "label": "investitionen-in-eine-zukunftsfaehige-daseinsvorsorge",
+      "label": "Vertiefung Eigenkapitalbedarf EVU",
       "confidence": "hoch"
     },
     {
       "from": "alle-versorger-versorgen-ein-deutschland-standard-fuer-die-energiewende",
       "to": "eigenkapital-fuer-die-energiewende",
-      "label": "alle-versorger-versorgen-ein-deutschland-standard-fuer-die-energiewende",
+      "label": "Eigenkapital-Energieversorger-Vertiefung",
       "confidence": "hoch"
     },
     {
       "from": "die-arbeitsmarktampel",
       "to": "eine-neue-deutsche-finanzpolitik",
-      "label": "",
+      "label": "Vollbeschäftigungsindikator operationalisiert",
       "confidence": "hoch"
     },
     {
       "from": "wie-sieht-ein-guter-arbeitsmarkt-aus",
       "to": "die-arbeitsmarktampel",
-      "label": "wie-sieht-ein-guter-arbeitsmarkt-aus",
+      "label": "Arbeitsmarktampel-Konzept",
       "confidence": "hoch"
     },
     {
       "from": "zinsen-statt-geldmenge",
       "to": "wirtschaftliche-mehrkosten-durch-energiepreisanstiege",
-      "label": "",
+      "label": "Energiepreiskosten-Inflationskontext",
       "confidence": "hoch"
     },
     {
       "from": "gaspreisbremse-transparenz",
       "to": "wirtschaftliche-mehrkosten-durch-energiepreisanstiege",
-      "label": "wirtschaftliche-mehrkosten-durch-energiepreisanstiege",
+      "label": "Energiekostenschock-Grundlage",
       "confidence": "hoch"
     },
     {
       "from": "italiens-stagnation-verstehen",
       "to": "weiterentwicklung-europaeische-fiskalregeln",
-      "label": "weiterentwicklung-europaeische-fiskalregeln",
+      "label": "EU-Fiskalregeln-Anwendungsfall",
       "confidence": "hoch"
     },
     {
       "from": "16-gruende-fuer-schnelles-handeln-kipppunkte-und-klimapolitik",
       "to": "ausgaben-fuer-die-dekarbonisierung",
-      "label": "ausgaben-fuer-die-dekarbonisierung",
+      "label": "Klimadringlichkeit für Dekarbonisierungsausgaben",
       "confidence": "hoch"
     },
     {
       "from": "fossil-fuel-to-the-fire",
       "to": "wirtschaftliche-mehrkosten-durch-energiepreisanstiege",
-      "label": "wirtschaftliche-mehrkosten-durch-energiepreisanstiege",
+      "label": "Energiepreisschock-Datengrundlage",
       "confidence": "hoch"
     },
     {
       "from": "belastungswirkung-von-klimapolitik",
       "to": "16-gruende-fuer-schnelles-handeln-kipppunkte-und-klimapolitik",
-      "label": "belastungswirkung-von-klimapolitik",
+      "label": "Klimadringlichkeit-Begründung",
       "confidence": "hoch"
     },
     {
       "from": "ambitioniert-aber-vertretbar-einordnung-16-euro-mindestlohn",
       "to": "wie-sieht-ein-guter-arbeitsmarkt-aus",
-      "label": "wie-sieht-ein-guter-arbeitsmarkt-aus",
+      "label": "Arbeitsmarkt-Vollauslastung-Rahmen",
       "confidence": "hoch"
     },
     {
       "from": "booster-fuer-die-konjunktur-krux-arbeitsmarkt",
       "to": "potenzialwachstum-im-koalitionsvertrag",
-      "label": "booster-fuer-die-konjunktur-krux-arbeitsmarkt",
+      "label": "Potenzialwachstum-Fortschreibung",
       "confidence": "hoch"
     },
     {
       "from": "das-lebensqualitaetsminimum",
       "to": "ambitioniert-aber-vertretbar-einordnung-16-euro-mindestlohn",
-      "label": "ambitioniert-aber-vertretbar-einordnung-16-euro-mindestlohn",
+      "label": "Bedarfsgerechte Mindestlohn-Höhe",
       "confidence": "hoch"
     },
     {
       "from": "us-iran-krieg-inflationsschock-in-der-eu-von-2-prozentpunkten-moeglich",
       "to": "europas-truempfe-gegen-trump",
-      "label": "europas-truempfe-gegen-trump",
+      "label": "Europas-Energiehebel-Kontext",
       "confidence": "hoch"
     },
     {
       "from": "hawkish-winds-wie-zinsen-die-energiewende-treffen",
       "to": "overcoming-myopia-ecb-2025-strategy-review",
-      "label": "overcoming-myopia-ecb-2025-strategy-review",
+      "label": "EZB-Strategie-Bezugsrahmen",
       "confidence": "hoch"
     },
     {
       "from": "emissionshandel-auf-dem-pruefstand",
       "to": "ausgaben-fuer-die-dekarbonisierung",
-      "label": "Ausgaben für die Dekarbonisierung",
+      "label": "Dekarbonisierungs-Finanzierungskontext",
       "confidence": "hoch"
     },
     {
       "from": "lng-energiesicherheit-und-klimaschutz",
       "to": "stellungnahme-ausschuss-klimaschutz-energie-bundestag",
-      "label": "lng-energiesicherheit-und-klimaschutz",
+      "label": "LNG-Bundestags-Stellungnahme",
       "confidence": "hoch"
     },
     {
       "from": "die-zukunft-energieintensiver-industrien",
       "to": "wirtschaftliche-mehrkosten-durch-energiepreisanstiege",
-      "label": "",
+      "label": "Energiepreis-Kontext für Industrieanalyse",
       "confidence": "hoch"
     },
     {
       "from": "implikationen-langfristiger-energiekostenunterschiede-fuer-energieintensive-industrien-und-den-wirtsc",
       "to": "die-zukunft-energieintensiver-industrien",
-      "label": "implikationen-langfristiger-energiekostenunterschiede-fuer-energieintensive-industrien-und-den-wirtsc",
+      "label": "Energiekosten-Grundlagenpapier",
       "confidence": "hoch"
     },
     {
       "from": "intel-magdeburg-analyse-de",
       "to": "die-zukunft-energieintensiver-industrien",
-      "label": "wie-sieht-ein-guter-arbeitsmarkt-aus",
+      "label": "Industriestandort-Energiekosten",
       "confidence": "hoch"
     },
     {
       "from": "stromsubvention-als-konjunkturpolitik",
       "to": "implikationen-langfristiger-energiekostenunterschiede-fuer-energieintensive-industrien-und-den-wirtsc",
-      "label": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
+      "label": "Energiekostennachteile-Hintergrund",
       "confidence": "hoch"
     },
     {
       "from": "comeback-deutschland-industrie-turnarounds",
       "to": "die-zukunft-energieintensiver-industrien",
-      "label": "die-zukunft-energieintensiver-industrien",
+      "label": "Energieintensive Industrien-Vorarbeit",
       "confidence": "hoch"
     },
     {
       "from": "wie-china-markt-fuer-markt-erobert",
       "to": "comeback-deutschland-industrie-turnarounds",
-      "label": "wie-china-markt-fuer-markt-erobert",
+      "label": "Turnaround-Lehren für China-Wettbewerb",
       "confidence": "hoch"
     },
     {
       "from": "entgleist",
       "to": "bahn-strassen-finanzieren-ohne-schuldenbremse",
-      "label": "",
+      "label": "Schienenfinanzierungs-Vorarbeit",
       "confidence": "hoch"
     },
     {
       "from": "reformen-brauchen-kitas",
       "to": "booster-fuer-die-konjunktur-krux-arbeitsmarkt",
-      "label": "",
+      "label": "Arbeitsmarkt-Wachstumsanalyse",
       "confidence": "hoch"
     },
     {
       "from": "hawkish-winds-wie-zinsen-die-energiewende-treffen",
       "to": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
-      "label": "",
+      "label": "Zinswirkung Netzausbau",
       "confidence": "hoch"
     },
     {
       "from": "comeback-deutschland-industrie-turnarounds",
       "to": "intel-magdeburg-analyse-de",
-      "label": "",
+      "label": "Industriepolitische Subventionsbewertung",
       "confidence": "hoch"
     },
     {
       "from": "alle-versorger-versorgen-ein-deutschland-standard-fuer-die-energiewende",
       "to": "was-taugt-der-deutschlandfonds",
-      "label": "",
+      "label": "Eigenkapital-Ergänzung zum Fremdkapital-Fonds",
       "confidence": "hoch"
     },
     {
@@ -2345,7 +2345,7 @@
     {
       "from": "effekte-staatlicher-beteiligungen-auf-den-stromnetzausbau",
       "to": "eine-neue-deutsche-finanzpolitik",
-      "label": "",
+      "label": "Finanzpolitik-Rahmen",
       "confidence": "hoch"
     },
     {
