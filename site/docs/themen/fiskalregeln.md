@@ -1,9 +1,9 @@
 ---
-title: "Schuldenbremse"
-sidebar_label: "Schuldenbremse"
+title: "Fiskalregeln"
+sidebar_label: "Fiskalregeln"
 ---
 
-# Schuldenbremse
+# Fiskalregeln
 
 Deutsche Schuldenbremse (Art. 109/115 GG), EU-Stabilitäts- und Wachstumspakt und die Mechanik dazwischen — Konjunkturkomponente, Potenzialschätzung, DSA. Welche Schuldenregel passt zu einer Welt mit Modernisierungsbedarf, Klimaschäden und einem Zins-Wachstums-Differential, das oft `r<g` ist?
 

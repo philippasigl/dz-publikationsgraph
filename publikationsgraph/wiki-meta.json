@@ -8,7 +8,7 @@
     {
       "slug": "bundeshaushalt",
       "title": "Bundeshaushalt",
-      "desc": "Der Bundeshaushalt steht vor einer doppelten Lücke: Auf der Ausgabenseite fehlen jährlich 70 bis 120 Mrd. Euro für Modernisierung…"
+      "desc": "Welche Ausgaben muss der Bund stemmen, wofür reicht das Geld nicht, und wo lassen sich Spielräume heben? DZ misst den Bundeshaushalt nicht…"
     },
     {
       "slug": "china",
@@ -21,6 +21,11 @@
       "desc": "Was kostet die Energiewende, wer finanziert sie und wie wirken Energiepreise auf Inflation, Industrie und Haushalte? DZ liest das Thema vor…"
     },
     {
+      "slug": "fiskalregeln",
+      "title": "Fiskalregeln",
+      "desc": "Deutsche Schuldenbremse (Art. 109/115 GG), EU-Stabilitäts- und Wachstumspakt und die Mechanik dazwischen — Konjunkturkomponente…"
+    },
+    {
       "slug": "geldpolitik",
       "title": "Geldpolitik & Anleihemärkte",
       "desc": "Zentralbanken steuern Inflation über Zinsen, nicht über Geldmengen. Bundesanleihen sind das Benchmark-Asset der Eurozone und Spreads…"
@@ -29,11 +34,6 @@
       "slug": "kitas",
       "title": "Kitas",
       "desc": "Frühkindliche Bildung als arbeitsmarkt- und fiskalpolitischer Hebel. Das Thema verbindet Betreuungsausbau, Erwerbstätigkeit und die Reform…"
-    },
-    {
-      "slug": "schuldenbremse",
-      "title": "Schuldenbremse",
-      "desc": "Die Schuldenbremse (Art. 109, 115 GG) begrenzt die strukturelle Neuverschuldung des Bundes auf 0,35% BIP. Kern der Regel ist die…"
     },
     {
       "slug": "sozialstaat",
@@ -48,7 +48,7 @@
     {
       "slug": "wirtschaft",
       "title": "Wirtschaft & Industriepolitik",
-      "desc": "Deutschlands Wettbewerbsproblem ist primär ein Innovations- und Technologieproblem, nicht ein Kostenproblem. China steigt methodisch die…"
+      "desc": "Wie bleibt Deutschland als Industriestandort wettbewerbsfähig, wenn China methodisch die Wertschöpfungsleiter erklimmt und klassische…"
     },
     {
       "slug": "wohnungspolitik",
@@ -58,9 +58,49 @@
   ],
   "konzepte": [
     {
+      "slug": "abhaengigkeitsquote",
+      "title": "Abhängigkeitsquote",
+      "desc": "Verhältnis der Rentnerinnen und Rentner zur Erwerbsbevölkerung (demographisch) bzw. der Transferabhängigen zu Erwerbstätigen (ökonomisch)…"
+    },
+    {
+      "slug": "aktivierungspolitik",
+      "title": "Aktivierungspolitik",
+      "desc": "Bündel arbeitsmarktpolitischer Maßnahmen, das Leistungsbeziehende und Unterbeschäftigte gezielt in Beschäftigung führt — durch…"
+    },
+    {
       "slug": "anti-coercion-instrument",
       "title": "Anti-Coercion-Instrument",
-      "desc": "EU-Handelsschutzinstrument seit 2023, das Gegenmaßnahmen gegen wirtschaftliche Erpressung durch Drittstaaten ermöglicht."
+      "desc": "Handelspolitisches Instrument gegen wirtschaftlichen Zwang (Verordnung (EU) 2023/2675, in Kraft seit 27.12.2023), das Gegenmaßnahmen gegen…"
+    },
+    {
+      "slug": "arbeitsmarktampel",
+      "title": "Arbeitsmarktampel",
+      "desc": "DZ-eigenes Indikatorenset, das den Zustand des deutschen Arbeitsmarkts anhand von zehn Subindikatoren statt nur der Arbeitslosenquote…"
+    },
+    {
+      "slug": "art-123-aeuv",
+      "title": "Art. 123 AEUV",
+      "desc": "Verbot der monetären Staatsfinanzierung: Artikel 123 des Vertrags über die Arbeitsweise der EU untersagt EZB und nationalen Zentralbanken…"
+    },
+    {
+      "slug": "automatische-stabilisatoren",
+      "title": "Automatische Stabilisatoren",
+      "desc": "Konjunkturreagible Einnahmen- und Ausgabenposten des Staatshaushalts, die ohne diskretionäre Entscheidung antizyklisch wirken — etwa…"
+    },
+    {
+      "slug": "bestinvest",
+      "title": "BESTInvest-Leitlinien",
+      "desc": "DZ-eigener Bewertungsrahmen für industriepolitische Förder- und Subventionsentscheidungen, der prüft, ob eine Maßnahme „gut investiertes…"
+    },
+    {
+      "slug": "bond-to-equity-switch",
+      "title": "Bond-to-Equity-Switch",
+      "desc": "Finanzierungsoperation, bei der staatliche Fremdkapital-Forderungen (Anleihen, Darlehen) gegenüber einem öffentlichen Unternehmen in…"
+    },
+    {
+      "slug": "budgetsemielastizitaet",
+      "title": "Budgetsemielastizität",
+      "desc": "Kennzahl, die angibt, wie stark sich das staatliche Budgetsaldo bei einer Veränderung der wirtschaftlichen Auslastung um einen Prozentpunkt…"
     },
     {
       "slug": "buergergeld",
@@ -68,19 +108,54 @@
       "desc": "Das Bürgergeld ist die seit 2023 geltende Grundsicherung für Arbeitsuchende in Deutschland und ersetzt das frühere Arbeitslosengeld II…"
     },
     {
+      "slug": "bundeshaushaltsmonitor",
+      "title": "Bundeshaushaltsmonitor",
+      "desc": "Jährliche DZ-Analyse des Bundeshaushalts auf Einnahmen-, Ausgaben- und Finanzierungsseite, die strukturelle Lücken und fiskalpolitische…"
+    },
+    {
+      "slug": "co2-bepreisung",
+      "title": "CO2-Bepreisung",
+      "desc": "Marktbasiertes Klimainstrument, das den Ausstoß von Treibhausgasen verteuert — entweder durch eine Mengenbegrenzung mit handelbaren…"
+    },
+    {
+      "slug": "cobb-douglas-produktionsfunktion",
+      "title": "Cobb-Douglas-Produktionsfunktion",
+      "desc": "Mathematische Standard-Produktionsfunktion der Form Y = A · K^α · L^(1−α), die den Output einer Volkswirtschaft als Funktion von Kapital…"
+    },
+    {
       "slug": "daseinsvorsorge",
       "title": "Daseinsvorsorge",
-      "desc": "Sammelbegriff für die öffentliche Grundversorgung der Bevölkerung mit existenznotwendigen Gütern und Diensten — Wasser, Energie, Wohnen…"
+      "desc": "Sammelbegriff für die öffentliche Grundversorgung der Bevölkerung mit existenznotwendigen Gütern und Diensten — Wasser, Abwasser, Abfall…"
+    },
+    {
+      "slug": "debt-sustainability-analysis-dsa",
+      "title": "Debt Sustainability Analysis (DSA)",
+      "desc": "Modellbasierte Projektion der staatlichen Schuldenquote über einen mehrjährigen Horizont, die im Rahmen der reformierten EU-Fiskalregeln…"
     },
     {
       "slug": "deutschlandfonds",
       "title": "Deutschlandfonds",
-      "desc": "Vorgeschlagenes Finanzierungsinstrument des Bundes für Infrastruktur-Eigenkapital."
+      "desc": "Im Koalitionsvertrag 2025 angekündigter Dachfonds des Bundes; soll mit ca. 30 Mrd. Euro Bundesmitteln rund 130 Mrd. Euro private…"
+    },
+    {
+      "slug": "dividendenrecycling",
+      "title": "Dividendenrecycling",
+      "desc": "Finanzierungsmechanismus, bei dem der Staat Eigenkapital in regulierte Netzbetreiber einlegt und die anfallenden Dividenden zur…"
     },
     {
       "slug": "eigenkapitalluecke",
       "title": "Eigenkapitallücke",
-      "desc": "Fehlbetrag an Eigenkapital bei deutschen Energieversorgern."
+      "desc": "Fehlbetrag an Eigenkapital, den **kommunale** Energieversorger (EVU) bis 2035 für Investitionen in Strom- und Wärmenetze benötigen."
+    },
+    {
+      "slug": "erwerbstaetigenquote",
+      "title": "Erwerbstätigenquote / Partizipationsrate",
+      "desc": "Anteil der Erwerbstätigen bzw. dem Arbeitsmarkt zur Verfügung stehenden Personen an der Bevölkerung im erwerbsfähigen Alter — zentrale…"
+    },
+    {
+      "slug": "eu-ets",
+      "title": "EU-ETS",
+      "desc": "Europäisches Emissionshandelssystem (Cap-and-Trade): ein mengenbasiertes Klimainstrument, das eine sinkende Obergrenze an handelbaren…"
     },
     {
       "slug": "ezb-sicherheitenrahmen",
@@ -88,19 +163,59 @@
       "desc": "Regelwerk der EZB, das festlegt, welche Wertpapiere Geschäftsbanken als Sicherheit für Refinanzierungsgeschäfte hinterlegen dürfen."
     },
     {
+      "slug": "finanzielle-transaktionen",
+      "title": "Finanzielle Transaktionen (Schuldenbremse)",
+      "desc": "Vermögenstausche des Staates — etwa Darlehen, Eigenkapitalbeteiligungen oder Ankauf von Anleihen —, bei denen kreditfinanzierte Ausgaben…"
+    },
+    {
+      "slug": "fiskalmultiplikator",
+      "title": "Fiskalmultiplikator",
+      "desc": "Verhältnis aus zusätzlicher Wirtschaftsleistung zu einer fiskalpolitischen Maßnahme — etwa wie viel BIP-Wachstum ein zusätzlicher Euro…"
+    },
+    {
+      "slug": "fiskar",
+      "title": "FisKAR (Fiskalische Kosten-Arbeitsplatz-Relation)",
+      "desc": "DZ-eigener Kennwert, der ausweist, wie viele Arbeitsplätze eine Unternehmenssubvention sichert oder schafft und welche fiskalischen Kosten…"
+    },
+    {
+      "slug": "floor-system",
+      "title": "Floor-System (Ample Reserve Regime)",
+      "desc": "Geldpolitisches Steuerungsregime, in dem die Zentralbank reichlich Reserven bereitstellt und den Leitzins über den Zinssatz auf…"
+    },
+    {
+      "slug": "frauenerwerbstaetigkeit",
+      "title": "Frauenerwerbstätigkeit",
+      "desc": "Anteil der erwerbstätigen Frauen an der weiblichen Bevölkerung im erwerbsfähigen Alter — sowohl in Köpfen als auch in Vollzeitäquivalenten…"
+    },
+    {
       "slug": "hinzuverdienstregeln",
       "title": "Hinzuverdienstregeln",
       "desc": "Regeln, nach denen Erwerbseinkommen auf Bürgergeld, Wohngeld und Kinderzuschlag angerechnet wird."
     },
     {
+      "slug": "horse-trading",
+      "title": "Transparentes Horse-Trading",
+      "desc": "Verhandlungsmodus für die EU-Integration, bei dem Kompetenzen zwischen Mitgliedstaaten und EU-Ebene auf Grundlage offen ausgesprochener…"
+    },
+    {
+      "slug": "investitionsrueckstand",
+      "title": "Investitionsrückstand",
+      "desc": "Die Differenz zwischen den notwendigen und den tatsächlich getätigten Investitionen in öffentliche Infrastruktur — überwiegend auf…"
+    },
+    {
       "slug": "konjunkturkomponente",
       "title": "Konjunkturkomponente",
-      "desc": "Schuldenbremsen-Mechanismus: Bei schwacher Wirtschaft mehr Schulden erlaubt."
+      "desc": "Symmetrischer Mechanismus der Schuldenbremse: erhöht die zulässige Nettokreditaufnahme bei Unterauslastung, senkt sie bei Überauslastung."
     },
     {
       "slug": "konnexitaetsprinzip",
       "title": "Konnexitätsprinzip",
-      "desc": "Verfassungsrechtliches Prinzip: Wer eine Aufgabe überträgt, finanziert ihre Erfüllung – \"Wer bestellt, bezahlt\"."
+      "desc": "Verfassungsrechtliches Prinzip, verankert in Art. 104a Abs. 1 GG (Bund/Länder) und in Landesverfassungen (Land/Kommunen): Wer eine Aufgabe…"
+    },
+    {
+      "slug": "langzeitarbeitslosigkeit",
+      "title": "Langzeitarbeitslosigkeit",
+      "desc": "Arbeitslosigkeit, die länger als ein Jahr andauert — strukturelles Phänomen, das von friktioneller, kurzfristiger Arbeitslosigkeit…"
     },
     {
       "slug": "lebensqualitaetsminimum",
@@ -108,14 +223,74 @@
       "desc": "Was Menschen mindestens für ein würdiges Leben brauchen — partizipativ in Fokusgruppen ermittelt statt statistisch aus Konsumdaten…"
     },
     {
+      "slug": "lng-langfristvertraege",
+      "title": "LNG-Langfristverträge",
+      "desc": "Bezugsverträge zwischen LNG-Käufern und -Produzenten mit Laufzeiten von typischerweise 15 bis 25 Jahren und Take-or-Pay-Klauseln, die den…"
+    },
+    {
+      "slug": "maastricht-kriterien",
+      "title": "Maastricht-Kriterien",
+      "desc": "Im Vertrag von Maastricht (1992) festgelegte Konvergenzkriterien für die Eurozone, deren bekannteste Komponenten die fiskalischen…"
+    },
+    {
+      "slug": "merit-order-finanzierungskosten",
+      "title": "Merit Order der Finanzierungskosten",
+      "desc": "DZ-eigene Heuristik, die Finanzierungsquellen für öffentliche Investitionen nach ihren Kapitalkosten ordnet — analog zur Merit Order am…"
+    },
+    {
+      "slug": "merit-order",
+      "title": "Merit-Order",
+      "desc": "Preisbildungsprinzip im Strommarkt: alle eingespeisten Kraftwerke werden nach aufsteigenden Grenzkosten sortiert, und der Strompreis am…"
+    },
+    {
+      "slug": "mto-medium-term-objective",
+      "title": "Medium-Term Budgetary Objective (MTO)",
+      "desc": "Das Medium-Term Budgetary Objective (MTO) war im präventiven Arm des EU-Stabilitäts- und Wachstumspakts das länderspezifische…"
+    },
+    {
+      "slug": "nawru",
+      "title": "NAWRU",
+      "desc": "Non-Accelerating Wage Rate of Unemployment — die theoretische Arbeitslosenquote, unterhalb derer die Lohninflation beschleunigt würde…"
+    },
+    {
+      "slug": "nettokreditaufnahme",
+      "title": "Nettokreditaufnahme",
+      "desc": "Differenz zwischen Krediteinnahmen und Tilgungsausgaben eines Haushaltsjahres — also der Saldo neuer Verschuldung, der unter die…"
+    },
+    {
       "slug": "nettoschuldenquote",
       "title": "Nettoschuldenquote",
       "desc": "Bruttoschulden des Staates abzüglich seines Finanzvermögens, ausgedrückt in Prozent des BIP."
     },
     {
+      "slug": "netzentgelte",
+      "title": "Netzentgelte",
+      "desc": "Regulierte Nutzungsgebühren, die Strom- und Gaskunden über ihre Stromrechnung an Übertragungs- und Verteilnetzbetreiber zahlen, um die…"
+    },
+    {
+      "slug": "nextgenerationeu",
+      "title": "NextGenerationEU",
+      "desc": "NextGenerationEU (NGEU) ist ein 2020 beschlossenes EU-Aufbauinstrument im Umfang von rund 750 Mrd. Euro, das die Europäische Kommission…"
+    },
+    {
+      "slug": "notlagenklausel",
+      "title": "Notlagenklausel (Schuldenbremse)",
+      "desc": "Ausnahmeregelung von Art. 115 GG, die bei „außergewöhnlichen, der staatlichen Kontrolle entzogenen Notsituationen\" eine Überschreitung der…"
+    },
+    {
       "slug": "objektfoerderung",
       "title": "Objektförderung",
-      "desc": "Förderung von Bau/Modernisierung von Wohnraum (vs. Subjektförderung)."
+      "desc": "Förderung von Bau, Erwerb und Modernisierung von Wohnraum (vs. Subjektförderung)."
+    },
+    {
+      "slug": "omt-pspp-anleihekaufprogramme",
+      "title": "OMT / PSPP (Anleihekaufprogramme EZB)",
+      "desc": "Anleihekaufprogramme des Eurosystems am Sekundärmarkt: Outright Monetary Transactions (OMT, 2012 als Backstop angekündigt) und Public…"
+    },
+    {
+      "slug": "pfadabhaengigkeit",
+      "title": "Pfadabhängigkeit",
+      "desc": "Institutioneller, technologischer oder politischer Zustand, in dem frühere Entscheidungen die Menge der heute noch verfügbaren Optionen…"
     },
     {
       "slug": "potenzialschaetzung",
@@ -123,14 +298,44 @@
       "desc": "Schätzung des nicht-inflationären, langfristig erreichbaren Produktionsniveaus einer Volkswirtschaft (Produktionspotenzial); die Differenz…"
     },
     {
+      "slug": "potenzialwachstum",
+      "title": "Potenzialwachstum",
+      "desc": "Mittelfristige Wachstumsrate des Produktionspotenzials — also wie schnell eine Volkswirtschaft bei Vollauslastung langfristig wachsen kann."
+    },
+    {
+      "slug": "primaersaldo",
+      "title": "Primärsaldo",
+      "desc": "Der Primärsaldo ist der staatliche Haushaltssaldo ohne Zinsausgaben — also die Differenz zwischen Einnahmen und Nicht-Zins-Ausgaben; ein…"
+    },
+    {
+      "slug": "produktionsluecke",
+      "title": "Produktionslücke (Output Gap)",
+      "desc": "Differenz zwischen tatsächlichem BIP und geschätztem Produktionspotenzial einer Volkswirtschaft, ausgedrückt in Prozent des Potenzials."
+    },
+    {
+      "slug": "produktionspotenzial",
+      "title": "Produktionspotenzial",
+      "desc": "Geschätztes nicht-inflationäres, langfristig erreichbares Produktionsniveau einer Volkswirtschaft — die \"Normallage\" der Wirtschaft."
+    },
+    {
+      "slug": "sanierungskostendeckel",
+      "title": "Sanierungskostendeckel",
+      "desc": "DZ-eigener Vorschlag für ein Gebäudesanierungs-Förderinstrument, das die Förderhöhe an der individuellen Wirtschaftlichkeitslücke eines…"
+    },
+    {
       "slug": "schuldenbremse",
       "title": "Schuldenbremse",
-      "desc": "Verfassungsregel (Art. 109 / 115 GG, 2009), die das strukturelle Defizit des Bundes auf 0,35 Prozent des BIP begrenzt; Länder dürfen…"
+      "desc": "Verfassungsregel (Art. 109 / 115 GG; Föderalismusreform II, beschlossen 2009; Bund seit 2016, Länder seit 2020 vollwirksam), die das…"
+    },
+    {
+      "slug": "schuldenquote",
+      "title": "Schuldenquote",
+      "desc": "Bruttoschuldenstand des Staates in Prozent des nominalen BIP — der zentrale Kennwert der EU-Fiskalregeln (Maastricht-Referenzwert 60…"
     },
     {
       "slug": "sondervermoegen",
       "title": "Sondervermögen",
-      "desc": "Rechtlich unselbstständige Bundesfonds außerhalb des Bundeshaushalts, die der Bund per Grundgesetzänderung oder einfachem Gesetz auflegen…"
+      "desc": "Rechtlich unselbstständige Bundesfonds außerhalb des Bundeshaushalts, die der Bund per einfachem Gesetz (§ 113 BHO) auflegen kann, um…"
     },
     {
       "slug": "staatsanleihen-spreads",
@@ -143,14 +348,49 @@
       "desc": "Der Stabilitäts- und Wachstumspakt (SGP) ist der seit 1997 geltende EU-Fiskalrahmen, der die Maastricht-Kriterien (3 % Defizit- und 60 %…"
     },
     {
+      "slug": "strukturelles-defizit",
+      "title": "Strukturelles Defizit",
+      "desc": "Um konjunkturelle und einmalige Effekte bereinigtes Haushaltsdefizit — die zentrale Begrenzungsgröße sowohl der deutschen Schuldenbremse…"
+    },
+    {
       "slug": "subjektfoerderung",
       "title": "Subjektförderung",
-      "desc": "Finanzielle Unterstützung für Haushalte (vs. Objektförderung)."
+      "desc": "Finanzielle Unterstützung an Haushalte im Rahmen der Wohnraumförderung (vs. Objektförderung)."
+    },
+    {
+      "slug": "swp-arme",
+      "title": "Präventiver und korrektiver Arm (SWP)",
+      "desc": "Der EU-Stabilitäts- und Wachstumspakt (SWP) hat zwei operative Arme: den präventiven Arm, der über mittelfristige Haushaltsziele auf solide…"
+    },
+    {
+      "slug": "totale-faktorproduktivitaet",
+      "title": "Totale Faktorproduktivität (TFP)",
+      "desc": "Restgröße der Produktionsfunktion, die jenes Wachstum erklärt, das nicht durch Mehrarbeit oder zusätzliches Kapital begründet werden kann —…"
     },
     {
       "slug": "trassenpreise",
       "title": "Trassenpreise",
-      "desc": "Gebühren, die Eisenbahnverkehrsunternehmen für die Nutzung der Schieneninfrastruktur an den Netzbetreiber (in Deutschland: DB InfraGO)…"
+      "desc": "Gebühren, die Eisenbahnverkehrsunternehmen für die Nutzung der Schieneninfrastruktur an den Netzbetreiber (in Deutschland: DB InfraGO AG…"
+    },
+    {
+      "slug": "unfreiwillige-teilzeit",
+      "title": "Unfreiwillige Teilzeit",
+      "desc": "Teilzeitbeschäftigung, die nicht aus freier Präferenz, sondern aus Mangel an Vollzeitstellen, aus Betreuungsverpflichtungen oder anderen…"
+    },
+    {
+      "slug": "vollbeschaeftigung",
+      "title": "Vollbeschäftigung / Vollauslastung Arbeitsmarkt",
+      "desc": "Zustand des Arbeitsmarkts, in dem die Fähigkeiten und das Arbeitsangebot derjenigen, die arbeiten möchten, weitestgehend abgerufen werden —…"
+    },
+    {
+      "slug": "zero-lower-bound",
+      "title": "Zero Lower Bound / Effective Lower Bound",
+      "desc": "Untere Grenze, an der konventionelle Geldpolitik nicht weiter wirkt: Nominale Leitzinsen können nicht beliebig weit unter null gesenkt…"
+    },
+    {
+      "slug": "zins-wachstums-differential",
+      "title": "Zins-Wachstums-Differential (r-g)",
+      "desc": "Differenz zwischen nominalem Effektivzins auf Staatsschulden (r) und nominalem BIP-Wachstum (g); zentraler Bestimmungsfaktor fiskalischer…"
     }
   ]
 }

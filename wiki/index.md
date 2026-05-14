@@ -12,6 +12,7 @@ Katalog aller Wiki-Seiten. Vollständige Navigation auch über die Sidebar.
 | [[bundeshaushalt]] | Welche Ausgaben muss der Bund stemmen, wofür reicht das Geld nicht, und wo lassen sich Spielräume heben? DZ… |
 | [[china]] | Wie verändert Chinas methodischer Aufstieg auf der Wertschöpfungsleiter die deutsche Exportwirtschaft – und… |
 | [[energiewende]] | Was kostet die Energiewende, wer finanziert sie und wie wirken Energiepreise auf Inflation, Industrie und… |
+| [[fiskalregeln]] | Deutsche Schuldenbremse (Art. 109/115 GG), EU-Stabilitäts- und Wachstumspakt und die Mechanik dazwischen … |
 | [[geldpolitik]] | Zentralbanken steuern Inflation über Zinsen, nicht über Geldmengen. Bundesanleihen sind das Benchmark-Asset… |
 | [[kitas]] | Frühkindliche Bildung als arbeitsmarkt- und fiskalpolitischer Hebel. Das Thema verbindet Betreuungsausbau… |
 | [[sozialstaat]] | Was sagt DZ zur Sozialstaatsreform, zu Bürgergeld, Hinzuverdienstregeln und fiskalischen Spielräumen? DZ… |
@@ -99,7 +100,7 @@ Alphabetisch sortiert.
 
 ## Statistik
 
-- **10 Themen-Seiten**
+- **11 Themen-Seiten**
 - **67 Konzept-Seiten**
 - **104 Publikationen** im Korpus
 

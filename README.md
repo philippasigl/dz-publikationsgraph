@@ -88,9 +88,11 @@ Der Skill prüft Zahlen, Zitationen, Zuschreibungen und feststehende Konzepte ge
 ### Site bauen und testen
 
 ```bash
-python scripts/sync_to_site.py    # wiki/+publikationen/ → site/docs/+site/static/
-cd site && npm start              # lokaler Dev-Server auf http://localhost:3000
-cd site && npm run build          # Production-Build nach site/build/
+python scripts/build_wiki_index.py   # regeneriert wiki/index.md (nach neuem Themen-/Konzept-File)
+python scripts/build_wiki_meta.py    # regeneriert publikationsgraph/wiki-meta.json (dito)
+python scripts/sync_to_site.py       # wiki/+publikationen/ → site/docs/+site/static/
+cd site && npm start                 # lokaler Dev-Server auf http://localhost:3000
+cd site && npm run build             # Production-Build nach site/build/
 ```
 
 ### Browser-Verifikation nach UI-Änderungen

@@ -66,7 +66,12 @@ Jeder Workflow lebt in seinem Skill — Templates, Schritte und Sonderregeln dor
 | Browser-Verifikation nach UI-/Site-Änderung | [web-check](.claude/skills/web-check/SKILL.md) |
 | Repo-Hygiene am Session-Ende | [cleanup-check](.claude/skills/cleanup-check/SKILL.md) |
 
-Nach jeder inhaltlichen Änderung: `python scripts/sync_to_site.py` und Eintrag in `wiki/log.md`.
+Nach inhaltlichen Änderungen:
+
+- `python scripts/sync_to_site.py` — propagiert `wiki/` → `site/docs/`
+- `python scripts/build_wiki_index.py` — regeneriert `wiki/index.md` (Themen + Konzepte-Übersicht), nötig nach neuem Themen-/Konzept-File
+- `python scripts/build_wiki_meta.py` — regeneriert `publikationsgraph/wiki-meta.json` (für den Graph-Viewer), dito
+- Eintrag in `wiki/log.md`
 
 ## Verifikation von Web-Outputs
 

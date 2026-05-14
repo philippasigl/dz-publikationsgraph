@@ -49,7 +49,8 @@ DOCUSAURUS_GENERATED = ("node_modules", "build", ".docusaurus")
 
 # Files/dirs that legitimately exist in repo root
 ROOT_ALLOWED = {
-    ".claude", ".git", ".gitignore", ".mcp.json", "CLAUDE.md", "LICENSE", "README.md",
+    ".claude", ".git", ".gitattributes", ".github", ".gitignore", ".mcp.json",
+    "CLAUDE.md", "LICENSE", "README.md",
     ".ruff_cache", "pyproject.toml",
     "Daten", "publikationen", "publikationsgraph", "schemas",
     "scripts", "site", "wiki",
