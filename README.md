@@ -1,6 +1,10 @@
 # DZ Wiki
 
+> ⚠ **Beta** — Inhalte werden laufend gepflegt und fact-gecheckt. Bitte Fehler als Issue melden.
+
 Eine durchsuchbare, vernetzte Wissensbase aller Publikationen von [Dezernat Zukunft](https://dezernatzukunft.org), einem wirtschaftspolitischen Think Tank in Berlin.
+
+Konzeptueller Ausgangspunkt: [Andrej Karpathys LLM-Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — die Idee, einen Hypertext-Layer aus strukturierten Stubs, kuratierten Themen-Hubs und Konzept-Definitionen über einen Publikationskorpus zu legen.
 
 **Live:** [philippasigl.github.io/dz-wiki](https://philippasigl.github.io/dz-wiki/)
 
@@ -15,7 +19,7 @@ Dezernat Zukunft veröffentlicht seit 2021 Policy-Papiere, Studien und Geldbrief
 
 ## Wer das nutzt
 
-Gedacht für Journalist:innen, Politik-Mitarbeitende, Forschende und alle, die zu deutscher und europäischer Wirtschaftspolitik recherchieren. Inhalte sind auf Deutsch, Originaldokumente verlinkt.
+Gedacht für Journalistinnen und Journalisten, Politik-Mitarbeitende, Forschende und alle, die zu deutscher und europäischer Wirtschaftspolitik recherchieren. Inhalte sind auf Deutsch, Originaldokumente verlinkt.
 
 ## Inhalte unter `/`
 
@@ -35,12 +39,11 @@ Gedacht für Journalist:innen, Politik-Mitarbeitende, Forschende und alle, die z
 ## Datendateien
 
 - `data.json` — Graph-Definition (Nodes, Edges, Cluster)
-- `nodes.csv` / `edges.csv` — Tabellen-Export desselben Stands für externe Auswertung
 - `wiki-meta.json` — Index der Wiki-Seiten für den Graphen
 
-## Status
+## Methode
 
-Beta. Inhalte werden laufend gepflegt und fact-gecheckt. Methode: Publikationen werden LLM-gestützt aus den Original-PDFs zu strukturierten Markdown-Stubs verarbeitet, die einer Mensch-im-Loop-Qualitätskontrolle unterliegen. Fehler bitte als Issue melden.
+Publikationen werden LLM-gestützt aus den Original-PDFs zu strukturierten Markdown-Stubs verarbeitet, die einer Mensch-im-Loop-Qualitätskontrolle unterliegen.
 
 ## Lizenz
 

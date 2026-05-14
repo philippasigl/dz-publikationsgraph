@@ -807,6 +807,7 @@ fetch('data.json?ts=' + Date.now(), { cache: 'no-cache' })
       if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
       const links = [];
       if (d.web_url) links.push(`<a href="${d.web_url}" target="_blank" rel="noopener">DZ-Website ↗</a>`);
+      if (d.pdf_url) links.push(`<a href="${pdfHref(d.pdf_url)}" target="_blank" rel="noopener">PDF ↗</a>`);
       const summary = d.summary ? `<div class="summary">${d.summary}</div>` : '';
       const linksHtml = links.length ? `<div class="links">${links.join('')}</div>` : '';
       tooltip
@@ -902,13 +903,22 @@ fetch('data.json?ts=' + Date.now(), { cache: 'no-cache' })
       .then(meta => buildWikiIndex(data, meta))
       .catch(e => console.warn('Wiki-Index: meta nicht geladen', e));
 
-    function docsHref(area, slug) {
-      // Auf github.io liegt das Wiki unter /dz-wiki/wiki/.
-      // Lokal (Docusaurus dev/build mit baseUrl /) unter /wiki/.
+    function basePrefix() {
+      // Auf github.io liegt der Site-Root unter /dz-wiki/.
+      // Lokal (Docusaurus dev/build mit baseUrl /) unter /.
       const onGhPages = window.location.hostname.endsWith('github.io')
         || window.location.pathname.startsWith('/dz-wiki/');
-      const prefix = onGhPages ? '/dz-wiki' : '';
-      return `${prefix}/wiki/${area}/${slug}`;
+      return onGhPages ? '/dz-wiki' : '';
+    }
+
+    function docsHref(area, slug) {
+      return `${basePrefix()}/wiki/${area}/${slug}`;
+    }
+
+    function pdfHref(pdfUrl) {
+      // pdf_url ist relativ ("/publikationen/Datei.pdf") — auf gh.io Pfad-Prefix nötig.
+      if (!pdfUrl) return null;
+      return basePrefix() + pdfUrl;
     }
 
     function buildWikiIndex(graphData, meta) {
